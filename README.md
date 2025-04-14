@@ -26,7 +26,6 @@
 | David Polanco, Alessandro           | u202122232  |
 |     |   |
 |      |   |
-|       |   |
 
 </div>
 
@@ -44,11 +43,10 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
 
 | **Versión**  | **Fecha** | **Autor**                         | **Descripción**                                                                                                   |
 |--------------|-----------|-----------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| **#01 - TB1**| 19/04/25  | Anampa Lavado, Luis Angel         |  |
+| **#01 - TB1**| 19/04/25  |        |  |
 |              | 19/04/25  | David Polanco, Alessandro         |  |
 |              | 19/04/25  | Talizo Balbin, Joan Jefferson     |  |
 |              | 19/04/25  | Valera Garcés, Samuel Ignacio     |   |
-|              | 19/04/25  | Mallma Espiritu, Franky Oswald    |  |
 
 ---
 
@@ -215,11 +213,6 @@ Aspiramos a ser líderes en movilidad estudiantil, reconocidos por nuestro compr
   <tr>
     <td><img src="./assets/images/profiles/" width="140" height="140"></td>
     <td>}}}}}}}}}}}}}}}}}}}}}</td>
-  </tr>
-
-  <tr>
-    <td><img src="./assets/images/profiles/" width="140" height="140"></td>
-    <td>!!!!!!!!!!!!!!!!!!</td>
   </tr>
 
 </table>
