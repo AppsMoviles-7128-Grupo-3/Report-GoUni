@@ -69,7 +69,7 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
     - [_TF_](#_tf_)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
-- [Studen Outcome](#studen-outcome)
+- [Student Outcome](#student-outcome)
 - [**Capítulo I: Presentación.**](#capítulo-i-introducción)
     - [**1.1 Startup Profile.**](#11-startup-profile)
         - [**1.1.1 Descripción del startup.**](#111-descripción-del-startup)
@@ -166,6 +166,13 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
 ---
 
 # [Student Outcome](#student-outcome)
+
+| Criterio Específico                                                                                                                         | Acciones realizadas                                     | Conclusiones |
+|---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------| --- |
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **David Polanco, Alessandro Alonso**, <br><br>**TB1**:  | **General**: La comunicación clara y precisa fue crucial para el éxito del proyecto, facilitando la cooperación y comprensión entre los equipos. La capacidad de comunicar de manera objetiva y profesional coordinó esfuerzos y mejoró la ejecución del proyecto. |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**  | **David Polanco, Alessandro Alonso**, <br><br>**TB1**:  | **General**: La documentación clara y detallada fue fundamental para el desarrollo del proyecto, asegurando que toda la información fuera comprensible para los diversos públicos. La escritura objetiva y profesional facilitó la colaboración y el éxito en cada fase del desarrollo. |
+
+---
 
 ---
 # [**Capítulo I: Introducción.**](#capítulo-i-introducción)
@@ -1926,6 +1933,9 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <img src="assets/cap-4/container-diagram.png" alt="domain-events" width="600px">
 
 #### 4.1.3.3 Software Architecture Deployment Level Diagrams
+
+<img src="assets/cap-4/deployment-diagram.png" alt="domain-events" width="600px">
+
 ## 4.2.  Tactical-Level Domain-Driven Design
 ### 4.2.1 Bounded Context
 #### 4.2.1.1 Domain Layer

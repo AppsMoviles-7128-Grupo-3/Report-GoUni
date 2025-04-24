@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="939fc6bb-8e78-4362-a07a-bd82005da1a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/cap-4/bounded-context-canvas-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-4/bounded-context-canvas-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-4/bounded-context-canvas-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-4/bounded-context-canvas-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-4/bounded-context-canvas-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-4/container-diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-4/context-diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-4/context-mapping.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-4/domain-events.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-4/domain-message-flow-modeling.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Report.md" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Report.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +79,7 @@
       <workItem from="1744608431665" duration="3867000" />
       <workItem from="1745380586782" duration="645000" />
       <workItem from="1745381334195" duration="8605000" />
-      <workItem from="1745450502311" duration="6937000" />
+      <workItem from="1745450502311" duration="9306000" />
     </task>
     <servers />
   </component>

@@ -1926,6 +1926,9 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <img src="../assets/cap-4/container-diagram.png" alt="domain-events" width="600px">
 
 #### 4.1.3.3 Software Architecture Deployment Level Diagrams
+
+<img src="../assets/cap-4/deployment-diagram.png" alt="domain-events" width="600px">
+
 ## 4.2.  Tactical-Level Domain-Driven Design
 ### 4.2.1 Bounded Context
 #### 4.2.1.1 Domain Layer
