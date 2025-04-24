@@ -197,8 +197,8 @@ Aspiramos a ser líderes en movilidad estudiantil, reconocidos por nuestro compr
     <th>Descripción</th>
   </tr>
   <tr>
-    <td><img src="assets/images/profiles/" alt="" width="140" height="140"></td>
-    <td>//////////////</td>
+    <td><img src="assets/images/profiles/perfil_alessandro.jpg" alt="" width="130" height="140"></td>
+    <td>Soy Alessandro Zevallos,estudiante de Ingeniería de Software con un fuerte interés en el desarrollo de productos digitales y la tecnología. En mi tiempo libre, me gusta jugar videojuegos. También tengo un interés especial en la música, lo que me ayuda a equilibrar mi vida académica y personal.</td>
   </tr>
 
    <tr>
