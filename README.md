@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-    <strong>Startup: (por definir)</strong><br>
+    <strong>Startup: LinkU</strong><br>
     <strong>Producto: GoUni </strong>
 </p>
 
@@ -41,12 +41,12 @@
 
 Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la siguiente forma:
 
-| **Versión**  | **Fecha** | **Autor**                         | **Descripción**                                                                                                   |
-|--------------|-----------|-----------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| **#01 - TB1**| 19/04/25  |        |  |
-|              | 19/04/25  | David Polanco, Alessandro         |  |
-|              | 19/04/25  | Chirinos Zúñiga, Rodrigo  |  |
-|              | 19/04/25  |     |   |
+| **Versión**   | **Fecha** | **Autor**                  | **Descripción**                                                                                  |
+|---------------|-----------|----------------------------|--------------------------------------------------------------------------------------------------|
+| **#01 - TB1** | 19/04/25  | David Polanco, Alessandro  | Formateo del Capitulo 1, Capitulo 2, y Capitulo 3, desarrollo de la seccion 4.1.1 del capitulo 4 |
+| **#01 - TB1** | 19/04/25  | Chirinos Zúñiga, Rodrigo   | desarrollo de la seccion 4.2 del capitulo 4                                                      |
+|               |  19/04/25 |                            |                                                                                                  |
+|               | 19/04/25  |                            |                                                                                                  |
 
 ---
 
@@ -167,10 +167,10 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
 
 # [Student Outcome](#student-outcome)
 
-| Criterio Específico                                                                                                                         | Acciones realizadas                                     | Conclusiones |
-|---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------| --- |
-| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **David Polanco, Alessandro Alonso**, <br><br>**TB1**:  | **General**: La comunicación clara y precisa fue crucial para el éxito del proyecto, facilitando la cooperación y comprensión entre los equipos. La capacidad de comunicar de manera objetiva y profesional coordinó esfuerzos y mejoró la ejecución del proyecto. |
-| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**  | **David Polanco, Alessandro Alonso**, <br><br>**TB1**:  | **General**: La documentación clara y detallada fue fundamental para el desarrollo del proyecto, asegurando que toda la información fuera comprensible para los diversos públicos. La escritura objetiva y profesional facilitó la colaboración y el éxito en cada fase del desarrollo. |
+| Criterio Específico                                                                                                                         | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Conclusiones                                                                                                                                                                                                                                                                                                                                               |
+|---------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **David Polanco, Alessandro Alonso**, <br><br>**TB1**: Se actualizaron y aplicaron conocimientos clave sobre metodologías ágiles, análisis de usuarios y diseño centrado en la experiencia. A través de herramientas como el Lean UX Canvas, entrevistas, mapeos de viaje del usuario y empatía, logramos identificar con mayor precisión los problemas y necesidades de los estudiantes universitarios respecto a su movilidad. Este proceso no sólo consolidó nuestras capacidades técnicas, sino que fortaleció nuestra competencia para enfrentar desafíos reales en el desarrollo de soluciones digitales, combinando teoría y práctica con enfoque en el usuario. | **General**: El desarrollo de TB1 permitió fortalecer la capacidad del equipo para analizar, documentar y comprender la problemática desde una perspectiva técnica y humana. Se adquirieron conocimientos clave en diseño UX, análisis de requerimientos y herramientas colaborativas como Miro, fundamentales para afrontar proyectos reales de software. |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**  | **David Polanco, Alessandro Alonso**, <br><br>**TB1**: El desarrollo de TB1 nos hizo conscientes de que el aprendizaje constante es fundamental en el campo de la ingeniería de software. Enfrentar una problemática real como la movilidad estudiantil nos impulsó a investigar nuevas metodologías, comprender mejor el entorno y mejorar nuestras habilidades de comunicación, análisis y documentación. Además, trabajar en equipo, estructurar entrevistas y utilizar plataformas colaborativas como GitHub nos permitió fortalecer nuestra capacidad de adaptación y crecimiento continuo, reconociendo que la evolución profesional está directamente ligada a la disposición de aprender en cada etapa del proceso.| **General**: Durante TB1 se evidenció la importancia de estar en constante aprendizaje, no solo en tecnologías, sino también en metodologías de investigación y comunicación con usuarios reales. Esta experiencia nos hizo conscientes de que el software no se trata solo de código, sino de entender profundamente al usuario para ofrecer soluciones relevantes y sostenibles.  |
 
 ---
 
@@ -1947,4 +1947,17 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 ##### 4.2.1.6.1  Bounded Context Domain Layer Class Diagrams
 ##### 4.2.1.6.2  Bounded Context Database Design Diagram
 
+## Conclusiones
+- Validación temprana del problema: El enfoque en entrevistas y mapeos nos permitió confirmar que la necesidad del mercado universitario en cuanto a movilidad es urgente y real, lo que valida la propuesta de valor de GoUni.
 
+- Trabajo colaborativo efectivo: La organización del equipo, el uso de control de versiones y las reuniones para dividir el trabajo reflejan un proceso bien estructurado y colaborativo.
+
+- Enfoque centrado en el usuario: Las herramientas de UX aplicadas permitieron obtener insights claros sobre frustraciones y motivaciones, guiando mejor el diseño del producto.
+
+- Fuerte alineación con objetivos académicos: Todo el proceso desarrollado en TB1 permitió integrar teoría con práctica, reforzando aprendizajes clave en diseño de soluciones digitales.
+
+
+## Bibliografia
+## Anexos
+
+Link Repositorio Github (Reporte en formato Markdown): [Reporte en Formato Markdown](https://github.com/AppsMoviles-7128-Grupo/Report?tab=readme-ov-file#studen-outcome)
