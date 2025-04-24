@@ -45,7 +45,7 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
 |--------------|-----------|-----------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | **#01 - TB1**| 19/04/25  |        |  |
 |              | 19/04/25  | David Polanco, Alessandro         |  |
-|              | 19/04/25  | Chirinos Zúñiga, Rodrigo  |  |
+|              | 19/04/25  | Chirinos Zúñiga, Rodrigo  | Realizar la entrevista del segmento objetivo correspondiente. Completar los contenidos de los capítulos requeridos. |
 |              | 19/04/25  |     |   |
 
 ---
@@ -950,14 +950,13 @@ A continuación se pueden apreciar los As-Is Scenario de los segmentos objetivos
 En esta sección se resume la información recopilada. Se presentan dos tablas que detallan la situación a mejorar de cada segmento objetivo, analizando los pasos que se realizarán y cómo se sienten los usuarios en cada etapa.
 
 ### *Segmento: Estudiantes Universitarios que necesiten movilizarse*
-
-![ScenarioMapO1.jpg](../assets/cap-3/ScenarioMapO1.jpg)
+[![to-be-primer-segmento.png](https://i.postimg.cc/50YFpZh0/to-be-primer-segmento.png)](https://postimg.cc/r0TmwYFX)
 
 ---
 
 ### *Segmento: Estudiantes Universitarios propietarios de vehículo privado*
 
-![ScenarioMapO2.jpg](../assets/cap-3/ScenarioMapO2.jpg)
+[![to-be-segundo-segmento.png](https://i.postimg.cc/2jWZWNd9/to-be-segundo-segmento.png)](https://postimg.cc/mhbkxq57)
 
 
 ## 3.2. User Stories
@@ -1938,6 +1937,14 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 #### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams
 #### 4.2.1.6  Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.1.6.1  Bounded Context Domain Layer Class Diagrams
+
+[![database-diagram.png](https://i.postimg.cc/8c4M9hzX/database-diagram.png)](https://postimg.cc/zHLyRHWT)
+
 ##### 4.2.1.6.2  Bounded Context Database Design Diagram
 
+[![database-design.png](https://i.postimg.cc/LsDCkZzD/database-design.png)](https://postimg.cc/3yyFYNf0)
 
+# [**Conclusiones.**](#conclusiones)
+
+- Este primer avance permitió definir claramente la problemática de movilidad estudiantil y establecer una propuesta de solución basada en el análisis del usuario, competencia y contexto. Se construyó una base sólida para el diseño centrado en el usuario y el desarrollo técnico del sistema.
+- A través de herramientas como Lean UX y Domain-Driven Design, se logró alinear la solución con las necesidades reales de los estudiantes. El trabajo realizado sienta las bases para una plataforma colaborativa, sostenible y técnicamente viable.
