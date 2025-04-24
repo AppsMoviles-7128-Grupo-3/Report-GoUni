@@ -1885,12 +1885,46 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 ## 4.1.  Strategic-Level Domain-Driven-Design
 ### 4.1.1 Event Storming
 #### 4.1.1.1 Candidate Context Discovery
+<img src="../assets/cap-4/domain-events.png" alt="domain-events" width="450px">
+<br>  - Gestión de Viajes Compartidos
+<br>   Se encarga de la creación, reserva y seguimiento de viajes compartidos.
+<br>
+<br>  - Verificación de Usuario
+<br>   Administra la validación de identidad de conductores y pasajeros para garantizar seguridad.
+<br>
+<br>  - Sistema de Pagos
+<br>    Procesa los pagos de los viajes mediante tarjetas y billeteras digitales.
+<br>
+<br>  - Sistema de Calificaciones y Feedback
+<br>    Permite que los usuarios califiquen su experiencia después de cada viaje.
+<br>
+<br>  - Notificaciones y Alertas
+<br>    Gestiona el envío de notificaciones en tiempo real para cambios de ruta, estado de reserva, etc.
+
 #### 4.1.1.2 Domain Message Flows Modeling
+<img src="../assets/cap-4/domain-message-flow-modeling.png" alt="domain-events" width="600px">
+
 #### 4.1.1.3 Bounded Context Canvases
+<img src="../assets/cap-4/bounded-context-canvas-1.png" alt="domain-events" width="600px">
+<img src="../assets/cap-4/bounded-context-canvas-2.png" alt="domain-events" width="600px">
+<img src="../assets/cap-4/bounded-context-canvas-3.png" alt="domain-events" width="600px">
+<img src="../assets/cap-4/bounded-context-canvas-4.png" alt="domain-events" width="600px">
+<img src="../assets/cap-4/bounded-context-canvas-5.png" alt="domain-events" width="600px">
+
 ### 4.1.2 Context Mapping
+<img src="../assets/cap-4/context-mapping.png" alt="domain-events" width="600px">
+
 ### 4.1.3 Software Architecture
+- La arquitectura de software de la solución GoUni se basa en el modelo C4 (Context, Container, Component y Deployment), el cual permite una representación progresiva y estructurada del sistema desde su visión más general hasta sus detalles técnicos.
+  Esta arquitectura está orientada al dominio (DDD), sigue principios de separación de responsabilidades, bajo acoplamiento y alta cohesión, y está pensada para ser implementada como una app Android nativa en Kotlin, conectada a una backend ligera desplegada en la nube.
+
 #### 4.1.3.1 Software Architecture Context Level Diagrams
+<img src="../assets/cap-4/context-diagram.png" alt="domain-events" width="600px">
+
+
 #### 4.1.3.2 Software Architecture Container Level Diagrams
+<img src="../assets/cap-4/container-diagram.png" alt="domain-events" width="600px">
+
 #### 4.1.3.3 Software Architecture Deployment Level Diagrams
 ## 4.2.  Tactical-Level Domain-Driven Design
 ### 4.2.1 Bounded Context

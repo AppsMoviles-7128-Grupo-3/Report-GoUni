@@ -5,25 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="939fc6bb-8e78-4362-a07a-bd82005da1a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/cap-1/EvidenciaEntrevistaAlessandro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-1/blablacar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-1/gounilogo.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-1/urbvan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-1/yango.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-2/as-is-scenario-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-2/as-is-scenario-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-2/empathy-mapping-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-2/empathy-mapping-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-2/journey-map-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-2/journey-map-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-2/user-persona-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-2/user-persona-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-3/ScenarioMapO1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-3/ScenarioMapO2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-3/impact-mapping.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/profiles/alessandro-profile.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/cap-4/bounded-context-canvas-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/cap-4/bounded-context-canvas-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/cap-4/bounded-context-canvas-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/cap-4/bounded-context-canvas-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/cap-4/bounded-context-canvas-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/cap-4/container-diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/cap-4/context-diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/cap-4/context-mapping.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/cap-4/domain-events.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/cap-4/domain-message-flow-modeling.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Report.md" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Report.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Alesso2805"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AppsMoviles-7128-Grupo/Report.git",
+    "accountId": "b7a4896a-4264-4d2a-8f93-c5084bcd17cc"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -46,7 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/USER/WebstormProjects/Project/assets/cap-3",
+    "last_opened_file_path": "C:/Users/USER/WebstormProjects/Project/assets/cap-4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,6 +62,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\WebstormProjects\Project\assets\cap-4" />
       <recent name="C:\Users\USER\WebstormProjects\Project\assets\cap-3" />
       <recent name="C:\Users\USER\WebstormProjects\Project\assets\cap-2" />
       <recent name="C:\Users\USER\WebstormProjects\Project\assets\cap-1" />
@@ -82,7 +88,8 @@
       <updated>1744608430724</updated>
       <workItem from="1744608431665" duration="3867000" />
       <workItem from="1745380586782" duration="645000" />
-      <workItem from="1745381334195" duration="8003000" />
+      <workItem from="1745381334195" duration="8605000" />
+      <workItem from="1745450502311" duration="6937000" />
     </task>
     <servers />
   </component>
