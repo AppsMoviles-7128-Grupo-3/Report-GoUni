@@ -742,21 +742,21 @@ Maria Gracia es una estudiante universitaria de la UPC que no tiene muchas dific
 
 **Entrevista 1:**
 
-- **Nombres:** 
-- **Apellidos:** 
-- **Edad:** 
-- **Lugar de residencia:** 
+- **Nombres:** Andre 
+- **Apellidos:** Zagaceta
+- **Edad:** 21
+- **Lugar de residencia:** San MIguel
 
 
 **Evidencia de la entrevista:**
+<img src="assets/cap-1/entrevista_alessandro.PNG">
 
-
-**Enlace de la entrevista:** 
+**Enlace de la entrevista:**<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216035_upc_edu_pe/EaTEgOo5uhpPqhKfrRocsVUBLLwVeB6TOUh-V59LvfrsmQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=aregO1"> Clic aquí </a>
 
 
 
 **Resumen de la entrevista:**
-
+Andre Zagaceta es un estudiante universitario que conduce de manera regular a la universidad, el esta dispuesto a compartir su viaje con otros alumnos ya que cree que esto puede ayudar con la gasolina y reducir los costos de mantenimiento, y buscaria que sean personas resptuosas y que este controlado por la apliacion.
 
 
 
