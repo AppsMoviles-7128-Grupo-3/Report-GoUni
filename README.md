@@ -1948,6 +1948,84 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 ## 4.2.  Tactical-Level Domain-Driven Design
 ### 4.2.1 Bounded Context
 #### 4.2.1.1 Domain Layer
+## Entities
+
+### Viaje  
+**Propósito:** Representa un viaje disponible para ser reservado.
+
+**Atributos:**
+- `id`: UUID  
+- `origen`: string  
+- `destino`: string  
+- `fecha_hora`: datetime  
+- `capacidad`: int  
+- `asientos_disponibles`: int  
+- `conductor_id`: UUID  
+- `estado`: enum {CREADO, RESERVADO, COMPLETADO, CANCELADO}  
+
+**Métodos:**
+- `reservar_asiento(usuario_id)`  
+- `finalizar()`  
+- `cancelar()`  
+
+---
+
+### Reserva  
+**Propósito:** Representa la intención de un pasajero de tomar un viaje.
+
+**Atributos:**
+- `id`: UUID  
+- `viaje_id`: UUID  
+- `usuario_id`: UUID  
+- `estado`: enum {PENDIENTE_PAGO, CONFIRMADA, CANCELADA}  
+- `fecha_reserva`: datetime  
+
+**Métodos:**
+- `confirmar()`  
+- `cancelar()`  
+
+---
+
+## Value Objects
+
+- **Ubicacion:** Encapsula origen y destino.  
+- **Horario:** Agrupa fecha y hora del viaje.  
+
+---
+
+## Aggregates
+
+- **Viaje** es el agregado raíz.  
+- Incluye a **Reserva**.  
+
+---
+
+## Factories
+
+### ViajeFactory  
+**Método:**
+- `crear(datos: dict) → Viaje`  
+
+---
+
+## Domain Services
+
+### ServicioDeReserva  
+Lógica para reservar asiento considerando disponibilidad, estado del viaje y validación de pago.  
+
+---
+
+## Repositories (Interfaces)
+
+### IViajeRepository
+- `obtener_por_id(id)`  
+- `guardar(viaje)`  
+- `buscar(origen, destino, fecha)`  
+
+### IReservaRepository
+- `guardar(reserva)`  
+- `obtener_por_id(id)`  
+
 #### 4.2.1.2 Interface Layer
 #### 4.2.1.3 Application Layer
 #### 4.2.1.4 Infrastructure Layer
