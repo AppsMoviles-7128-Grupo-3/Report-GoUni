@@ -698,7 +698,7 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 
 
 **Evidencia de la entrevista:**
-[![Captura.png](https://i.postimg.cc/dVxby9Jn/Captura.png)](https://postimg.cc/3k2fMm4D)
+<img src="assets/cap-1/entrevista_Rodrigo.png">
 
 **Enlace de la entrevista:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217804_upc_edu_pe/EafDNXFPq2BIhYC_e8DyVvsB2SDioSgRJ8liZa5-P_5M-Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1zOkep"> Clic aquí </a>
 

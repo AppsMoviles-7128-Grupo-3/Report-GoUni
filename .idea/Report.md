@@ -197,12 +197,12 @@ Aspiramos a ser líderes en movilidad estudiantil, reconocidos por nuestro compr
     <th>Descripción</th>
   </tr>
   <tr>
-    <td><img src="assets/images/profiles/perfil_alessandro.jpg" alt="" width="130" height="140"></td>
+    <td><img src="../assets/images/profiles/perfil_alessandro.jpg" alt="" width="130" height="140"></td>
     <td>Soy Alessandro Zevallos,estudiante de Ingeniería de Software con un fuerte interés en el desarrollo de productos digitales y la tecnología. En mi tiempo libre, me gusta jugar videojuegos. También tengo un interés especial en la música, lo que me ayuda a equilibrar mi vida académica y personal.</td>
   </tr>
 
    <tr>
-    <td><img src="assets/images/profiles/alessandro-profile.jpeg" width="130" height="160"></td>
+    <td><img src="../assets/images/profiles/alessandro-profile.jpeg" width="130" height="160"></td>
     <td>Mi nombre es Alessandro David y tengo 21 años. Yo estoy cursando
     la carrera de Ingenieria de Software en la UPC y ando en 7mo ciclo. Me gusto
     demasiado mi eleccion referente a la carrera dado que me interesan mucho todos los temas
@@ -218,7 +218,7 @@ Aspiramos a ser líderes en movilidad estudiantil, reconocidos por nuestro compr
   </tr>
 
   <tr>
-    <td><img src="assets/images/profiles/aaron_profile.jpg" width="140" height="140"></td>
+    <td><img src="../assets/images/profiles/aaron_profile.jpg" width="140" height="140"></td>
     <td>Actualmente, me encuentro cursando la carrera de Ingeniería de Software, una disciplina que despierta mi 
         constante curiosidad y deseo de aprendizaje. Mi motivación por adquirir nuevos conocimientos es una de mis 
         principales fortalezas, y espero seguir nutriéndola a lo largo del curso. Me considero una persona adaptable, 
@@ -697,7 +697,7 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 
 
 **Evidencia de la entrevista:**
-[![Captura.png](https://i.postimg.cc/dVxby9Jn/Captura.png)](https://postimg.cc/3k2fMm4D)
+<img src="../assets/cap-1/entrevista_Rodrigo.png">
 
 **Enlace de la entrevista:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217804_upc_edu_pe/EafDNXFPq2BIhYC_e8DyVvsB2SDioSgRJ8liZa5-P_5M-Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1zOkep"> Clic aquí </a>
 
