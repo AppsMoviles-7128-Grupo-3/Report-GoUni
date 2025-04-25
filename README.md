@@ -20,12 +20,13 @@
 
 <div style="display: flex; justify-content: center; align-items: center;">
 
-| **Member**                          | **Code**    |
-|-------------------------------------|-------------|
-|          |   |
-| David Polanco, Alessandro           | u202122232  |
-| Chirinos Zúñiga, Rodrigo  | u202217804  |
-|      |   |
+| **Member**                | **Code**   |
+|---------------------------|------------|
+|                           |            |
+| David Polanco, Alessandro | u202122232 |
+| Chirinos Zúñiga, Rodrigo  | u202217804 |
+| Cruz Ticona, Aaron        | u202213502 |
+|                           |            |
 
 </div>
 
@@ -44,8 +45,8 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
 | **Versión**   | **Fecha** | **Autor**                  | **Descripción**                                                                                  |
 |---------------|-----------|----------------------------|--------------------------------------------------------------------------------------------------|
 | **#01 - TB1** | 19/04/25  | David Polanco, Alessandro  | Formateo del Capitulo 1, Capitulo 2, y Capitulo 3, desarrollo de la seccion 4.1.1 del capitulo 4 |
-| **#01 - TB1** | 19/04/25  | Chirinos Zúñiga, Rodrigo   | desarrollo de la seccion 4.2 del capitulo 4                                                      |
-|               |  19/04/25 |                            |                                                                                                  |
+| **#01 - TB1** | 19/04/25  | Chirinos Zúñiga, Rodrigo   | Desarrollo de la seccion 4.2 del capitulo 4                                                      |
+|               |  19/04/25 | Cruz Ticona, Aaron         |                                                                                                  |
 |               | 19/04/25  |                            |                                                                                                  |
 
 ---
@@ -218,8 +219,13 @@ Aspiramos a ser líderes en movilidad estudiantil, reconocidos por nuestro compr
   </tr>
 
   <tr>
-    <td><img src="assets/images/profiles/" width="140" height="140"></td>
-    <td>}}}}}}}}}}}}}}}}}}}}}</td>
+    <td><img src="assets/images/profiles/aaron_profile.jpg" width="140" height="140"></td>
+    <td>Actualmente, me encuentro cursando la carrera de Ingeniería de Software, una disciplina que despierta mi 
+        constante curiosidad y deseo de aprendizaje. Mi motivación por adquirir nuevos conocimientos es una de mis 
+        principales fortalezas, y espero seguir nutriéndola a lo largo del curso. Me considero una persona adaptable, 
+        especialmente cuando se trata de trabajar en equipo, por lo que confío en mi capacidad para contribuir de 
+        manera efectiva en proyectos colaborativos. Además, valoro un entorno laboral positivo y colaborativo, y me 
+        esfuerzo por fomentar este ambiente dentro de mi grupo, ya que considero que el trabajo en equipo es esencial para alcanzar el éxito.</td>
   </tr>
 
 </table>
@@ -772,9 +778,7 @@ Andre Zagaceta es un estudiante universitario que conduce de manera regular a la
 **Evidencia de la entrevista:**
 
 
-
 **Enlace de la entrevista:** <>
-
 **Resumen de la entrevista:**
 
 
