@@ -2041,8 +2041,26 @@ Lógica para reservar asiento considerando disponibilidad, estado del viaje y va
 - **EventoPagoConfirmadoHandler:** Escucha confirmación de pago para actualizar la reserva.  
 - **EventoViajeFinalizadoHandler:** Emite evento hacia Calificaciones y Feedback.  
 
-#### 4.2.1.3 Application Layer
-#### 4.2.1.4 Infrastructure Layer
+### 4.2.1.3 Application Layer
+### Controllers (API REST via API Gateway)
+
+- `POST /viajes`: Crear nuevo viaje.  
+- `GET /viajes`: Buscar viajes por origen/destino.  
+- `POST /viajes/{id}/reservar`: Reservar asiento.  
+- `POST /viajes/{id}/finalizar`: Finalizar viaje.  
+
+---
+
+### App Móvil (Frontend)
+
+**Interfaces para conductor y pasajero:**
+- Publicar viajes  
+- Reservar viajes  
+- Ver historial  
+- Ver notificaciones  
+
+### 4.2.1.4 Infrastructure Layer
+
 #### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams
 #### 4.2.1.6  Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.1.6.1  Bounded Context Domain Layer Class Diagrams
