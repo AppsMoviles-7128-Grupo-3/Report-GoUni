@@ -1947,10 +1947,10 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 
 ## 4.2.  Tactical-Level Domain-Driven Design
 ### 4.2.1 Bounded Context
-#### 4.2.1.1 Domain Layer
-## Entities
+### 4.2.1.1 Domain Layer
+### Entities
 
-### Viaje  
+#### Viaje  
 **Propósito:** Representa un viaje disponible para ser reservado.
 
 **Atributos:**
@@ -1986,47 +1986,61 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 
 ---
 
-## Value Objects
+### Value Objects
 
 - **Ubicacion:** Encapsula origen y destino.  
 - **Horario:** Agrupa fecha y hora del viaje.  
 
 ---
 
-## Aggregates
+### Aggregates
 
 - **Viaje** es el agregado raíz.  
 - Incluye a **Reserva**.  
 
 ---
 
-## Factories
+### Factories
 
-### ViajeFactory  
+#### ViajeFactory  
 **Método:**
 - `crear(datos: dict) → Viaje`  
 
 ---
 
-## Domain Services
+### Domain Services
 
-### ServicioDeReserva  
+#### ServicioDeReserva  
 Lógica para reservar asiento considerando disponibilidad, estado del viaje y validación de pago.  
 
 ---
 
-## Repositories (Interfaces)
+### Repositories (Interfaces)
 
-### IViajeRepository
+#### IViajeRepository
 - `obtener_por_id(id)`  
 - `guardar(viaje)`  
 - `buscar(origen, destino, fecha)`  
 
-### IReservaRepository
+#### IReservaRepository
 - `guardar(reserva)`  
 - `obtener_por_id(id)`  
 
-#### 4.2.1.2 Interface Layer
+### 4.2.1.2 Interface Layer
+
+### Command Handlers
+
+- **CrearViajeHandler:** Orquesta la creación usando la factory.  
+- **ReservarViajeHandler:** Orquesta validaciones, reserva y confirmación de pago.  
+- **FinalizarViajeHandler:** Marca viaje como completo y emite evento.  
+
+---
+
+### Event Handlers
+
+- **EventoPagoConfirmadoHandler:** Escucha confirmación de pago para actualizar la reserva.  
+- **EventoViajeFinalizadoHandler:** Emite evento hacia Calificaciones y Feedback.  
+
 #### 4.2.1.3 Application Layer
 #### 4.2.1.4 Infrastructure Layer
 #### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams
