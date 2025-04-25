@@ -1939,13 +1939,159 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 ## 4.2.  Tactical-Level Domain-Driven Design
 ### 4.2.1 Bounded Context
 #### 4.2.1.1 Domain Layer
+
+#### Entities
+
+Viaje
+
+    Propósito: Representa un viaje disponible para ser reservado.
+
+    Atributos:
+
+        id: UUID
+
+        origen: string
+
+        destino: string
+
+        fecha_hora: datetime
+
+        capacidad: int
+
+        asientos_disponibles: int
+
+        conductor_id: UUID
+
+        estado: enum {CREADO, RESERVADO, COMPLETADO, CANCELADO}
+
+    Métodos:
+
+        reservar_asiento(usuario_id)
+
+        finalizar()
+
+        cancelar()
+
+#### Reserva
+        
+    Propósito: Representa la intención de un pasajero de tomar un viaje.
+
+        Atributos:
+
+            id: UUID
+
+            viaje_id: UUID
+
+            usuario_id: UUID
+
+            estado: enum {PENDIENTE_PAGO, CONFIRMADA, CANCELADA}
+
+            fecha_reserva: datetime
+
+#### Métodos:
+
+            confirmar()
+
+            cancelar()
+
+#### Value Objects
+            Ubicacion: Encapsula origen y destino.
+
+            Horario: Agrupa fecha y hora del viaje.
+
+#### Aggregates
+        Viaje es el agregado raíz.
+
+        Incluye a Reserva.
+
+#### Factories
+    ViajeFactory
+        Método:
+            crear(datos: dict) → Viaje
+
+#### Domain Services
+    ServicioDeReserva
+        Lógica para reservar asiento considerando disponibilidad, estado del viaje y validación de pago.
+
+#### Repositories (Interfaces)
+    IViajeRepository
+        obtener_por_id(id)
+
+        guardar(viaje)
+
+        buscar(origen, destino, fecha)
+
+                IReservaRepository
+        guardar(reserva)
+
+        obtener_por_id(id)
+
 #### 4.2.1.2 Interface Layer
+
+#### Command Handlers
+    CrearViajeHandler: Orquesta la creación usando la factory.
+
+    ReservarViajeHandler: Orquesta validaciones, reserva y confirmación de pago.
+
+    FinalizarViajeHandler: Marca viaje como completo y emite evento.
+
+
+#### Event Handlers
+    EventoPagoConfirmadoHandler: Escucha confirmación de pago para actualizar la reserva.
+    
+    EventoViajeFinalizadoHandler: Emite evento hacia Calificaciones y Feedback.
+
 #### 4.2.1.3 Application Layer
+
+#### Controllers (API REST via API Gateway)
+        POST /viajes: Crear nuevo viaje.
+
+        GET /viajes: Buscar viajes por origen/destino.
+
+        POST /viajes/{id}/reservar: Reservar asiento.
+
+        POST /viajes/{id}/finalizar: Finalizar viaje.
+
+
+#### App Móvil (Frontend)
+    Interfaces para conductor y pasajero.
+
+        Publicar viajes
+
+        Reservar viajes
+
+        Ver historial
+
+        Ver notificaciones
+
 #### 4.2.1.4 Infrastructure Layer
+
+#### Persistencia
+        MongoDB: Almacena documentos de viajes y reservas.
+
+        Redis: Cache de rutas frecuentes para optimización de búsqueda.
+
+
+#### Servicios externos
+        Auth Service: Verifica y autentica estudiantes antes de reservar o publicar.
+
+        Payment Service: Gestiona los pagos de pasajeros y la distribución al conductor.
+
+        Notification Service: Notifica reservas confirmadas, viajes por iniciar o finalizados.
+
+        Servicio de Mapas (Google Maps API, por ejemplo):
+
+        Optimiza rutas
+
+        Provee coordenadas geográficas y distancias
+
 #### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams
 #### 4.2.1.6  Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.1.6.1  Bounded Context Domain Layer Class Diagrams
+<img src="assets/cap-4/Diagrama_clase.png" alt="domain-events" width="600px">
+
 ##### 4.2.1.6.2  Bounded Context Database Design Diagram
+<img src="assets/cap-4/databasediagram.png" alt="domain-events" width="600px">
 
 ## Conclusiones
 - Validación temprana del problema: El enfoque en entrevistas y mapeos nos permitió confirmar que la necesidad del mercado universitario en cuanto a movilidad es urgente y real, lo que valida la propuesta de valor de GoUni.
