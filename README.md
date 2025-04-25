@@ -2060,6 +2060,14 @@ Lógica para reservar asiento considerando disponibilidad, estado del viaje y va
 - Ver notificaciones  
 
 ### 4.2.1.4 Infrastructure Layer
+### Servicios Externos
+
+- **Auth Service:** Verifica y autentica estudiantes antes de reservar o publicar.  
+- **Payment Service:** Gestiona los pagos de pasajeros y la distribución al conductor.  
+- **Notification Service:** Notifica reservas confirmadas, viajes por iniciar o finalizados.  
+- **Servicio de Mapas (Google Maps API, por ejemplo):**  
+  - Optimiza rutas  
+  - Provee coordenadas geográficas y distancias  
 
 #### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams
 #### 4.2.1.6  Bounded Context Software Architecture Code Level Diagrams
