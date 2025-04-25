@@ -769,17 +769,22 @@ Andre Zagaceta es un estudiante universitario que conduce de manera regular a la
 -----
 **Entrevista 2:**
 
-- **Nombres:** 
-- **Apellidos:** 
-- **Edad:** 
-- **Lugar de residencia:**
+- **Nombres:** Francisco
+- **Apellidos:** Soto
+- **Edad:** 22
+- **Lugar de residencia:** Lima, Perú
 
 
 **Evidencia de la entrevista:**
+<img src="assets/cap-1/entrevista_aaron.png">
 
+**Enlace de la entrevista:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213502_upc_edu_pe/EbhcYmyn-y1JlD7N3pR5cwoBN9sSJpjLNJq1wA_k8zbvuQ?e=o36q7H&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D"> Clic aquí </a>
 
-**Enlace de la entrevista:** <>
 **Resumen de la entrevista:**
+El entrevistado indica que posee un vehículo de uso familiar que utiliza principalmente para movilizarse a la u.
+Aunque no tiene experiencia previa compartiendo su vehículo, está dispuesto a hacerlo siempre que exista un nivel
+adecuado de confianza con la persona interesada. Actualmente no conoce ninguna plataforma que le permita hacer lo que
+nuestro producto busca abarcar.
 
 
 
