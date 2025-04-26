@@ -2099,6 +2099,112 @@ Servicios Externos
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
 
+### 4.2.2. Bounded Context: Verificación de Usuarios
+
+### 4.2.2.1 Domain Layer
+
+#### Entities
+
+**Usuario**
+
+Atributos:
+- id: UUID
+- nombre: string
+- email: string
+- contraseña: string
+- rol: enum {CONDUCTOR, PASAJERO}
+- verificado: boolean
+
+Métodos:
+- registrarse()
+- iniciarSesion()
+- verificarIdentidad()
+
+---
+
+**Conductor** (hereda de Usuario)
+**Pasajero** (hereda de Usuario)
+
+---
+
+#### Value Objects
+
+- DocumentoDeIdentidad:
+    - tipo: enum {DNI, CARNET_EXTRANJERIA, LICENCIA}
+    - numero: string
+
+---
+
+#### Aggregates
+
+- Usuario es el agregado raíz.
+
+---
+
+#### Factories
+
+UsuarioFactory  
+Método:
+- crear(datos: dict) → Usuario
+
+---
+
+#### Domain Services
+
+**ServicioDeVerificacion**
+
+Método:
+- verificar_documento(documento: DocumentoDeIdentidad) → bool
+
+Lógica:
+- Valida los datos ingresados por el usuario, posiblemente consulta con fuentes externas.
+
+---
+
+#### Repositories (Interfaces)
+
+IUsuarioRepository
+- obtener_por_id(id: UUID) → Usuario
+- guardar(usuario: Usuario)
+- buscar_por_email(email: string) → Usuario
+
+---
+
+### 4.2.2.2 Interface Layer
+
+#### Command Handlers
+
+- RegistrarUsuarioHandler: orquesta el registro mediante la factory.
+- VerificarUsuarioHandler: aplica la verificación de identidad.
+- IniciarSesionHandler: maneja login y autenticación.
+
+---
+
+#### Event Handlers
+
+- EventoDocumentoVerificadoHandler: actualiza estado verificado = true si el documento es válido.
+- EventoUsuarioVerificadoHandler: emite evento a "Gestión de Viajes" si se completó verificación.
+
+---
+
+### 4.2.2.3 Application Layer
+
+#### Controllers (API REST via API Gateway)
+
+- POST /usuarios: Crear usuario nuevo
+- POST /usuarios/login: Inicia sesión
+- POST /usuarios/{id}/verificar: Envía documentos y verifica
+- GET /usuarios/{id}: Ver detalle de usuario
+
+---
+
+### 4.2.2.4 Infrastructure Layer
+
+#### Servicios Externos
+
+- Servicio de Verificación de Documentos.
+- Auth Service.
+
 ### 4.2.1 Bounded Context
 ### 4.2.1.1 Domain Layer
 ### Entities
