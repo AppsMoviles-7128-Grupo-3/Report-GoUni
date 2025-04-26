@@ -26,6 +26,7 @@
 | David Polanco, Alessandro | u202122232 |
 | Chirinos Zúñiga, Rodrigo  | u202217804 |
 | Cruz Ticona, Aaron        | u202213502 |
+| Zevallos Linares, Alessandro       | u202216035 |
 |                           |            |
 
 </div>
@@ -47,7 +48,7 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
 | **#01 - TB1** | 19/04/25  | David Polanco, Alessandro  | Formateo del Capitulo 1, Capitulo 2, y Capitulo 3, desarrollo de la seccion 4.1.1 del capitulo 4 |
 | **#01 - TB1** | 19/04/25  | Chirinos Zúñiga, Rodrigo   | Desarrollo de la seccion 4.2 del capitulo 4                                                      |
 |               |  19/04/25 | Cruz Ticona, Aaron         |                                                                                                  |
-|               | 19/04/25  |                            |                                                                                                  |
+| **#01 - TB1** | 19/04/25  | Zevallos Linares, Alessandro   | Desarrollo de la seccion 4.2 del capitulo 4                                                      |
 
 ---
 
