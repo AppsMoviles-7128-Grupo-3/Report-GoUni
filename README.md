@@ -2211,8 +2211,14 @@ IUsuarioRepository
 - Auth Service.
 
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+<img src="assets/cap-4/bounded-context-component-diagram-2.png">
+
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+<img src="assets/cap-4/bounded-context-class-diagram-2.png">
+
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+<img src="assets/cap-4/bounded-context-database-diagram-2.png">
+
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram
 
 ### 4.2.3. Bounded Context: Sistema de Pagos
