@@ -2321,9 +2321,14 @@ IPagoRepository
 - Servicio de Tokenización: Para guardar datos de tarjetas de forma segura.
 
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+<img src="assets/cap-4/bounded-context-component-diagram-3.png">
+
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+<img src="assets/cap-4/bounded-context-class-diagram-3.png">
+
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram
+<img src="assets/cap-4/bounded-context-database-diagram-3.png">
 
 ### 4.2.4. Bounded Context: Gestión de Evaluaciones
 
