@@ -1925,6 +1925,179 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <img src="assets/cap-4/deployment-diagram.png" alt="domain-events" width="600px">
 
 ## 4.2.  Tactical-Level Domain-Driven Design
+### 4.2.1. Bounded Context: Gestión de Viajes Compartidos
+### 4.2.1.1 Domain Layer
+#### Entities
+
+**Viaje**  
+
+Atributos:
+- id: UUID
+- origen: string
+- destino: string
+- horario: datetime
+- capacidad: int
+- asientos_disponibles: int
+- conductor_id: UUID
+- estado: enum {CREADO, RESERVADO, COMPLETADO, CANCELADO}
+
+Métodos:
+- publicar_viaje()
+- reservar_asiento(usuario_id)
+- actualizar_estado(nuevo_estado)
+
+---
+
+**Reserva**  
+
+Atributos:
+- id: UUID
+- viaje_id: UUID
+- pasajero_id: UUID
+- asiento_reservado: string
+- estado: enum {PENDIENTE_PAGO, CONFIRMADA, CANCELADA}
+- fecha_reserva: datetime
+
+Métodos:
+- confirmar_reserva()
+- cancelar_reserva()
+
+---
+
+**Vehiculo**
+
+Atributos:
+- id: UUID
+- tipo: string
+- matricula: string
+- capacidad: int
+- conductor_id: UUID
+
+Métodos:
+- registrar_vehiculo()
+- actualizar_detalles()
+
+---
+
+**Conductor**
+
+Atributos heredados:
+- id: UUID
+- nombre: string
+- email: string
+- rol: Rol
+- verificado: boolean
+
+Métodos:
+- publicar_viaje()
+- gestionar_reservas()
+
+---
+
+**Pasajero**
+
+Atributos heredados:
+- id: UUID
+- nombre: string
+- email: stirng
+- rol: Rol
+- verificado: boolean
+
+Métodos:
+- buscar_viaje()
+- reservar_viaje()
+
+---
+
+#### Value Objects
+
+- Ubicacion: Encapsula origen y destino.
+- Horario: Agrupa fecha y hora del viaje.
+
+---
+
+#### Aggregates
+
+- Viaje es el agregado raíz.
+- Incluye a Reserva como entidad interna del agregado.
+- Las operaciones sobre Reserva se hacen a través de Viaje.
+
+---
+
+#### Factories
+
+ViajeFactory  
+Método:
+- crear(datos: dict)  Viaje
+
+---
+
+#### Domain Services
+
+**ServicioDeReserva**
+
+Lógica para reservar asiento considerando:
+- Disponibilidad de asientos
+- Estado del viaje
+- Validación del conductor y pasajero
+- Integración con sistema de pagos
+
+---
+
+#### Repositories (Interfaces)
+
+IViajeRepository
+- obtener_por_id(id: UUID)  Viaje
+- guardar(viaje: Viaje)
+- buscar(origen: string, destino: string, fecha: date)  List[Viaje]
+
+IReservaRepository
+- obtener_por_id(id: UUID)  Reserva
+- guardar(reserva: Reserva)
+
+---
+
+#### 4.2.1.2. Interface Layer
+
+Command Handlers
+
+- CrearViajeHandler: Usa la factory para crear un viaje.
+- ReservarViajeHandler: Orquesta validaciones, disponibilidad y reserva.
+- FinalizarViajeHandler: Marca viaje como COMPLETADO y emite evento.
+
+---
+
+Event Handlers
+
+- EventoPagoConfirmadoHandler: Escucha evento del sistema de pagos y actualiza la reserva a CONFIRMADA.
+- EventoViajeFinalizadoHandler: Emite evento hacia el sistema de Calificaciones y Feedback.
+
+---
+
+#### 4.2.1.3. Application Layer
+
+Controllers (API REST via API Gateway)
+
+- POST /viajes: Crear un nuevo viaje.
+- GET /viajes: Buscar viajes por origen, destino y fecha.
+- POST /viajes/{id}/reservar: Reservar asiento.
+- POST /viajes/{id}/finalizar: Finalizar viaje.
+
+---
+
+#### 4.2.1.4. Infrastructure Layer
+
+Servicios Externos
+
+- Auth Service: Autenticación del conductor/pasajero antes de realizar acciones.
+- Payment Service: Validación de pago de la reserva.
+- Notification Service: Envío de alertas al reservar o cambiar el estado del viaje.
+
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.1.6.2. Bounded Context Database Design Diagram
+
 ### 4.2.1 Bounded Context
 ### 4.2.1.1 Domain Layer
 ### Entities
