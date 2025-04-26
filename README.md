@@ -20,12 +20,14 @@
 
 <div style="display: flex; justify-content: center; align-items: center;">
 
-| **Member**                          | **Code**    |
-|-------------------------------------|-------------|
-|          |   |
-| David Polanco, Alessandro           | u202122232  |
-| Chirinos Zúñiga, Rodrigo  | u202217804  |
-|      |   |
+| **Member**                | **Code**   |
+|---------------------------|------------|
+|                           |            |
+| David Polanco, Alessandro | u202122232 |
+| Chirinos Zúñiga, Rodrigo  | u202217804 |
+| Cruz Ticona, Aaron        | u202213502 |
+| Zevallos Linares, Alessandro       | u202216035 |
+|                           |            |
 
 </div>
 
@@ -42,11 +44,11 @@
 Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la siguiente forma:
 
 | **Versión**   | **Fecha** | **Autor**                  | **Descripción**                                                                                  |
-|---------------|-----------|----------------------------|--------------------------------------------------------------------------------------------------|
-| **#01 - TB1** | 19/04/25  | David Polanco, Alessandro  | Formateo del Capitulo 1, Capitulo 2, y Capitulo 3, desarrollo de la seccion 4.1.1 del capitulo 4 |
-| **#01 - TB1** | 19/04/25  | Chirinos Zúñiga, Rodrigo   | desarrollo de la seccion 4.2 del capitulo 4                                                      |
-|               |  19/04/25 |                            |                                                                                                  |
-|               | 19/04/25  |                            |                                                                                                  |
+|---------------|----------|----------------------------|--------------------------------------------------------------------------------------------------|
+| **#01 - TB1** | 19/04/25 | David Polanco, Alessandro  | Formateo del Capitulo 1, Capitulo 2, y Capitulo 3, desarrollo de la seccion 4.1.1 del capitulo 4 |
+| **#01 - TB1** | 19/04/25 | Chirinos Zúñiga, Rodrigo   | Desarrollo de la seccion 4.2 del capitulo 4                                                      |
+| **#01 - TB1** | 19/04/25 | Cruz Ticona, Aaron         | Desarrollo del Capitulo 4.2 Bounded Contexts                                                     |
+| **#01 - TB1** | 19/04/25 | Zevallos Linares, Alessandro   | Desarrollo de la seccion 4.2 del capitulo 4                                                      |
 
 ---
 
@@ -167,10 +169,10 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
 
 # [Student Outcome](#student-outcome)
 
-| Criterio Específico                                                                                                                         | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Conclusiones                                                                                                                                                                                                                                                                                                                                               |
-|---------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **David Polanco, Alessandro Alonso**, <br><br>**TB1**: Se actualizaron y aplicaron conocimientos clave sobre metodologías ágiles, análisis de usuarios y diseño centrado en la experiencia. A través de herramientas como el Lean UX Canvas, entrevistas, mapeos de viaje del usuario y empatía, logramos identificar con mayor precisión los problemas y necesidades de los estudiantes universitarios respecto a su movilidad. Este proceso no sólo consolidó nuestras capacidades técnicas, sino que fortaleció nuestra competencia para enfrentar desafíos reales en el desarrollo de soluciones digitales, combinando teoría y práctica con enfoque en el usuario. | **General**: El desarrollo de TB1 permitió fortalecer la capacidad del equipo para analizar, documentar y comprender la problemática desde una perspectiva técnica y humana. Se adquirieron conocimientos clave en diseño UX, análisis de requerimientos y herramientas colaborativas como Miro, fundamentales para afrontar proyectos reales de software. |
-| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**  | **David Polanco, Alessandro Alonso**, <br><br>**TB1**: El desarrollo de TB1 nos hizo conscientes de que el aprendizaje constante es fundamental en el campo de la ingeniería de software. Enfrentar una problemática real como la movilidad estudiantil nos impulsó a investigar nuevas metodologías, comprender mejor el entorno y mejorar nuestras habilidades de comunicación, análisis y documentación. Además, trabajar en equipo, estructurar entrevistas y utilizar plataformas colaborativas como GitHub nos permitió fortalecer nuestra capacidad de adaptación y crecimiento continuo, reconociendo que la evolución profesional está directamente ligada a la disposición de aprender en cada etapa del proceso.| **General**: Durante TB1 se evidenció la importancia de estar en constante aprendizaje, no solo en tecnologías, sino también en metodologías de investigación y comunicación con usuarios reales. Esta experiencia nos hizo conscientes de que el software no se trata solo de código, sino de entender profundamente al usuario para ofrecer soluciones relevantes y sostenibles.  |
+| Criterio Específico                                                                                                                         | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Conclusiones                                                                                                                                                                                                                                                                                                                                               |
+|---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **David Polanco, Alessandro Alonso**, <br><br>**TB1**: Se actualizaron y aplicaron conocimientos clave sobre metodologías ágiles, análisis de usuarios y diseño centrado en la experiencia. A través de herramientas como el Lean UX Canvas, entrevistas, mapeos de viaje del usuario y empatía, logramos identificar con mayor precisión los problemas y necesidades de los estudiantes universitarios respecto a su movilidad. Este proceso no sólo consolidó nuestras capacidades técnicas, sino que fortaleció nuestra competencia para enfrentar desafíos reales en el desarrollo de soluciones digitales, combinando teoría y práctica con enfoque en el usuario. <br><br>**Chirinos Zúñiga, Rodrigo Manuel**, <br><br>**TB1**: Se identificaron necesidades del usuario, especificando requisitos y diseñando soluciones mediante metodologías como Lean UX y Domain-Driven Design. <br><br>**Cruz Ticona, Aaron Alejandro**, <br><br>**TB1**: Participé activamente en el diseño e implementación de los bounded context, aplicando principios de Domain-Driven Design. Además, colaboré en la definición de los segmentos objetivos de usuarios.                                                                                                     | **General**: El desarrollo de TB1 permitió fortalecer la capacidad del equipo para analizar, documentar y comprender la problemática desde una perspectiva técnica y humana. Se adquirieron conocimientos clave en diseño UX, análisis de requerimientos y herramientas colaborativas como Miro, fundamentales para afrontar proyectos reales de software. |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**  | **David Polanco, Alessandro Alonso**, <br><br>**TB1**: El desarrollo de TB1 nos hizo conscientes de que el aprendizaje constante es fundamental en el campo de la ingeniería de software. Enfrentar una problemática real como la movilidad estudiantil nos impulsó a investigar nuevas metodologías, comprender mejor el entorno y mejorar nuestras habilidades de comunicación, análisis y documentación. Además, trabajar en equipo, estructurar entrevistas y utilizar plataformas colaborativas como GitHub nos permitió fortalecer nuestra capacidad de adaptación y crecimiento continuo, reconociendo que la evolución profesional está directamente ligada a la disposición de aprender en cada etapa del proceso. <br><br>**Chirinos Zúñiga, Rodrigo Manuel**, <br><br>**TB1**: Se reconoció la importancia del aprendizaje continuo y se aplicó en el desarrollo de soluciones de software, integrando nuevos conocimientos y metodologías en la entrega de este primer avance del proyecto. <br><br>**Cruz Ticona, Aaron Alejandro**, <br><br>**TB1**: La necesidad de estructurar correctamente los bounded contexts y representar fielmente los procesos del dominio me llevó a investigar y aplicar patrones avanzados de diseño de software.  | **General**: Durante TB1 se evidenció la importancia de estar en constante aprendizaje, no solo en tecnologías, sino también en metodologías de investigación y comunicación con usuarios reales. Esta experiencia nos hizo conscientes de que el software no se trata solo de código, sino de entender profundamente al usuario para ofrecer soluciones relevantes y sostenibles.  |
 
 ---
 
@@ -197,8 +199,8 @@ Aspiramos a ser líderes en movilidad estudiantil, reconocidos por nuestro compr
     <th>Descripción</th>
   </tr>
   <tr>
-    <td><img src="assets/images/profiles/" alt="" width="140" height="140"></td>
-    <td>//////////////</td>
+    <td><img src="assets/images/profiles/perfil_alessandro.jpg" alt="" width="130" height="140"></td>
+    <td>Soy Alessandro Zevallos,estudiante de Ingeniería de Software con un fuerte interés en el desarrollo de productos digitales y la tecnología. En mi tiempo libre, me gusta jugar videojuegos. También tengo un interés especial en la música, lo que me ayuda a equilibrar mi vida académica y personal.</td>
   </tr>
 
    <tr>
@@ -218,8 +220,13 @@ Aspiramos a ser líderes en movilidad estudiantil, reconocidos por nuestro compr
   </tr>
 
   <tr>
-    <td><img src="assets/images/profiles/" width="140" height="140"></td>
-    <td>}}}}}}}}}}}}}}}}}}}}}</td>
+    <td><img src="assets/images/profiles/aaron_profile.jpg" width="140" height="140"></td>
+    <td>Actualmente, me encuentro cursando la carrera de Ingeniería de Software, una disciplina que despierta mi 
+        constante curiosidad y deseo de aprendizaje. Mi motivación por adquirir nuevos conocimientos es una de mis 
+        principales fortalezas, y espero seguir nutriéndola a lo largo del curso. Me considero una persona adaptable, 
+        especialmente cuando se trata de trabajar en equipo, por lo que confío en mi capacidad para contribuir de 
+        manera efectiva en proyectos colaborativos. Además, valoro un entorno laboral positivo y colaborativo, y me 
+        esfuerzo por fomentar este ambiente dentro de mi grupo, ya que considero que el trabajo en equipo es esencial para alcanzar el éxito.</td>
   </tr>
 
 </table>
@@ -692,7 +699,7 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 
 
 **Evidencia de la entrevista:**
-[![Captura.png](https://i.postimg.cc/dVxby9Jn/Captura.png)](https://postimg.cc/3k2fMm4D)
+<img src="assets/cap-1/entrevista_Rodrigo.png">
 
 **Enlace de la entrevista:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217804_upc_edu_pe/EafDNXFPq2BIhYC_e8DyVvsB2SDioSgRJ8liZa5-P_5M-Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1zOkep"> Clic aquí </a>
 
@@ -717,65 +724,48 @@ Diego usa el transporte público de 4 a 5 días a la semana. El trayecto le toma
 **Resumen de la entrevista:**
 Maria Gracia es una estudiante universitaria de la UPC que no tiene muchas dificultades al momento de transportarse desde su casa hacia la universidad. Ella comenta que le gustaría mucho una alternativa de transporte como el carpooling, ya que podría conocer nuevas personas de la misma universidad, ahorrar dinero en transporte, y utilizar un método más rápido en casos de urgencia.
 
-
------
-**Entrevista 3:**
-
-- **Nombres:**
-- **Apellidos:**
-- **Edad:** 
-- **Lugar de residencia:** 
-
-
-**Evidencia de la entrevista:**
-
-
-
-**Enlace de la entrevista:** <>
-
-**Resumen de la entrevista:**
-
-
-
 -----
 **Segmento 2: Estudiantes universitarios propietarios de vehículos privados**
 
 **Entrevista 1:**
 
-- **Nombres:** 
-- **Apellidos:** 
-- **Edad:** 
-- **Lugar de residencia:** 
+- **Nombres:** Andre 
+- **Apellidos:** Zagaceta
+- **Edad:** 21
+- **Lugar de residencia:** San MIguel
 
 
 **Evidencia de la entrevista:**
+<img src="assets/cap-1/entrevista_alessandro.PNG">
 
-
-**Enlace de la entrevista:** 
+**Enlace de la entrevista:**<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216035_upc_edu_pe/EaTEgOo5uhpPqhKfrRocsVUBLLwVeB6TOUh-V59LvfrsmQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=aregO1"> Clic aquí </a>
 
 
 
 **Resumen de la entrevista:**
-
+Andre Zagaceta es un estudiante universitario que conduce de manera regular a la universidad, el esta dispuesto a compartir su viaje con otros alumnos ya que cree que esto puede ayudar con la gasolina y reducir los costos de mantenimiento, y buscaria que sean personas resptuosas y que este controlado por la apliacion.
 
 
 
 -----
 **Entrevista 2:**
 
-- **Nombres:** 
-- **Apellidos:** 
-- **Edad:** 
-- **Lugar de residencia:**
+- **Nombres:** Francisco
+- **Apellidos:** Soto
+- **Edad:** 22
+- **Lugar de residencia:** Lima, Perú
 
 
 **Evidencia de la entrevista:**
+<img src="assets/cap-1/entrevista_aaron.png">
 
-
-
-**Enlace de la entrevista:** <>
+**Enlace de la entrevista:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213502_upc_edu_pe/EbhcYmyn-y1JlD7N3pR5cwoBN9sSJpjLNJq1wA_k8zbvuQ?e=o36q7H&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D"> Clic aquí </a>
 
 **Resumen de la entrevista:**
+El entrevistado indica que posee un vehículo de uso familiar que utiliza principalmente para movilizarse a la u.
+Aunque no tiene experiencia previa compartiendo su vehículo, está dispuesto a hacerlo siempre que exista un nivel
+adecuado de confianza con la persona interesada. Actualmente no conoce ninguna plataforma que le permita hacer lo que
+nuestro producto busca abarcar.
 
 
 
@@ -957,14 +947,13 @@ A continuación se pueden apreciar los As-Is Scenario de los segmentos objetivos
 En esta sección se resume la información recopilada. Se presentan dos tablas que detallan la situación a mejorar de cada segmento objetivo, analizando los pasos que se realizarán y cómo se sienten los usuarios en cada etapa.
 
 ### *Segmento: Estudiantes Universitarios que necesiten movilizarse*
-
-![ScenarioMapO1.jpg](assets/cap-3/ScenarioMapO1.jpg)
+[![to-be-primer-segmento.png](https://i.postimg.cc/50YFpZh0/to-be-primer-segmento.png)](https://postimg.cc/r0TmwYFX)
 
 ---
 
 ### *Segmento: Estudiantes Universitarios propietarios de vehículo privado*
 
-![ScenarioMapO2.jpg](assets/cap-3/ScenarioMapO2.jpg)
+[![to-be-segundo-segmento.png](https://i.postimg.cc/2jWZWNd9/to-be-segundo-segmento.png)](https://postimg.cc/mhbkxq57)
 
 
 ## 3.2. User Stories
@@ -1937,170 +1926,608 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <img src="assets/cap-4/deployment-diagram.png" alt="domain-events" width="600px">
 
 ## 4.2.  Tactical-Level Domain-Driven Design
-### 4.2.1 Bounded Context
-#### 4.2.1.1 Domain Layer
+### 4.2.1. Bounded Context: Gestión de Viajes Compartidos
+### 4.2.1.1 Domain Layer
+#### Entities
+
+**Viaje**  
+
+Atributos:
+- id: UUID
+- origen: string
+- destino: string
+- horario: datetime
+- capacidad: int
+- asientos_disponibles: int
+- conductor_id: UUID
+- estado: enum {CREADO, RESERVADO, COMPLETADO, CANCELADO}
+
+Métodos:
+- publicar_viaje()
+- reservar_asiento(usuario_id)
+- actualizar_estado(nuevo_estado)
+
+---
+
+**Reserva**  
+
+Atributos:
+- id: UUID
+- viaje_id: UUID
+- pasajero_id: UUID
+- asiento_reservado: string
+- estado: enum {PENDIENTE_PAGO, CONFIRMADA, CANCELADA}
+- fecha_reserva: datetime
+
+Métodos:
+- confirmar_reserva()
+- cancelar_reserva()
+
+---
+
+**Vehiculo**
+
+Atributos:
+- id: UUID
+- tipo: string
+- matricula: string
+- capacidad: int
+- conductor_id: UUID
+
+Métodos:
+- registrar_vehiculo()
+- actualizar_detalles()
+
+---
+
+**Conductor**
+
+Atributos heredados:
+- id: UUID
+- nombre: string
+- email: string
+- rol: Rol
+- verificado: boolean
+
+Métodos:
+- publicar_viaje()
+- gestionar_reservas()
+
+---
+
+**Pasajero**
+
+Atributos heredados:
+- id: UUID
+- nombre: string
+- email: stirng
+- rol: Rol
+- verificado: boolean
+
+Métodos:
+- buscar_viaje()
+- reservar_viaje()
+
+---
+
+#### Value Objects
+
+- Ubicacion: Encapsula origen y destino.
+- Horario: Agrupa fecha y hora del viaje.
+
+---
+
+#### Aggregates
+
+- Viaje es el agregado raíz.
+- Incluye a Reserva como entidad interna del agregado.
+- Las operaciones sobre Reserva se hacen a través de Viaje.
+
+---
+
+#### Factories
+
+ViajeFactory  
+Método:
+- crear(datos: dict)  Viaje
+
+---
+
+#### Domain Services
+
+**ServicioDeReserva**
+
+Lógica para reservar asiento considerando:
+- Disponibilidad de asientos
+- Estado del viaje
+- Validación del conductor y pasajero
+- Integración con sistema de pagos
+
+---
+
+#### Repositories (Interfaces)
+
+IViajeRepository
+- obtener_por_id(id: UUID)  Viaje
+- guardar(viaje: Viaje)
+- buscar(origen: string, destino: string, fecha: date)  List[Viaje]
+
+IReservaRepository
+- obtener_por_id(id: UUID)  Reserva
+- guardar(reserva: Reserva)
+
+---
+
+#### 4.2.1.2. Interface Layer
+
+Command Handlers
+
+- CrearViajeHandler: Usa la factory para crear un viaje.
+- ReservarViajeHandler: Orquesta validaciones, disponibilidad y reserva.
+- FinalizarViajeHandler: Marca viaje como COMPLETADO y emite evento.
+
+---
+
+Event Handlers
+
+- EventoPagoConfirmadoHandler: Escucha evento del sistema de pagos y actualiza la reserva a CONFIRMADA.
+- EventoViajeFinalizadoHandler: Emite evento hacia el sistema de Calificaciones y Feedback.
+
+---
+
+#### 4.2.1.3. Application Layer
+
+Controllers (API REST via API Gateway)
+
+- POST /viajes: Crear un nuevo viaje.
+- GET /viajes: Buscar viajes por origen, destino y fecha.
+- POST /viajes/{id}/reservar: Reservar asiento.
+- POST /viajes/{id}/finalizar: Finalizar viaje.
+
+---
+
+#### 4.2.1.4. Infrastructure Layer
+
+Servicios Externos
+
+- Auth Service: Autenticación del conductor/pasajero antes de realizar acciones.
+- Payment Service: Validación de pago de la reserva.
+- Notification Service: Envío de alertas al reservar o cambiar el estado del viaje.
+
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+<img src="assets/cap-4/bounded-context-component-diagram-1.png">
+
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+<img src="assets/cap-4/bounded-context-class-diagram-1.png">
+
+##### 4.2.1.6.2. Bounded Context Database Design Diagram
+<img src="assets/cap-4/bounded-context-database-diagram-1.png">
+
+### 4.2.2. Bounded Context: Verificación de Usuarios
+
+### 4.2.2.1 Domain Layer
 
 #### Entities
 
-Viaje
+**Usuario**
 
-    Propósito: Representa un viaje disponible para ser reservado.
+Atributos:
+- id: UUID
+- nombre: string
+- email: string
+- contraseña: string
+- rol: enum {CONDUCTOR, PASAJERO}
+- verificado: boolean
 
-    Atributos:
+Métodos:
+- registrarse()
+- iniciarSesion()
+- verificarIdentidad()
 
-        id: UUID
+---
 
-        origen: string
+**Conductor** (hereda de Usuario)
+**Pasajero** (hereda de Usuario)
 
-        destino: string
-
-        fecha_hora: datetime
-
-        capacidad: int
-
-        asientos_disponibles: int
-
-        conductor_id: UUID
-
-        estado: enum {CREADO, RESERVADO, COMPLETADO, CANCELADO}
-
-    Métodos:
-
-        reservar_asiento(usuario_id)
-
-        finalizar()
-
-        cancelar()
-
-#### Reserva
-        
-    Propósito: Representa la intención de un pasajero de tomar un viaje.
-
-        Atributos:
-
-            id: UUID
-
-            viaje_id: UUID
-
-            usuario_id: UUID
-
-            estado: enum {PENDIENTE_PAGO, CONFIRMADA, CANCELADA}
-
-            fecha_reserva: datetime
-
-#### Métodos:
-
-            confirmar()
-
-            cancelar()
+---
 
 #### Value Objects
-            Ubicacion: Encapsula origen y destino.
 
-            Horario: Agrupa fecha y hora del viaje.
+- DocumentoDeIdentidad:
+    - tipo: enum {DNI, CARNET_EXTRANJERIA, LICENCIA}
+    - numero: string
+
+---
 
 #### Aggregates
-        Viaje es el agregado raíz.
 
-        Incluye a Reserva.
+- Usuario es el agregado raíz.
+
+---
 
 #### Factories
-    ViajeFactory
-        Método:
-            crear(datos: dict) → Viaje
+
+UsuarioFactory  
+Método:
+- crear(datos: dict) → Usuario
+
+---
 
 #### Domain Services
-    ServicioDeReserva
-        Lógica para reservar asiento considerando disponibilidad, estado del viaje y validación de pago.
+
+**ServicioDeVerificacion**
+
+Método:
+- verificar_documento(documento: DocumentoDeIdentidad) → bool
+
+Lógica:
+- Valida los datos ingresados por el usuario, posiblemente consulta con fuentes externas.
+
+---
 
 #### Repositories (Interfaces)
-    IViajeRepository
-        obtener_por_id(id)
 
-        guardar(viaje)
+IUsuarioRepository
+- obtener_por_id(id: UUID) → Usuario
+- guardar(usuario: Usuario)
+- buscar_por_email(email: string) → Usuario
 
-        buscar(origen, destino, fecha)
+---
 
-                IReservaRepository
-        guardar(reserva)
-
-        obtener_por_id(id)
-
-#### 4.2.1.2 Interface Layer
+### 4.2.2.2 Interface Layer
 
 #### Command Handlers
-    CrearViajeHandler: Orquesta la creación usando la factory.
 
-    ReservarViajeHandler: Orquesta validaciones, reserva y confirmación de pago.
+- RegistrarUsuarioHandler: orquesta el registro mediante la factory.
+- VerificarUsuarioHandler: aplica la verificación de identidad.
+- IniciarSesionHandler: maneja login y autenticación.
 
-    FinalizarViajeHandler: Marca viaje como completo y emite evento.
-
+---
 
 #### Event Handlers
-    EventoPagoConfirmadoHandler: Escucha confirmación de pago para actualizar la reserva.
-    
-    EventoViajeFinalizadoHandler: Emite evento hacia Calificaciones y Feedback.
 
-#### 4.2.1.3 Application Layer
+- EventoDocumentoVerificadoHandler: actualiza estado verificado = true si el documento es válido.
+- EventoUsuarioVerificadoHandler: emite evento a "Gestión de Viajes" si se completó verificación.
+
+---
+
+### 4.2.2.3 Application Layer
 
 #### Controllers (API REST via API Gateway)
-        POST /viajes: Crear nuevo viaje.
 
-        GET /viajes: Buscar viajes por origen/destino.
+- POST /usuarios: Crear usuario nuevo
+- POST /usuarios/login: Inicia sesión
+- POST /usuarios/{id}/verificar: Envía documentos y verifica
+- GET /usuarios/{id}: Ver detalle de usuario
 
-        POST /viajes/{id}/reservar: Reservar asiento.
+---
 
-        POST /viajes/{id}/finalizar: Finalizar viaje.
+### 4.2.2.4 Infrastructure Layer
 
+#### Servicios Externos
 
-#### App Móvil (Frontend)
-    Interfaces para conductor y pasajero.
+- Servicio de Verificación de Documentos.
+- Auth Service.
 
-        Publicar viajes
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+<img src="assets/cap-4/bounded-context-component-diagram-2.png">
 
-        Reservar viajes
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+<img src="assets/cap-4/bounded-context-class-diagram-2.png">
 
-        Ver historial
+##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+<img src="assets/cap-4/bounded-context-database-diagram-2.png">
 
-        Ver notificaciones
+##### 4.2.2.6.2. Bounded Context Database Design Diagram
 
-#### 4.2.1.4 Infrastructure Layer
+### 4.2.3. Bounded Context: Sistema de Pagos
 
-#### Persistencia
-        MongoDB: Almacena documentos de viajes y reservas.
+### 4.2.3.1 Domain Layer
 
-        Redis: Cache de rutas frecuentes para optimización de búsqueda.
+#### Entities
 
+**Pago**
 
-#### Servicios externos
-        Auth Service: Verifica y autentica estudiantes antes de reservar o publicar.
+Atributos:
+- id: UUID
+- monto: float
+- metodoDePago: enum {TARJETA, BILLETERA}
+- estado: enum {PENDIENTE, CONFIRMADO, FALLIDO}
+- reservaId: UUID
 
-        Payment Service: Gestiona los pagos de pasajeros y la distribución al conductor.
+Métodos:
+- realizarPago()
+- confirmarPago()
 
-        Notification Service: Notifica reservas confirmadas, viajes por iniciar o finalizados.
+---
 
-        Servicio de Mapas (Google Maps API, por ejemplo):
+#### Value Objects
 
-        Optimiza rutas
+- MetodoDePago:
+    - tipo: enum {TARJETA, BILLETERA}
+    - detalles: string (tokenizado o ID del proveedor)
 
-        Provee coordenadas geográficas y distancias
+---
 
-#### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams
-#### 4.2.1.6  Bounded Context Software Architecture Code Level Diagrams
-##### 4.2.1.6.1  Bounded Context Domain Layer Class Diagrams
-<img src="assets/cap-4/Diagrama_clase.png" alt="domain-events" width="600px">
+#### Aggregates
 
-##### 4.2.1.6.2  Bounded Context Database Design Diagram
-<img src="assets/cap-4/databasediagram.png" alt="domain-events" width="600px">
+- Pago es el agregado raíz.
+
+---
+
+#### Factories
+
+PagoFactory  
+Método:
+- crear(monto, metodo, reservaId) → Pago
+
+---
+
+#### Domain Services
+
+**ProcesadorDePagos**
+
+Lógica para procesar el pago con:
+- Interacción con proveedores externos como Stripe, PayPal o Yape/Plin.
+
+Método:
+- procesar(pago: Pago) → estado
+
+---
+
+#### Repositories (Interfaces)
+
+IPagoRepository
+- guardar(pago)
+- obtener_por_id(id)
+- obtener_por_reserva(reservaId)
+
+---
+
+### 4.2.3.2 Interface Layer
+
+#### Command Handlers
+
+- RealizarPagoHandler: Inicia un nuevo pago.
+- ConfirmarPagoHandler: Recibe confirmación del proveedor.
+- CancelarPagoHandler: Marca el pago como fallido o cancelado.
+
+---
+
+#### Event Handlers
+
+- EventoPagoConfirmadoHandler: Notifica al sistema de reservas.
+- EventoPagoFallidoHandler: Informa al usuario y actualiza estado.
+
+---
+
+### 4.2.3.3 Application Layer
+
+#### Controllers (API REST via API Gateway)
+
+- POST /pagos: Realiza un nuevo pago
+- GET /pagos/{id}: Ver detalles del pago
+- POST /pagos/{id}/confirmar: Confirma el pago
+- POST /pagos/{id}/cancelar: Cancela el pago
+
+---
+
+### 4.2.3.4 Infrastructure Layer
+
+#### Servicios Externos
+
+- Proveedor de Pagos (Stripe/PayPal/Yape): Procesamiento real del pago.
+- Servicio de Tokenización: Para guardar datos de tarjetas de forma segura.
+
+#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+<img src="assets/cap-4/bounded-context-component-diagram-3.png">
+
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+<img src="assets/cap-4/bounded-context-class-diagram-3.png">
+
+##### 4.2.3.6.2. Bounded Context Database Design Diagram
+<img src="assets/cap-4/bounded-context-database-diagram-3.png">
+
+### 4.2.4. Bounded Context: Gestión de Evaluaciones
+
+### 4.2.4.1 Domain Layer
+#### Entities
+
+**Evaluacion**
+
+Atributos:
+- id: UUID
+- calificacion: int (1-5)
+- comentario: string
+- evaluadorId: UUID
+- viajeId: UUID
+- fecha: Date
+
+Métodos:
+- calificar()
+- dejarComentario()
+
+---
+
+#### Value Objects
+
+**CalificacionValor**
+
+- valor: int (1-5)
+
+Validaciones:
+- valor debe estar entre 1 y 5
+
+---
+
+#### Aggregates
+
+- Evaluacion es la raíz del agregado.
+
+---
+
+#### Factories
+
+EvaluacionFactory  
+Método:
+- crear(calificacion, comentario, evaluadorId, viajeId) → Evaluacion
+
+---
+
+#### Domain Services
+
+**ValidadorEvaluacionService**
+
+Lógica para validar evaluaciones considerando:
+- verificarUsuarioViaje(evaluadorId, viajeId): boolean
+
+Valida que el evaluador haya participado en el viaje que quiere calificar.
+
+---
+
+#### Repositories (Interfaces)
+
+IEvaluacionRepository
+- guardar(evaluacion)
+- obtenerPorViaje(viajeId)
+- obtenerPorUsuario(usuarioId)
+
+---
+
+### 4.2.4.2 Interface Layer
+
+Command Handlers
+
+- CrearEvaluacionHandler: Valida y crea una evaluación.
+
+---
+
+Event Handlers
+
+- EvaluacionRegistradaHandler: Dispara actualizaciones de reputación del conductor o pasajero.
+
+---
+
+### 4.2.4.3 Application Layer
+
+Controllers (API REST via API Gateway)
+
+- POST /evaluaciones: Crea una nueva evaluación
+- GET /evaluaciones/usuario/{id}: Obtiene evaluaciones por usuario
+- GET /evaluaciones/viaje/{id}: Obtiene evaluaciones por viaje
+
+---
+
+### 4.2.4.4 Infrastructure Layer
+
+Servicios Externos
+
+- Sistema de Gestión de Usuarios: Validar que el usuario haya participado en el viaje.
+
+#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+<img src="assets/cap-4/bounded-context-component-diagram-4.png">
+
+#### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+<img src="assets/cap-4/bounded-context-class-diagram-4.png">
+
+##### 4.2.4.6.2. Bounded Context Database Design Diagram
+<img src="assets/cap-4/bounded-context-database-diagram-4.png">
+
+### 4.2.5. Bounded Context: Gestión de Notificaciones
+
+### 4.2.5.1 Domain Layer
+#### Entities
+
+**Notificacion**
+
+Atributos:
+- id: UUID
+- mensaje: String
+- tipo: TipoNotificacion (enum)
+- receptorId: UUID
+- fechaEnvio: Date
+- estado: String (pendiente, enviada, fallida)
+
+Métodos:
+- enviarNotificacion()
+
+---
+
+#### Value Objects
+
+**TipoNotificacion**
+
+Enum:
+- VERIFICACION_APROBADA
+- VERIFICACION_RECHAZADA
+- PAGO_CONFIRMADO
+- VIAJE_PUBLICADO
+- RESERVA_CONFIRMADA
+- VIAJE_CANCELADO
+
+---
+
+#### Aggregates
+
+- Notificacion es la raíz del agregado.
+
+---
+
+#### Factories
+
+NotificacionFactory  
+Método:
+- crearDesdeEvento(evento): Notificacion
+
+---
+
+#### Domain Services
+
+**EnvioNotificacionService**
+
+Lógica para el envío de notificaciones:
+- enviar(notificacion): ResultadoEnvio
+
+---
+
+### 4.2.5.2 Application Layer
+
+Event Handlers
+
+- onVerificacionAprobada(event)
+- onVerificacionRechazada(event)
+- onPagoConfirmado(event)
+- onViajePublicado(event)
+- onReservaConfirmada(event)
+- onViajeCancelado(event)
+
+Estos métodos son listeners suscritos a los canales de eventos de los demás bounded contexts.
+
+---
+
+### 4.2.5.3 Infrastructure Layer
+
+Servicios Externos
+
+- Servicio de Email o Push Notifications (ej: Firebase, Twilio, etc.)
+- Bus de eventos (RabbitMQ, Kafka, etc.)
+
+#### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+<img src="assets/cap-4/bounded-context-component-diagram-5.png">
+
+#### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
+<img src="assets/cap-4/bounded-context-class-diagram-5.png">
+
+##### 4.2.5.6.2. Bounded Context Database Design Diagram
+<img src="assets/cap-4/bounded-context-database-diagram-5.png">
 
 ## Conclusiones
-- Validación temprana del problema: El enfoque en entrevistas y mapeos nos permitió confirmar que la necesidad del mercado universitario en cuanto a movilidad es urgente y real, lo que valida la propuesta de valor de GoUni.
-
-- Trabajo colaborativo efectivo: La organización del equipo, el uso de control de versiones y las reuniones para dividir el trabajo reflejan un proceso bien estructurado y colaborativo.
-
-- Enfoque centrado en el usuario: Las herramientas de UX aplicadas permitieron obtener insights claros sobre frustraciones y motivaciones, guiando mejor el diseño del producto.
-
-- Fuerte alineación con objetivos académicos: Todo el proceso desarrollado en TB1 permitió integrar teoría con práctica, reforzando aprendizajes clave en diseño de soluciones digitales.
+- Este primer avance permitió definir claramente la problemática de movilidad estudiantil y establecer una propuesta de solución basada en el análisis del usuario, competencia y contexto. Se construyó una base sólida para el diseño centrado en el usuario y el desarrollo técnico del sistema.
+- A través de herramientas como Lean UX y Domain-Driven Design, se logró alinear la solución con las necesidades reales de los estudiantes. El trabajo realizado sienta las bases para una plataforma colaborativa, sostenible y técnicamente viable.
 
 
 ## Bibliografia

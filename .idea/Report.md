@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-    <strong>Startup: (por definir)</strong><br>
+    <strong>Startup: LinkU</strong><br>
     <strong>Producto: GoUni </strong>
 </p>
 
@@ -25,7 +25,8 @@
 |          |   |
 | David Polanco, Alessandro           | u202122232  |
 | Chirinos Zúñiga, Rodrigo  | u202217804  |
-|      |   |
+| Cruz Ticona, Aaron        | u202213502 |
+| Zevallos Linares, Alessandro     |  u202216035    |
 
 </div>
 
@@ -44,9 +45,10 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
 | **Versión**  | **Fecha** | **Autor**                         | **Descripción**                                                                                                   |
 |--------------|-----------|-----------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | **#01 - TB1**| 19/04/25  |        |  |
-|              | 19/04/25  | David Polanco, Alessandro         |  |
-|              | 19/04/25  | Chirinos Zúñiga, Rodrigo  |  |
-|              | 19/04/25  |     |   |
+|              | 19/04/25  | David Polanco, Alessandro         | Formateo del Capitulo 1, Capitulo 2, y Capitulo 3, desarrollo de la seccion 4.1.1 del capitulo 4  |
+|              | 19/04/25  | Chirinos Zúñiga, Rodrigo  | Realizar la entrevista del segmento objetivo correspondiente. Completar los contenidos de los capítulos requeridos. |
+|               |  19/04/25 | Cruz Ticona, Aaron         |                                                                                                  |
+|               | 19/04/25  |                            |                                                                                                  |
 
 ---
 
@@ -54,7 +56,7 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
 
 **URL del repositorio de GitHub de la organización:** [https://github.com/orgs/AppsMoviles-7128-Grupo](https://github.com/orgs/AppsMoviles-7128-Grupo)
 
-![ProjectReportCollaborationInsigths.png](../assets/images/ProjectReportCollaboration/ProjectReportCollaborationInsigths.png)
+![ProjectReportCollaborationInsigths.png](assets/images/ProjectReportCollaboration/ProjectReportCollaborationInsigths.png)
 
 ---
 
@@ -163,9 +165,14 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
 
 - [**Anexos.**](#anexos)
 
----
-
 # [Student Outcome](#student-outcome)
+
+| Criterio Específico                                                                                                                         | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Conclusiones                                                                                                                                                                                                                                                                                                                                               |
+|---------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **David Polanco, Alessandro Alonso**, <br><br>**TB1**: Se actualizaron y aplicaron conocimientos clave sobre metodologías ágiles, análisis de usuarios y diseño centrado en la experiencia. A través de herramientas como el Lean UX Canvas, entrevistas, mapeos de viaje del usuario y empatía, logramos identificar con mayor precisión los problemas y necesidades de los estudiantes universitarios respecto a su movilidad. Este proceso no sólo consolidó nuestras capacidades técnicas, sino que fortaleció nuestra competencia para enfrentar desafíos reales en el desarrollo de soluciones digitales, combinando teoría y práctica con enfoque en el usuario. <br><br>**Chirinos Zúñiga, Rodrigo Manuel**, <br><br>**TB1**: Se identificaron necesidades del usuario, especificando requisitos y diseñando soluciones mediante metodologías como Lean UX y Domain-Driven Design. | **General**: El desarrollo de TB1 permitió fortalecer la capacidad del equipo para analizar, documentar y comprender la problemática desde una perspectiva técnica y humana. Se adquirieron conocimientos clave en diseño UX, análisis de requerimientos y herramientas colaborativas como Miro, fundamentales para afrontar proyectos reales de software. |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**  | **David Polanco, Alessandro Alonso**, <br><br>**TB1**: El desarrollo de TB1 nos hizo conscientes de que el aprendizaje constante es fundamental en el campo de la ingeniería de software. Enfrentar una problemática real como la movilidad estudiantil nos impulsó a investigar nuevas metodologías, comprender mejor el entorno y mejorar nuestras habilidades de comunicación, análisis y documentación. Además, trabajar en equipo, estructurar entrevistas y utilizar plataformas colaborativas como GitHub nos permitió fortalecer nuestra capacidad de adaptación y crecimiento continuo, reconociendo que la evolución profesional está directamente ligada a la disposición de aprender en cada etapa del proceso.  <br><br>**Chirinos Zúñiga, Rodrigo Manuel**, <br><br>**TB1**: Se reconoció la importancia del aprendizaje continuo y se aplicó en el desarrollo de soluciones de software, integrando nuevos conocimientos y metodologías en la entrega de este primer avance del proyecto. | **General**: Durante TB1 se evidenció la importancia de estar en constante aprendizaje, no solo en tecnologías, sino también en metodologías de investigación y comunicación con usuarios reales. Esta experiencia nos hizo conscientes de que el software no se trata solo de código, sino de entender profundamente al usuario para ofrecer soluciones relevantes y sostenibles.  |
+
+---
 
 ---
 # [**Capítulo I: Introducción.**](#capítulo-i-introducción)
@@ -190,8 +197,8 @@ Aspiramos a ser líderes en movilidad estudiantil, reconocidos por nuestro compr
     <th>Descripción</th>
   </tr>
   <tr>
-    <td><img src="../assets/images/profiles/" alt="" width="140" height="140"></td>
-    <td>//////////////</td>
+    <td><img src="../assets/images/profiles/perfil_alessandro.jpg" alt="" width="130" height="140"></td>
+    <td>Soy Alessandro Zevallos,estudiante de Ingeniería de Software con un fuerte interés en el desarrollo de productos digitales y la tecnología. En mi tiempo libre, me gusta jugar videojuegos. También tengo un interés especial en la música, lo que me ayuda a equilibrar mi vida académica y personal.</td>
   </tr>
 
    <tr>
@@ -211,8 +218,13 @@ Aspiramos a ser líderes en movilidad estudiantil, reconocidos por nuestro compr
   </tr>
 
   <tr>
-    <td><img src="./assets/images/profiles/" width="140" height="140"></td>
-    <td>}}}}}}}}}}}}}}}}}}}}}</td>
+    <td><img src="../assets/images/profiles/aaron_profile.jpg" width="140" height="140"></td>
+    <td>Actualmente, me encuentro cursando la carrera de Ingeniería de Software, una disciplina que despierta mi 
+        constante curiosidad y deseo de aprendizaje. Mi motivación por adquirir nuevos conocimientos es una de mis 
+        principales fortalezas, y espero seguir nutriéndola a lo largo del curso. Me considero una persona adaptable, 
+        especialmente cuando se trata de trabajar en equipo, por lo que confío en mi capacidad para contribuir de 
+        manera efectiva en proyectos colaborativos. Además, valoro un entorno laboral positivo y colaborativo, y me 
+        esfuerzo por fomentar este ambiente dentro de mi grupo, ya que considero que el trabajo en equipo es esencial para alcanzar el éxito.</td>
   </tr>
 
 </table>
@@ -685,7 +697,7 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 
 
 **Evidencia de la entrevista:**
-[![Captura.png](https://i.postimg.cc/dVxby9Jn/Captura.png)](https://postimg.cc/3k2fMm4D)
+<img src="../assets/cap-1/entrevista_Rodrigo.png">
 
 **Enlace de la entrevista:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217804_upc_edu_pe/EafDNXFPq2BIhYC_e8DyVvsB2SDioSgRJ8liZa5-P_5M-Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1zOkep"> Clic aquí </a>
 
@@ -710,65 +722,49 @@ Diego usa el transporte público de 4 a 5 días a la semana. El trayecto le toma
 **Resumen de la entrevista:**
 Maria Gracia es una estudiante universitaria de la UPC que no tiene muchas dificultades al momento de transportarse desde su casa hacia la universidad. Ella comenta que le gustaría mucho una alternativa de transporte como el carpooling, ya que podría conocer nuevas personas de la misma universidad, ahorrar dinero en transporte, y utilizar un método más rápido en casos de urgencia.
 
-
------
-**Entrevista 3:**
-
-- **Nombres:**
-- **Apellidos:**
-- **Edad:** 
-- **Lugar de residencia:** 
-
-
-**Evidencia de la entrevista:**
-
-
-
-**Enlace de la entrevista:** <>
-
-**Resumen de la entrevista:**
-
-
-
 -----
 **Segmento 2: Estudiantes universitarios propietarios de vehículos privados**
 
 **Entrevista 1:**
 
-- **Nombres:** 
-- **Apellidos:** 
-- **Edad:** 
-- **Lugar de residencia:** 
+- **Nombres:** Andre 
+- **Apellidos:** Zagaceta
+- **Edad:** 21
+- **Lugar de residencia:** San MIguel
 
 
 **Evidencia de la entrevista:**
+<img src="assets/cap-1/entrevista_alessandro.PNG">
 
-
-**Enlace de la entrevista:** 
+**Enlace de la entrevista:**<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216035_upc_edu_pe/EaTEgOo5uhpPqhKfrRocsVUBLLwVeB6TOUh-V59LvfrsmQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=aregO1"> Clic aquí </a>
 
 
 
 **Resumen de la entrevista:**
-
+Andre Zagaceta es un estudiante universitario que conduce de manera regular a la universidad, el esta dispuesto a compartir su viaje con otros alumnos ya que cree que esto puede ayudar con la gasolina y reducir los costos de mantenimiento, y buscaria que sean personas resptuosas y que este controlado por la apliacion.
 
 
 
 -----
 **Entrevista 2:**
 
-- **Nombres:** 
-- **Apellidos:** 
-- **Edad:** 
-- **Lugar de residencia:**
+- **Nombres:** Francisco
+- **Apellidos:** Soto
+- **Edad:** 22
+- **Lugar de residencia:** Lima, Perú
 
 
 **Evidencia de la entrevista:**
+<img src="assets/cap-1/entrevista_aaron.png">
 
-
-
-**Enlace de la entrevista:** <>
+**Enlace de la entrevista:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213502_upc_edu_pe/EbhcYmyn-y1JlD7N3pR5cwoBN9sSJpjLNJq1wA_k8zbvuQ?e=o36q7H&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D"> Clic aquí </a>
 
 **Resumen de la entrevista:**
+El entrevistado indica que posee un vehículo de uso familiar que utiliza principalmente para movilizarse a la u.
+Aunque no tiene experiencia previa compartiendo su vehículo, está dispuesto a hacerlo siempre que exista un nivel
+adecuado de confianza con la persona interesada. Actualmente no conoce ninguna plataforma que le permita hacer lo que
+nuestro producto busca abarcar.
+
 
 
 
@@ -950,14 +946,13 @@ A continuación se pueden apreciar los As-Is Scenario de los segmentos objetivos
 En esta sección se resume la información recopilada. Se presentan dos tablas que detallan la situación a mejorar de cada segmento objetivo, analizando los pasos que se realizarán y cómo se sienten los usuarios en cada etapa.
 
 ### *Segmento: Estudiantes Universitarios que necesiten movilizarse*
-
-![ScenarioMapO1.jpg](../assets/cap-3/ScenarioMapO1.jpg)
+[![to-be-primer-segmento.png](https://i.postimg.cc/50YFpZh0/to-be-primer-segmento.png)](https://postimg.cc/r0TmwYFX)
 
 ---
 
 ### *Segmento: Estudiantes Universitarios propietarios de vehículo privado*
 
-![ScenarioMapO2.jpg](../assets/cap-3/ScenarioMapO2.jpg)
+[![to-be-segundo-segmento.png](https://i.postimg.cc/2jWZWNd9/to-be-segundo-segmento.png)](https://postimg.cc/mhbkxq57)
 
 
 ## 3.2. User Stories
@@ -1931,13 +1926,144 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 
 ## 4.2.  Tactical-Level Domain-Driven Design
 ### 4.2.1 Bounded Context
-#### 4.2.1.1 Domain Layer
-#### 4.2.1.2 Interface Layer
-#### 4.2.1.3 Application Layer
-#### 4.2.1.4 Infrastructure Layer
+### 4.2.1.1 Domain Layer
+### Entities
+
+#### Viaje  
+**Propósito:** Representa un viaje disponible para ser reservado.
+
+**Atributos:**
+- `id`: UUID  
+- `origen`: string  
+- `destino`: string  
+- `fecha_hora`: datetime  
+- `capacidad`: int  
+- `asientos_disponibles`: int  
+- `conductor_id`: UUID  
+- `estado`: enum {CREADO, RESERVADO, COMPLETADO, CANCELADO}  
+
+**Métodos:**
+- `reservar_asiento(usuario_id)`  
+- `finalizar()`  
+- `cancelar()`  
+
+---
+
+### Reserva  
+**Propósito:** Representa la intención de un pasajero de tomar un viaje.
+
+**Atributos:**
+- `id`: UUID  
+- `viaje_id`: UUID  
+- `usuario_id`: UUID  
+- `estado`: enum {PENDIENTE_PAGO, CONFIRMADA, CANCELADA}  
+- `fecha_reserva`: datetime  
+
+**Métodos:**
+- `confirmar()`  
+- `cancelar()`  
+
+---
+
+### Value Objects
+
+- **Ubicacion:** Encapsula origen y destino.  
+- **Horario:** Agrupa fecha y hora del viaje.  
+
+---
+
+### Aggregates
+
+- **Viaje** es el agregado raíz.  
+- Incluye a **Reserva**.  
+
+---
+
+### Factories
+
+#### ViajeFactory  
+**Método:**
+- `crear(datos: dict) → Viaje`  
+
+---
+
+### Domain Services
+
+#### ServicioDeReserva  
+Lógica para reservar asiento considerando disponibilidad, estado del viaje y validación de pago.  
+
+---
+
+### Repositories (Interfaces)
+
+#### IViajeRepository
+- `obtener_por_id(id)`  
+- `guardar(viaje)`  
+- `buscar(origen, destino, fecha)`  
+
+#### IReservaRepository
+- `guardar(reserva)`  
+- `obtener_por_id(id)`  
+
+### 4.2.1.2 Interface Layer
+
+### Command Handlers
+
+- **CrearViajeHandler:** Orquesta la creación usando la factory.  
+- **ReservarViajeHandler:** Orquesta validaciones, reserva y confirmación de pago.  
+- **FinalizarViajeHandler:** Marca viaje como completo y emite evento.  
+
+---
+
+### Event Handlers
+
+- **EventoPagoConfirmadoHandler:** Escucha confirmación de pago para actualizar la reserva.  
+- **EventoViajeFinalizadoHandler:** Emite evento hacia Calificaciones y Feedback.  
+
+### 4.2.1.3 Application Layer
+### Controllers (API REST via API Gateway)
+
+- `POST /viajes`: Crear nuevo viaje.  
+- `GET /viajes`: Buscar viajes por origen/destino.  
+- `POST /viajes/{id}/reservar`: Reservar asiento.  
+- `POST /viajes/{id}/finalizar`: Finalizar viaje.  
+
+---
+
+### App Móvil (Frontend)
+
+**Interfaces para conductor y pasajero:**
+- Publicar viajes  
+- Reservar viajes  
+- Ver historial  
+- Ver notificaciones  
+
+### 4.2.1.4 Infrastructure Layer
+### Servicios Externos
+
+- **Auth Service:** Verifica y autentica estudiantes antes de reservar o publicar.  
+- **Payment Service:** Gestiona los pagos de pasajeros y la distribución al conductor.  
+- **Notification Service:** Notifica reservas confirmadas, viajes por iniciar o finalizados.  
+- **Servicio de Mapas (Google Maps API, por ejemplo):**  
+  - Optimiza rutas  
+  - Provee coordenadas geográficas y distancias  
+
 #### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams
 #### 4.2.1.6  Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.1.6.1  Bounded Context Domain Layer Class Diagrams
+
+[![database-diagram.png](https://i.postimg.cc/8c4M9hzX/database-diagram.png)](https://postimg.cc/zHLyRHWT)
+
 ##### 4.2.1.6.2  Bounded Context Database Design Diagram
 
+[![database-design.png](https://i.postimg.cc/LsDCkZzD/database-design.png)](https://postimg.cc/3yyFYNf0)
 
+# [**Conclusiones.**](#conclusiones)
+
+- Este primer avance permitió definir claramente la problemática de movilidad estudiantil y establecer una propuesta de solución basada en el análisis del usuario, competencia y contexto. Se construyó una base sólida para el diseño centrado en el usuario y el desarrollo técnico del sistema.
+- A través de herramientas como Lean UX y Domain-Driven Design, se logró alinear la solución con las necesidades reales de los estudiantes. El trabajo realizado sienta las bases para una plataforma colaborativa, sostenible y técnicamente viable.
+
+## Bibliografia
+## Anexos
+
+Link Repositorio Github (Reporte en formato Markdown): [Reporte en Formato Markdown](https://github.com/AppsMoviles-7128-Grupo/Report?tab=readme-ov-file#studen-outcome)
