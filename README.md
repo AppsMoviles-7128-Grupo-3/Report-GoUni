@@ -2314,6 +2314,109 @@ IPagoRepository
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram
 
+### 4.2.4. Bounded Context: Gestión de Evaluaciones
+
+### 4.2.4.1 Domain Layer
+#### Entities
+
+**Evaluacion**
+
+Atributos:
+- id: UUID
+- calificacion: int (1-5)
+- comentario: string
+- evaluadorId: UUID
+- viajeId: UUID
+- fecha: Date
+
+Métodos:
+- calificar()
+- dejarComentario()
+
+---
+
+#### Value Objects
+
+**CalificacionValor**
+
+- valor: int (1-5)
+
+Validaciones:
+- valor debe estar entre 1 y 5
+
+---
+
+#### Aggregates
+
+- Evaluacion es la raíz del agregado.
+
+---
+
+#### Factories
+
+EvaluacionFactory  
+Método:
+- crear(calificacion, comentario, evaluadorId, viajeId) → Evaluacion
+
+---
+
+#### Domain Services
+
+**ValidadorEvaluacionService**
+
+Lógica para validar evaluaciones considerando:
+- verificarUsuarioViaje(evaluadorId, viajeId): boolean
+
+Valida que el evaluador haya participado en el viaje que quiere calificar.
+
+---
+
+#### Repositories (Interfaces)
+
+IEvaluacionRepository
+- guardar(evaluacion)
+- obtenerPorViaje(viajeId)
+- obtenerPorUsuario(usuarioId)
+
+---
+
+### 4.2.4.2 Interface Layer
+
+Command Handlers
+
+- CrearEvaluacionHandler: Valida y crea una evaluación.
+
+---
+
+Event Handlers
+
+- EvaluacionRegistradaHandler: Dispara actualizaciones de reputación del conductor o pasajero.
+
+---
+
+### 4.2.4.3 Application Layer
+
+Controllers (API REST via API Gateway)
+
+- POST /evaluaciones: Crea una nueva evaluación
+- GET /evaluaciones/usuario/{id}: Obtiene evaluaciones por usuario
+- GET /evaluaciones/viaje/{id}: Obtiene evaluaciones por viaje
+
+---
+
+### 4.2.4.4 Infrastructure Layer
+
+Servicios Externos
+
+- Sistema de Gestión de Usuarios: Validar que el usuario haya participado en el viaje.
+
+#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.4.6.2. Bounded Context Database Design Diagram
+
+
+
 ### 4.2.1 Bounded Context
 ### 4.2.1.1 Domain Layer
 ### Entities
