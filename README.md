@@ -2427,9 +2427,14 @@ Servicios Externos
 - Sistema de Gestión de Usuarios: Validar que el usuario haya participado en el viaje.
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+<img src="assets/cap-4/bounded-context-component-diagram-4.png">
+
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+<img src="assets/cap-4/bounded-context-class-diagram-4.png">
+
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
+<img src="assets/cap-4/bounded-context-database-diagram-4.png">
 
 ### 4.2.5. Bounded Context: Gestión de Notificaciones
 
