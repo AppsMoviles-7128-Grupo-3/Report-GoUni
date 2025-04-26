@@ -2415,7 +2415,89 @@ Servicios Externos
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
 
+### 4.2.5. Bounded Context: Gestión de Notificaciones
 
+### 4.2.5.1 Domain Layer
+#### Entities
+
+**Notificacion**
+
+Atributos:
+- id: UUID
+- mensaje: String
+- tipo: TipoNotificacion (enum)
+- receptorId: UUID
+- fechaEnvio: Date
+- estado: String (pendiente, enviada, fallida)
+
+Métodos:
+- enviarNotificacion()
+
+---
+
+#### Value Objects
+
+**TipoNotificacion**
+
+Enum:
+- VERIFICACION_APROBADA
+- VERIFICACION_RECHAZADA
+- PAGO_CONFIRMADO
+- VIAJE_PUBLICADO
+- RESERVA_CONFIRMADA
+- VIAJE_CANCELADO
+
+---
+
+#### Aggregates
+
+- Notificacion es la raíz del agregado.
+
+---
+
+#### Factories
+
+NotificacionFactory  
+Método:
+- crearDesdeEvento(evento): Notificacion
+
+---
+
+#### Domain Services
+
+**EnvioNotificacionService**
+
+Lógica para el envío de notificaciones:
+- enviar(notificacion): ResultadoEnvio
+
+---
+
+### 4.2.5.2 Application Layer
+
+Event Handlers
+
+- onVerificacionAprobada(event)
+- onVerificacionRechazada(event)
+- onPagoConfirmado(event)
+- onViajePublicado(event)
+- onReservaConfirmada(event)
+- onViajeCancelado(event)
+
+Estos métodos son listeners suscritos a los canales de eventos de los demás bounded contexts.
+
+---
+
+### 4.2.5.3 Infrastructure Layer
+
+Servicios Externos
+
+- Servicio de Email o Push Notifications (ej: Firebase, Twilio, etc.)
+- Bus de eventos (RabbitMQ, Kafka, etc.)
+
+#### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.5.6.2. Bounded Context Database Design Diagram
 
 ### 4.2.1 Bounded Context
 ### 4.2.1.1 Domain Layer
