@@ -2205,6 +2205,115 @@ IUsuarioRepository
 - Servicio de Verificación de Documentos.
 - Auth Service.
 
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.2.6.2. Bounded Context Database Design Diagram
+
+### 4.2.3. Bounded Context: Sistema de Pagos
+
+### 4.2.3.1 Domain Layer
+
+#### Entities
+
+**Pago**
+
+Atributos:
+- id: UUID
+- monto: float
+- metodoDePago: enum {TARJETA, BILLETERA}
+- estado: enum {PENDIENTE, CONFIRMADO, FALLIDO}
+- reservaId: UUID
+
+Métodos:
+- realizarPago()
+- confirmarPago()
+
+---
+
+#### Value Objects
+
+- MetodoDePago:
+    - tipo: enum {TARJETA, BILLETERA}
+    - detalles: string (tokenizado o ID del proveedor)
+
+---
+
+#### Aggregates
+
+- Pago es el agregado raíz.
+
+---
+
+#### Factories
+
+PagoFactory  
+Método:
+- crear(monto, metodo, reservaId) → Pago
+
+---
+
+#### Domain Services
+
+**ProcesadorDePagos**
+
+Lógica para procesar el pago con:
+- Interacción con proveedores externos como Stripe, PayPal o Yape/Plin.
+
+Método:
+- procesar(pago: Pago) → estado
+
+---
+
+#### Repositories (Interfaces)
+
+IPagoRepository
+- guardar(pago)
+- obtener_por_id(id)
+- obtener_por_reserva(reservaId)
+
+---
+
+### 4.2.3.2 Interface Layer
+
+#### Command Handlers
+
+- RealizarPagoHandler: Inicia un nuevo pago.
+- ConfirmarPagoHandler: Recibe confirmación del proveedor.
+- CancelarPagoHandler: Marca el pago como fallido o cancelado.
+
+---
+
+#### Event Handlers
+
+- EventoPagoConfirmadoHandler: Notifica al sistema de reservas.
+- EventoPagoFallidoHandler: Informa al usuario y actualiza estado.
+
+---
+
+### 4.2.3.3 Application Layer
+
+#### Controllers (API REST via API Gateway)
+
+- POST /pagos: Realiza un nuevo pago
+- GET /pagos/{id}: Ver detalles del pago
+- POST /pagos/{id}/confirmar: Confirma el pago
+- POST /pagos/{id}/cancelar: Cancela el pago
+
+---
+
+### 4.2.3.4 Infrastructure Layer
+
+#### Servicios Externos
+
+- Proveedor de Pagos (Stripe/PayPal/Yape): Procesamiento real del pago.
+- Servicio de Tokenización: Para guardar datos de tarjetas de forma segura.
+
+#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.3.6.2. Bounded Context Database Design Diagram
+
 ### 4.2.1 Bounded Context
 ### 4.2.1.1 Domain Layer
 ### Entities
