@@ -44,11 +44,11 @@
 Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la siguiente forma:
 
 | **Versión**   | **Fecha** | **Autor**                  | **Descripción**                                                                                  |
-|---------------|-----------|----------------------------|--------------------------------------------------------------------------------------------------|
-| **#01 - TB1** | 19/04/25  | David Polanco, Alessandro  | Formateo del Capitulo 1, Capitulo 2, y Capitulo 3, desarrollo de la seccion 4.1.1 del capitulo 4 |
-| **#01 - TB1** | 19/04/25  | Chirinos Zúñiga, Rodrigo   | Desarrollo de la seccion 4.2 del capitulo 4                                                      |
-|               |  19/04/25 | Cruz Ticona, Aaron         |                                                                                                  |
-| **#01 - TB1** | 19/04/25  | Zevallos Linares, Alessandro   | Desarrollo de la seccion 4.2 del capitulo 4                                                      |
+|---------------|----------|----------------------------|--------------------------------------------------------------------------------------------------|
+| **#01 - TB1** | 19/04/25 | David Polanco, Alessandro  | Formateo del Capitulo 1, Capitulo 2, y Capitulo 3, desarrollo de la seccion 4.1.1 del capitulo 4 |
+| **#01 - TB1** | 19/04/25 | Chirinos Zúñiga, Rodrigo   | Desarrollo de la seccion 4.2 del capitulo 4                                                      |
+| **#01 - TB1** | 19/04/25 | Cruz Ticona, Aaron         | Desarrollo del Capitulo 4.2 Bounded Contexts                                                     |
+| **#01 - TB1** | 19/04/25 | Zevallos Linares, Alessandro   | Desarrollo de la seccion 4.2 del capitulo 4                                                      |
 
 ---
 
