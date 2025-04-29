@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="939fc6bb-8e78-4362-a07a-bd82005da1a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/cap-6/deployGithub.002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-6/importAnExistingProject.001.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -54,11 +52,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alessandro\WebstormProjects\Report-GoUni\assets\cap-6" />
       <recent name="C:\Users\USER\WebstormProjects\Project\assets\cap-5" />
       <recent name="C:\Users\USER\WebstormProjects\Project\assets\cap-4" />
       <recent name="C:\Users\USER\WebstormProjects\Project\assets\cap-3" />
       <recent name="C:\Users\USER\WebstormProjects\Project\assets\cap-2" />
-      <recent name="C:\Users\USER\WebstormProjects\Project\assets\cap-1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\USER\WebstormProjects\Project\assets\images\profiles" />
@@ -88,7 +86,7 @@
       <workItem from="1745897117530" duration="1610000" />
       <workItem from="1745899070528" duration="303000" />
       <workItem from="1745944683746" duration="1275000" />
-      <workItem from="1745950982671" duration="1489000" />
+      <workItem from="1745950982671" duration="2989000" />
     </task>
     <servers />
   </component>

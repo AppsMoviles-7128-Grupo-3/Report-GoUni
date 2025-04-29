@@ -2844,8 +2844,66 @@ Este enlace redirige a la landing page desarrollada con **Angular** y desplegada
 
 ## 6.2 Landing Page, Services & Applications Implementation
 ### 6.2.1 Sprint 1.
+
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el **Sprint 1**, enfocado en el desarrollo de la landing page. Se detalla el progreso tangible y funcional, incluyendo su diseño, desarrollo y funcionalidades implementadas, así como la colaboración del equipo, los métodos de comunicación utilizados y las herramientas empleadas para garantizar una cooperación efectiva. Además, se incluye información sobre la planificación del sprint, el backlog de tareas, evidencia del desarrollo, documentación de servicios utilizados y reflexiones sobre la colaboración del equipo, proporcionando una visión completa del progreso alcanzado.
+
+---
+
 #### 6.2.1.1 Sprint Planning 1.
+
+En el **Sprint Planning 1**, se presenta evidencia de la planificación e implementación de la landing page, incluyendo avances del proyecto y aprendizajes de colaboración en equipo registrados en **GitHub**.
+
+| **Sprint #**                 | Sprint 1                                                                                                                                                                                                                                                                                                                                     |
+|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background** |                                                                                                                                                                                                                                                                                                                                              |
+| **Date**                     | 30 de abril de 2025                                                                                                                                                                                                                                                                                                                          |
+| **Time**                     | 22:00 horas (GMT-5)                                                                                                                                                                                                                                                                                                                          |
+| **Location**                 | Modalidad remota                                                                                                                                                                                                                                                                                                                             |
+| **Prepared By**              | LinkU                                                                                                                                                                                                                                                                                                                                        |
+| **Attendees (to planning meeting)** | Todos los miembros de LinkU                                                                                                                                                                                                                                                                                                                  |
+| **Sprint 0 Review Summary**  | Debido a que es el primer sprint, no hay review summary de un sprint anterior.                                                                                                                                                                                                                                                               |
+| **Sprint 1 Retrospective Summary** | En este Sprint se planea desarrollar el landing page con HTML y CSS3. Previamente, el landing page se diseñó en Figma. El grupo discutió cómo diseñar el landing, implementar imágenes y todo lo referente a la interfaz. Al finalizar este sprint, el landing page estará desplegado en Netlify, permitiendo el acceso público al proyecto. |
+| **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                              |
+| **Sprint Goal 1**            | El objetivo de este sprint es el desarrollo y despliegue de la landing page.                                                                                                                                                                                                                                                                 |
+| **Sprint Velocity 1**        | 8                                                                                                                                                                                                                                                                                                                                            |
+| **Sum of Story Points**      | 36                                                                                                                                                                                                                                                                                                                                           |
+
+---
 #### 6.2.1.2 Sprint Backlog 1.
+
+En esta parte mostramos las tareas que se realizaron en este sprint.
+
+**Link del Trello:**  
+<https://trello.com/b/4BqoJyJj>
+
+**Vista del Sprint Backlog en Trello:**  
+![trelloSprint1.png](assets/images/sprint1/trelloSprint1.png)
+
+---
+
+| **Sprint #**   | **Sprint 1**                                                                                                                                                                                                                  |     |     |                                                                                             |           |                    |     |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|-----|---------------------------------------------------------------------------------------------|-----------|--------------------|-----|
+| **User Story**  | **Work-item / Task**                                                                                                                                                                                                         |     |     |                                                                                             |           |                    |     |
+| **ID**         | **Title**                        | **Id** | **Title**                        | **Description**                                                                             | **Estimation (hours)** | **Assigned To**    | **Status (To-do / In-Process / To-Review / Done)** |
+| **E5-US01**     | Barra de navegación en la landing page | **T1** | Navbar section                  | Implementar navbar con botón (redirige a la aplicación) y responsive design          | 1h        | Alessandro David   | Done    |
+| **E5-US02**     | Dirigirse a la aplicación mediante el landing page | **T2** | Button Call to Action         | Implementar el button Call to Action del navbar                          | 0.1h      | Rodrigo Chirinos   | Done    |
+| **E5-US03**     | Sección hero del landing page   | **T3** | Navbar section responsive       | Aplicar diseño responsive a las opciones del navbar                                         | 1h        | Rodrigo Chirinos   | Done    |
+| **E5-US03**     | Sección hero del landing page   | **T4** | Hero section                    | Implementar un hero section                                                                 | 1h        | Aaron Cruz         | Done    |
+| **E5-US03**     | Sección hero del landing page   | **T5** | Responsive design hero section  | Aplicar design responsive al hero section                                                   | 1h        | Aaron Cruz         | Done    |
+| **E5-US03**     | Sección hero del landing page   | **T6** | Product section and items       | Implementar Product section y los ítems característicos en orden grid                       | 1h        | Alessandro David   | Done    |
+| **E5-US03**     | Sección hero del landing page   | **T7** | Responsive design Product section | Implementar diseño responsive a Product section                                             | 1h        | Alessandro David   | Done    |
+| **E5-US03**     | Sección hero del landing page   | **T8** | Customers section and items     | Implementar Customers section y los ítems característicos en orden grid y aplicar animaciones | 1.5h      | Rodrigo Chirinos   | Done    |
+| **E5-US03**     | Sección hero del landing page   | **T9** | Responsive design Customers section | Implementar diseño responsive a Customers section                                         | 1h        | Rodrigo Chirinos   | Done    |
+| **E5-US03**     | Sección hero del landing page   | **T10** | Pricing section                | Implementar Pricing section y los ítems característicos en orden grid                       | 1h        | Alessandro Zevallos | Done    |
+| **E5-US03**     | Sección hero del landing page   | **T11** | Responsive design Pricing section | Implementar diseño responsive a Pricing section                                         | 1h        | Alessandro Zevallos      | Done    |
+| **E5-US03**     | Sección hero del landing page   | **T12** | Contact section                | Implementar Contact section y los ítems característicos en orden grid                       | 1h        | Alessandro Zevallos      | Done    |
+| **E5-US03**     | Sección hero del landing page   | **T13** | Responsive design Contact section | Implementar diseño responsive a Contact section                                         | 1h        | Alessandro Zevallos      | Done    |
+| **E5-US03**     | Sección hero del landing page   | **T14** | Footer section                 | Implementar footer section                                                                  | 1h        | Alessandro David   | Done    |
+| **E5-US03**     | Sección hero del landing page   | **T15** | Social media section            | Implementar icons para las redes sociales y también links                                   | 0.5h      | Alessandro David   | Done    |
+| **E5-US03**     | Sección hero del landing page   | **T16** | Responsive design footer section | Aplicar diseño responsive                                                                   | 1h        | Aaron Cruz        | Done    |
+| **E5-US04**     | Versión en español de landing page | **T17** | Switch que activa I18n         | Button de tipo switch que permite cambiar de idioma a la landing                            | 0.5h      | Alessandro David       | Done    |
+
+
 #### 6.2.1.3 Development Evidence for Sprint Review.
 #### 6.2.1.4 Testing Suite Evidence for Sprint Review.
 #### 6.2.1.5 Execution Evidence for Sprint Review.
