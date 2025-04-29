@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="939fc6bb-8e78-4362-a07a-bd82005da1a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/cap-4/Diagrama_clase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-4/databasediagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/cap-1/collab-insight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/cap-5/colors.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/cap-5/guidelines.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/cap-5/navigation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/cap-5/search.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Report.md" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Report.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -43,7 +47,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/WebstormProjects/Project/assets/cap-4&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/WebstormProjects/Project/assets/cap-5&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -54,6 +58,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\WebstormProjects\Project\assets\cap-5" />
       <recent name="C:\Users\USER\WebstormProjects\Project\assets\cap-4" />
       <recent name="C:\Users\USER\WebstormProjects\Project\assets\cap-3" />
       <recent name="C:\Users\USER\WebstormProjects\Project\assets\cap-2" />
@@ -83,6 +88,9 @@
       <workItem from="1745381334195" duration="8605000" />
       <workItem from="1745450502311" duration="11452000" />
       <workItem from="1745550984559" duration="1288000" />
+      <workItem from="1745861860373" duration="605000" />
+      <workItem from="1745897117530" duration="1610000" />
+      <workItem from="1745899070528" duration="303000" />
     </task>
     <servers />
   </component>

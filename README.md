@@ -22,12 +22,10 @@
 
 | **Member**                | **Code**   |
 |---------------------------|------------|
-|                           |            |
 | David Polanco, Alessandro | u202122232 |
 | Chirinos Zúñiga, Rodrigo  | u202217804 |
 | Cruz Ticona, Aaron        | u202213502 |
 | Zevallos Linares, Alessandro       | u202216035 |
-|                           |            |
 
 </div>
 
@@ -52,11 +50,24 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
 
 ---
 
+### _TB2_
+
+Para el desarrollo de la entrega **TB2**, se optó por dividir el trabajo de la siguiente forma:
+
+| **Versión**   | **Fecha** | **Autor**                  | **Descripción**                              |
+|---------------|-----------|----------------------------|----------------------------------------------|
+| **#01 - TB1** | 4/05/25   | David Polanco, Alessandro  | Formateo del Capitulo 5                      |
+| **#01 - TB1** | 4/05/25   | Chirinos Zúñiga, Rodrigo   | Desarrollo de la seccion 4.2 del capitulo 4  |
+| **#01 - TB1** | 4/05/25   | Cruz Ticona, Aaron         | Desarrollo del Capitulo 4.2 Bounded Contexts |
+| **#01 - TB1** | 4/05/25   | Zevallos Linares, Alessandro   | Desarrollo de la seccion 4.2 del capitulo 4  |
+
+---
+
 # Project Report Collaboration Insights
 
 **URL del repositorio de GitHub de la organización:** [https://github.com/orgs/AppsMoviles-7128-Grupo](https://github.com/orgs/AppsMoviles-7128-Grupo)
 
-![ProjectReportCollaborationInsigths.png](assets/images/ProjectReportCollaboration/ProjectReportCollaborationInsigths.png)
+![ProjectReportCollaborationInsigths.png](./assets/cap-1/collab-insight.png)
 
 ---
 
@@ -107,25 +118,25 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
     - [**3.3 Impact Mapping.**](#33-impact-mapping)
     - [**3.4 Product Backlog.**](#34-product-backlog)
 
-- [**Capítulo IV: Solution Software Design.**](#capítulo-iv-product-design)
+- [**Capítulo IV: Solution Software Design.**](#capítulo-iv-solution-software-design)
     - [**4.1 Strategic-Level Domain-Driven-Design.**](#41-strategic-level-domain-driven-design)
         - [**4.1.1 Event Storming.**](#411-event-storming)
             - [**4.1.1.1 Candidate Context Discovery.**](#4111-candidate-context-discovery)
             - [**4.1.1.2 Domain Message Flows Modeling.**](#4112-domain-message-flows-modeling)
             - [**4.1.1.3 Bounded Context Canvases.**](#4113-bounded-context-canvases)
-        - [**4.1.2 Context Mapping.**](#42-context-mapping)
-        - [**4.1.3 Software Architecture.**](#413-software-architetcture)
+        - [**4.1.2 Context Mapping.**](#412-context-mapping)
+        - [**4.1.3 Software Architecture.**](#413-software-architecture)
             - [**4.1.3.1 Software Architecture Context Level Diagrams.**](#4131-software-architecture-context-level-diagrams)
             - [**4.1.3.2 Software Architecture Container Level Diagrams.**](#4132-software-architecture-container-level-diagrams)
             - [**4.1.3.3 Software Architecture Deployment Level Diagrams.**](#4133-software-architecture-deployment-level-diagrams)
     - [**4.2 Tactical-Level Domain-Driven Design.**](#42-tactical-level-domain-driven-design)
-        - [**4.2.1 Bounded Context: <Bounded Context Name>.**](#421-bounded-context:-<bounded-context-name>)
+        - [**4.2.1 Bounded Context: <Bounded Context Name>.**](#421-bounded-context-gestión-de-viajes-compartidos)
             - [**4.2.1.1 Domain Layer.**](#4211-domain-layer)
             - [**4.2.1.2 Interface Layer.**](#4212-interface-layer)
             - [**4.2.1.3 Application Layer.**](#4213-application-layer)
             - [**4.2.1.4 Infrastructure Layer.**](#4214-infrastructure-layer)
             - [**4.2.1.5 Bounded Context Software Architecture Component Level Diagrams.**](#4215-bounded-context-software-architecture-component-level-diagrams)
-            - [**4.2.1.6 Bounded Context Software Architecture Code Level Diagrams.**](#4216-bounded-context-software-architecture-code-level-diagram)
+            - [**4.2.1.6 Bounded Context Software Architecture Code Level Diagrams.**](#4216-bounded-context-software-architecture-code-level-diagrams)
                 - [**4.2.1.6.1 Bounded Context Domain Layer Class Diagrams.**](#42161-bounded-context-domain-layer-class-diagrams)
                 - [**4.2.1.6.2 Bounded Context Database Design Diagram.**](#42162-bounded-context-database-design-diagram)
 
@@ -139,7 +150,6 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
             - [**5.1.2.3 SEO Tags and Meta Tags.**](#5123-seo-tags-and-meta-tags)
             - [**5.1.2.4 Searching Systems.**](#5124-searching-systems)
             - [**5.1.2.5 Navigation Systems.**](#5125-navigation-systems)
-
 
 - [**Capítulo VI: Product Implementation, Validation & Deployment.**](#capítulo-vi-product-implementation-validation--deployment)
     - [**6.2.1 Sprint 1.**](#621-sprint-1)
@@ -199,28 +209,28 @@ Aspiramos a ser líderes en movilidad estudiantil, reconocidos por nuestro compr
     <th>Descripción</th>
   </tr>
   <tr>
-    <td><img src="assets/images/profiles/perfil_alessandro.jpg" alt="" width="130" height="140"></td>
+    <td><img src="assets/images/profiles/perfil_alessandro.jpg" alt="" width="700" height="140"></td>
     <td>Soy Alessandro Zevallos,estudiante de Ingeniería de Software con un fuerte interés en el desarrollo de productos digitales y la tecnología. En mi tiempo libre, me gusta jugar videojuegos. También tengo un interés especial en la música, lo que me ayuda a equilibrar mi vida académica y personal.</td>
   </tr>
 
    <tr>
-    <td><img src="assets/images/profiles/alessandro-profile.jpeg" width="130" height="160"></td>
+    <td><img src="assets/images/profiles/alessandro-profile.jpeg" width="700" height="160"></td>
     <td>Mi nombre es Alessandro David y tengo 21 años. Yo estoy cursando
     la carrera de Ingenieria de Software en la UPC y ando en 7mo ciclo. Me gusto
     demasiado mi eleccion referente a la carrera dado que me interesan mucho todos los temas
     que tenga que ver con la tecnologia y las tendencias de este rubro. Me gusta leer libros de desarrollo
-    personal y tambien trenar y montar bicicleta. Me considero una persona empática, comprometida, y siempre atento 
-    a resolver cualquier problema que me concierna. Como integrante del grupo de Open Source me comprometo
+    personal y tambien entrenar y montar bicicleta. Me considero una persona empática, comprometida, y siempre atento 
+    a resolver cualquier problema que me concierna. Como integrante del grupo de Apps Moviles me comprometo
     a cooperar con todo lo asignado en el trabajo y apoyar a mis compañeros con cualquier duda que quieran absolver.</td>
   </tr>
 
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/9895e794-a88f-4436-a332-8d5c8112f9cb" width="110" height="150"></td>
+    <td><img src="https://github.com/user-attachments/assets/9895e794-a88f-4436-a332-8d5c8112f9cb" width="700" height="150"></td>
     <td>Tengo 20 años, soy un estudiante de la carrera de Ingeniería de Software, considero que soy una persona responsable y de escucha activa. Estoy comprometido con mis compañeros en realizar un buen trabajo y así aprender todos en el proceso. También tengo conocimientos en programación en C++, HTML, CSS y JavaScript.</td>
   </tr>
 
   <tr>
-    <td><img src="assets/images/profiles/aaron_profile.jpg" width="140" height="140"></td>
+    <td><img src="assets/images/profiles/aaron_profile.jpg" width="700" height="140"></td>
     <td>Actualmente, me encuentro cursando la carrera de Ingeniería de Software, una disciplina que despierta mi 
         constante curiosidad y deseo de aprendizaje. Mi motivación por adquirir nuevos conocimientos es una de mis 
         principales fortalezas, y espero seguir nutriéndola a lo largo del curso. Me considero una persona adaptable, 
@@ -473,9 +483,9 @@ Por medio de nuestro enfoque de obtener una solución efectiva a las problemáti
 
 ---
 
-**Capítulo II: Requirements Elicitation & Analysis**
+# Capítulo II: Requirements Elicitation & Analysis
 
-**2.1. Competidores**
+## 2.1. Competidores
 
 **BlaBlaCar**
 
@@ -489,7 +499,7 @@ Es una plataforma de transporte privado en van que opera en rutas predefinidas,�
 
 Es una aplicación internacional de ride-hailing que ofrece transporte bajo demanda con tarifas competitivas y un enfoque en la facilidad de uso. Opera en diversas ciudades del mundo, brindando a los usuarios una experiencia de transporte rápida, segura y accesible, con la opción de reservar y pagar viajes directamente a través de la aplicación.
 
-**2.1.1. Análisis competitivo**
+### 2.1.1. Análisis competitivo
 
 <table>
   <tr>
@@ -640,7 +650,7 @@ precios competitivos y una plataforma fácil de usar.</td>
   </tr>
 </table>
 
-**2.1.2. Estrategias y tácticas frente a competidores**
+### 2.1.2. Estrategias y tácticas frente a competidores
 
 - **Diferenciación de la plataforma:**
   GoUni se diferencia por ser una plataforma exclusiva para estudiantes universitarios. El enfoque en la comunidad académica y la seguridad brinda un entorno más cerrado y confiable en comparación con otras plataformas abiertas al público general. Además, su misión de promover la sostenibilidad y la economía colaborativa refuerza su atractivo para jóvenes conscientes del medio ambiente.
@@ -654,9 +664,9 @@ precios competitivos y una plataforma fácil de usar.</td>
 - **Monetización creativa:**
   La monetización de GoUni se basará en la compartición de costos entre estudiantes, pero puede explorar modelos adicionales como suscripciones premium que ofrezcan beneficios exclusivos, como rutas garantizadas o mayor seguridad. También podría implementar alianzas con marcas enfocadas en estudiantes, generando ingresos adicionales a través de publicidad contextual o colaboraciones.
 
-**2.2. Entrevistas**
+## 2.2. Entrevistas
 
-**2.2.1. Diseño de entrevistas**
+### 2.2.1. Diseño de entrevistas
 
 En esta sección se han definido todas las preguntas que se plantearán en el momento de realizar las entrevistas a los diferentes segmentos objetivos.
 
@@ -686,7 +696,7 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 1. ¿Cómo manejas los costos de mantenimiento y gasolina? ¿Crees que compartir tu vehículo podría ayudar a reducir esos costos?
 1. ¿Cuáles son tus expectativas en cuanto a seguridad y comodidad al ofrecer tu vehículo para transportar a otros?
 
-**2.2.2 Registro de entrevistas**
+### 2.2.2 Registro de entrevistas
 
 **Segmento 1: Estudiantes Universitarios**
 
@@ -729,7 +739,7 @@ Maria Gracia es una estudiante universitaria de la UPC que no tiene muchas dific
 
 **Entrevista 1:**
 
-- **Nombres:** Andre 
+- **Nombres:** Andre
 - **Apellidos:** Zagaceta
 - **Edad:** 21
 - **Lugar de residencia:** San MIguel
@@ -769,7 +779,7 @@ nuestro producto busca abarcar.
 
 
 
-**2.2.3 Análisis de entrevistas.**
+## 2.2.3 Análisis de entrevistas.
 
 <TABLE BORDER>
 	<TR>
@@ -840,9 +850,9 @@ nuestro producto busca abarcar.
 </TR>
 </TABLE>
 
-**2.3. Needfinding**
+## 2.3. Needfinding
 
-**2.3.1. User Personas**
+### 2.3.1. User Personas
 ***Estudiantes universitarios:***
 
 <img src="assets/cap-2/user-persona-1.png" width="800px">
@@ -852,7 +862,7 @@ nuestro producto busca abarcar.
 <img src="assets/cap-2/user-persona-2.png" width="800px">
 
 -----
-**2.3.2. User Task Matrix**
+### 2.3.2. User Task Matrix
 
 A continuación se pueden apreciar los User Task Matrix de los segmentos objetivos.
 
@@ -881,7 +891,7 @@ A continuación se pueden apreciar los User Task Matrix de los segmentos objetiv
 |Calificar a los pasajeros|Low|Medium|
 |Optimizar rutas para ahorrar tiempo y combustible|Medium|High|
 
-**2.3.3. User Journey Mapping**
+### 2.3.3. User Journey Mapping
 
 A continuación se pueden apreciar los User Journey Mapping de los segmentos objetivos.
 
@@ -895,7 +905,7 @@ A continuación se pueden apreciar los User Journey Mapping de los segmentos obj
 <img src="assets/cap-2/journey-map-2.png" width="900px">
 
 -----
-**2.3.4. Empathy Mapping**
+### 2.3.4. Empathy Mapping
 
 A continuación se pueden apreciar los Empathy Mapping de los segmentos objetivos.
 
@@ -908,7 +918,7 @@ A continuación se pueden apreciar los Empathy Mapping de los segmentos objetivo
 <img src="assets/cap-2/empathy-mapping-2.png" width="900px">
 
 -----
-**2.3.5. As-is Scenario Mapping**
+### 2.3.5. As-is Scenario Mapping
 
 A continuación se pueden apreciar los As-Is Scenario de los segmentos objetivos.
 
@@ -923,7 +933,7 @@ A continuación se pueden apreciar los As-Is Scenario de los segmentos objetivos
 **Enlace de Miro:** 
 
 -----
-**2.4. Ubiquitous Language**
+## 2.4. Ubiquitous Language
 
 - **Usuario**: Estudiante universitario registrado en la plataforma, ya sea como conductor o pasajero.
 - **Conductor**: Estudiante universitario que posee un vehículo y está dispuesto a compartir su viaje hacia la universidad con otros estudiantes a cambio de una compensación económica.
@@ -1876,7 +1886,7 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 
 ---
 
-# Capítulo IV: Requirements Specification
+# Capítulo IV: Solution Software Design
 
 ## 4.1.  Strategic-Level Domain-Driven-Design
 ### 4.1.1 Event Storming
@@ -1930,7 +1940,7 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 ### 4.2.1.1 Domain Layer
 #### Entities
 
-**Viaje**  
+**Viaje**
 
 Atributos:
 - id: UUID
@@ -1949,7 +1959,7 @@ Métodos:
 
 ---
 
-**Reserva**  
+**Reserva**
 
 Atributos:
 - id: UUID
@@ -2098,6 +2108,7 @@ Servicios Externos
 <img src="assets/cap-4/bounded-context-component-diagram-1.png">
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 <img src="assets/cap-4/bounded-context-class-diagram-1.png">
 
@@ -2525,12 +2536,184 @@ Servicios Externos
 ##### 4.2.5.6.2. Bounded Context Database Design Diagram
 <img src="assets/cap-4/bounded-context-database-diagram-5.png">
 
+# Capítulo V: Solution UI/UX Design
+## 5.1. Product Design
+### 5.1.1. Style Guidelines
+En esta sección se describen las pautas generales de estilo que guían la apariencia visual del producto, incluyendo el uso de colores, tipografía y espaciado.
+
+#### 5.1.1.1 General Style Guidelines
+
+Las directrices generales aseguran una estética que refuerza la marca y proporciona claridad visual para los usuarios.
+
+#### Historia de la marca
+La marca busca transmitir modernidad y profesionalismo, reflejando estos valores en cada elemento visual del diseño.
+
+#### Misión
+Proporcionar a los usuarios una experiencia fluida y atractiva, con interfaces claras y consistentes.
+
+#### Visión
+Ser reconocidos como una marca que combina funcionalidad y estilo en el diseño de productos digitales.
+
+#### Brand Name
+El nombre de la marca es un elemento clave de nuestra identidad, representando los valores fundamentales de la empresa.
+
+#### Colores
+La paleta de colores está diseñada para proporcionar un equilibrio visual. Utilizamos una combinación de tonos brillantes y neutros para transmitir profesionalismo y modernidad.
+
+![Paleta de Colores](assets/cap-5/colors.png)
+
+#### Tipografía
+Usamos la tipografía **Roboto** en diferentes pesos para establecer jerarquía visual y garantizar una legibilidad óptima. El color de la letra principal es `#404040`.
+
+![Guía de Tipografía](assets/cap-5/guidelines.png)
+
+#### Espaciado
+El espaciado entre elementos visuales asegura una estructura clara y organizada, ayudando a los usuarios a navegar por el contenido de forma fluida.
+
+- **Tamaño de letra**: Las fuentes varían desde 12px hasta 98px según la jerarquía del texto.
+- **Interlineado**: Mantenemos un interlineado proporcional para mejorar la legibilidad.
+
+### 5.1.2 Information Architecture.
+En esta sección, se describe cómo se organizará el contenido en la plataforma **GoUni**, tanto en la web como en las aplicaciones móviles. Se busca que la estructura sea intuitiva para los estudiantes universitarios, permitiendo una navegación fluida y el acceso rápido a las principales funcionalidades de la plataforma.
+
+<hr>
+
+#### 5.1.2.1 Organization Systems.
+
+El Sistema de Organización de **GoUni** está diseñado para facilitar la interacción entre el usuario y la plataforma, asegurando que los estudiantes puedan encontrar y utilizar los servicios clave, como la búsqueda de viajes o la oferta de plazas en vehículos.
+
+- **Jerarquía Visual**: La página principal destacará las acciones más importantes para el usuario, como “Buscar viaje” y “Publicar viaje”, con énfasis en botones de llamada a la acción que lleven a estas secciones.
+- **Organización Secuencial**: Se aplicará a procesos clave como el registro de usuario, reserva de un viaje y configuración de perfil. Estos procesos se guiarán paso a paso, asegurando que los usuarios completen cada tarea sin problemas.
+- **Organización Matricial**: Los filtros de búsqueda permitirán a los usuarios seleccionar viajes según el tipo de vehículo, horario y calificaciones del conductor, haciendo que sea más fácil encontrar un viaje que se ajuste a sus necesidades.
+- **Esquemas de Categorización**: La categorización de la información podrá hacerse por orden alfabético (al buscar conductores por nombre), cronológico (al organizar las reservas según la fecha), o por audiencia (al segmentar entre conductores y pasajeros).
+
+<br>
+
+#### 5.1.2.2 Labelling Systems.
+
+En **GoUni**, las etiquetas se diseñarán para ser claras, directas y comprensibles para los estudiantes, priorizando una navegación simple y una experiencia de usuario intuitiva.
+
+### Etiquetas:
+- **Inicio**: Al hacer clic en el logo de GoUni, los usuarios serán redirigidos a la página principal.
+- **Buscar Viaje**: Opción en el menú principal que permite a los estudiantes buscar viajes disponibles en su universidad.
+- **Publicar Viaje**: Los usuarios con vehículo propio podrán acceder a esta opción para publicar su ruta y disponibilidad de asientos.
+- **Reservas Actuales**: Sección donde los usuarios pueden ver y gestionar sus reservas actuales.
+- **Perfil**: Permite a los usuarios gestionar sus datos personales, verificar su identidad y ver su historial de viajes.
+
+Una vez que los usuarios se registren y accedan a su cuenta, aparecerán nuevas etiquetas como:
+- **Mis Viajes**: Un lugar donde los usuarios pueden revisar sus reservas activas y pasadas.
+- **Calificar Conductores**: Opción que aparece tras la finalización de un viaje, permitiendo dejar comentarios y puntuaciones.
+
+<br>
+
+#### 5.1.2.3 SEO Tags and Meta Tags.
+
+Los SEO Tags y Meta Tags son esenciales para mejorar la visibilidad de **GoUni** en los motores de búsqueda.
+
+### Para la Landing Page:
+```html
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GoUni - Carpooling para Estudiantes Universitarios</title>
+<meta name="description" content="GoUni es la plataforma de carpooling exclusiva para estudiantes universitarios, enfocada en la seguridad, sostenibilidad y economía colaborativa.">
+<meta name="keywords" content="carpooling universitario, compartir autos estudiantes, movilidad sostenible, transporte colaborativo">
+<meta name="author" content="GoUni Team">
+```
+### Para la App Movil:
+```xml
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.gouni.app">
+
+    <application
+            android:label="GoUni"
+            android:icon="@mipmap/ic_launcher"
+            android:theme="@style/Theme.GoUni">
+
+        <meta-data
+                android:name="description"
+                android:value="Con GoUni, comparte tu auto con otros estudiantes universitarios y ahorra en transporte mientras ayudas al medio ambiente." />
+
+        <meta-data
+                android:name="keywords"
+                android:value="carpooling estudiantes, compartir auto universidad, transporte sostenible, viaje colaborativo" />
+
+        <meta-data
+                android:name="author"
+                android:value="GoUni Team" />
+
+        <!-- Activity principal -->
+        <activity
+                android:name=".MainActivity"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
+```
+
+<br>
+
+#### 5.1.2.4 Searching Systems.
+
+El sistema de búsqueda en GoUni facilitará a los usuarios encontrar viajes disponibles de forma rápida y efectiva. La funcionalidad de búsqueda incluirá:
+
+Búsqueda por Universidad: Los estudiantes podrán buscar viajes que conecten con su universidad específica.
+Filtros de Búsqueda: Los usuarios podrán filtrar los resultados por tipo de vehículo, horario de salida, calificación del conductor y disponibilidad de plazas.
+Organización de Resultados: Los resultados se podrán ordenar de manera alfabética, por hora de salida o por la proximidad del conductor al punto de recogida.
+
+![Searching.png](assets/cap-5/search.png)
+
+#### 5.1.2.5 Navigation Systems.
+
+El sistema de navegación de GoUni estará diseñado para que los usuarios puedan encontrar la información y realizar las acciones deseadas con el mínimo esfuerzo.
+
+Navegación Principal: El menú superior incluirá accesos rápidos a las funciones clave: "Buscar Viaje", "Publicar Viaje", "Reservas Actuales" y "Perfil".
+Navegación Móvil: En la versión móvil, el menú será desplegable para ahorrar espacio y mostrar solo las opciones más importantes de manera compacta. Los usuarios podrán regresar a la página de inicio pulsando el logo de GoUni.
+Navegación Secundaria: En secciones como el perfil, habrá opciones adicionales para gestionar la cuenta, verificar la identidad o ajustar preferencias de notificaciones.
+
+![Navigation.png](assets/cap-5/navigation.png)
+
 ## Conclusiones
 - Este primer avance permitió definir claramente la problemática de movilidad estudiantil y establecer una propuesta de solución basada en el análisis del usuario, competencia y contexto. Se construyó una base sólida para el diseño centrado en el usuario y el desarrollo técnico del sistema.
 - A través de herramientas como Lean UX y Domain-Driven Design, se logró alinear la solución con las necesidades reales de los estudiantes. El trabajo realizado sienta las bases para una plataforma colaborativa, sostenible y técnicamente viable.
 
 
 ## Bibliografia
+
+1. NEI. (2021). *Encuesta Nacional de Hogares: Módulo de Victimización*. Lima, Perú: INEI.
+2. Traverso, J. L. (2020). *Impacto del crimen en la calidad de vida de los habitantes de Lima Metropolitana*. *Revista Peruana de Criminología*, 3(1), 45-58.
+3. Municipalidad Metropolitana de Lima. (2023). *Informe anual sobre el estado del transporte público en Lima*. Lima, Perú: Autor.
+4. Flores Martos, C. Y., & Gonzales Otiniano, J. E. (2018). Efecto de la implementación del aplicativo Carpooling, bajo la norma ISO 9126, en la economía de estudiantes universitarios de Cajamarca.
+5. Amaro Meza, R. D. (2019). Aplicación carpooling para el transporte de personas que trabajan en el Centro Empresarial de San Isidro.
+6. Flores Martos, C. Y., & Gonzales Otiniano, J. E. (2018). Efecto de la implementación del aplicativo Carpooling, bajo la norma ISO 9126, en la economía de estudiantes universitarios de Cajamarca.
+7. Valdez Fabian, I. K. (2023). Gestión de comunicación del proyecto de responsabilidad social Facilito de Osinergmin en Lima Metropolitana.
+8. Jáuregui Mena, G. M. ¿La culpa es solo del conductor?: Un análisis de la responsabilidad de las plataformas digitales frente al consumidor de taxi por aplicativo en el Perú.
+9. Hofer, S., & Schwentner, H. (2021). *Domain Storytelling: A Collaborative, Visual, and Agile Way to Build Domain-Driven Software*. Addison-Wesley Professional.
+10. Vural, H., & Koyuncu, M. (2021). Does domain-driven design lead to finding the optimal modularity of a microservice?. *IEEE Access*, 9, 32721-32733.
+11. Tramullas Ortiz, C. (2023). *Diseño y aplicación de autómatas programables basados en open source*.
+12. Casado, P. E. F. (2020). *Domine JavaScript* (4ª Edición). Ra-Ma Editorial.
+13. Casado, P. E. F. (2023). *Creación de componentes en JavaScript Curso practico*. Ra-Ma Editorial.
+14. Fernández, P. (2023). *Construcción y diseño de páginas web con HTML, CSS y JavaScript*. Ediciones de la U.
+15. García-Holgado, A., & García-Peñalvo, F. J. (2014). *Patrón arquitectónico para la definición de ecosistemas de eLearning basados en desarrollos open source*.
+16. Molina Araque, F. A., & Espitia Pineda, A. A. (2016). *Propuesta de diseño e implementación de una aplicación móvil (App) como plataforma para compartir el uso del carro particular (carpooling) entre empleados de las sucursales en Bogotá de la empresa Claro Colombia sa, para teléfonos inteligentes cuyo sistema operativo sea Android 5.1*.
+17. Villena Romero, C. L. (2023). *Estudio de prefactibilidad para la instalación de una empresa de transporte compartido (carpooling) en una universidad privada de la ciudad de Lima*.
+18. Miranda de La Espriella, D., & Ramón García, N. (2016). *Fuímonos-Carpooling estudio y análisis para el desarrollo de la estrategia de mercadeo: plataforma web y móvil monografía de investigación*.
+19. Díaz Domínguez, G. M. (2015). *Carpooling GT, aplicación para compartir vehículo* (Doctoral dissertation, Universidad de San Carlos de Guatemala).
+20. Melo Domínguez, A. I. (2018). *Mejoramiento del problema de la congestión vehicular para la comunidad universitaria UDEC hacia una solución TI para carpooling*.
+21. Mendizábal, E. L. (2015). *Los nuevos sistemas de utilización compartida de vehículos de transporte ("carpooling" y "car sharing"): entre la economía colaborativa y la competencia desleal*. *Revista de derecho mercantil*, (296), 283-334.
+22. Cárdenas Peralta, N. F., Navarrete Cruzate, E. A., Jiménez Valdivia, K. M., & Arias Chilet, P. M. *CampusRoad*.
+23. Murillo Paredes, A. (2021). *Diseño de software aplicando el patrón Domain-Driven Design*.
+
 ## Anexos
 
-Link Repositorio Github (Reporte en formato Markdown): [Reporte en Formato Markdown](https://github.com/AppsMoviles-7128-Grupo/Report?tab=readme-ov-file#studen-outcome)
+
+| Descripción                     | Link                                                               |
+|---------------------------------|--------------------------------------------------------------------|
+| Repositorio General de LinkU    | https://github.com/AppsMoviles-7128-Grupo                          |
+| Repositorio Reporte             | https://github.com/AppsMoviles-7128-Grupo/Report                   |
+| Link landing page               | https://landing-page-with-angular-sigma.vercel.app/home            |
