@@ -65,7 +65,7 @@ Para el desarrollo de la entrega **TB2**, se optó por dividir el trabajo de la 
 
 # Project Report Collaboration Insights
 
-**URL del repositorio de GitHub de la organización:** [https://github.com/orgs/AppsMoviles-7128-Grupo](https://github.com/orgs/AppsMoviles-7128-Grupo)
+**URL del repositorio de GitHub de la organización:** [https://github.com/orgs/AppsMoviles-7128-Grupo-3/repositories](https://github.com/orgs/AppsMoviles-7128-Grupo-3/repositories)
 
 ![ProjectReportCollaborationInsigths.png](./assets/cap-1/collab-insight.png)
 
@@ -152,7 +152,13 @@ Para el desarrollo de la entrega **TB2**, se optó por dividir el trabajo de la 
             - [**5.1.2.5 Navigation Systems.**](#5125-navigation-systems)
 
 - [**Capítulo VI: Product Implementation, Validation & Deployment.**](#capítulo-vi-product-implementation-validation--deployment)
-    - [**6.2.1 Sprint 1.**](#621-sprint-1)
+    - [**6.1 Software Configuration Management**](#61-software-configuration-management)
+        - [**6.1.1 Software Development Environment Configuration**](#611-software-development-environment-configuration)
+        - [**6.1.2 Source Code Management.**](#612-source-code-management)
+        - [**6.1.3 Source Code Style Guide & Conventions**](#613-source-code-style-guide--conventions)
+        - [**6.1.4 Software Deployment Configuration.**](#614-software-deployment-configuration)
+    - [**6.2 Landing Page, Services & Applications Implementation**](#62-landing-page-services--applications-implementation)
+      - [**6.2.1 Sprint 1.**](#621-sprint-1)
         - [**6.2.1.1 Sprint Planning 1.**](#6211-sprint-planning-1)
         - [**6.2.1.2 Sprint Backlog 1.**](#6212-sprint-backlog-1)
         - [**6.2.1.3 Development Evidence for Sprint Review.**](#6213-development-evidence-for-sprint-review)
@@ -161,11 +167,11 @@ Para el desarrollo de la entrega **TB2**, se optó por dividir el trabajo de la 
         - [**6.2.1.6 Services Documentation Evidence for Sprint Review.**](#6216-services-documentation-evidence-for-sprint-review)
         - [**6.2.1.7 Software Deployment Evidence for Sprint Review.**](#6217-software-deployment-evidence-for-sprint-review)
         - [**6.2.1.8 Team Collaboration Insights during Sprint.**](#6218-team-collaboration-insights-during-sprint)
-    - [**6.3 Validation Interviews.**](63-validation-interviews)
-        - [**6.3.1 Diseño de Entrevistas.**](#631-diseño-de-entrevistas)
-        - [**6.3.2 Registro de Entrevistas.**](#632-registro-de-entrevistas)
-        - [**6.3.3 Evaluaciones según heurísticas.**](#633-evaluaciones-según-heurísticas)
-    - [**6.4 Video About-The-Product.**](#64-video-about-the-product)
+        - [**6.3 Validation Interviews.**](63-validation-interviews)
+          - [**6.3.1 Diseño de Entrevistas.**](#631-diseño-de-entrevistas)
+          - [**6.3.2 Registro de Entrevistas.**](#632-registro-de-entrevistas)
+          - [**6.3.3 Evaluaciones según heurísticas.**](#633-evaluaciones-según-heurísticas)
+        - [**6.4 Video About-The-Product.**](#64-video-about-the-product)
 
 - [**Conclusiones.**](#conclusiones)
     - [**Conclusiones y Recomendaciones.**](#conclusiones-y-recomendaciones)
@@ -2678,6 +2684,176 @@ Navegación Secundaria: En secciones como el perfil, habrá opciones adicionales
 
 ![Navigation.png](assets/cap-5/navigation.png)
 
+# Capítulo VI: Product Implementation, Validation & Deployment
+## 6.1 Software Configuration Management
+
+En la sección siguiente, se describirán las herramientas, convenciones, referencias y configuraciones utilizadas durante el desarrollo del proyecto, las cuales ayudaron a mantener la coherencia en el trabajo realizado.
+
+### 6.1.1 Software Development Environment Configuration
+
+En esta parte, se mencionarán los distintos programas de software que el equipo de desarrollo utilizó para llevar a cabo las tareas relacionadas con la creación del proyecto.
+
+<br>
+
+**Project Management**
+
+- **Trello**: <https://trello.com/>  
+  La plataforma de Trello se empleó para la gestión de las tareas y la organización del flujo del trabajo en el proyecto. Las tareas se presentaron dentro de tarjetas en listas con el integrante encargado de realizarlas. Además, utilizamos funcionalidades como agregar etiquetas de colores y marcar el proceso de las tareas. De esta manera, pudimos hacer seguimiento a nuestros avances en el proyecto.
+
+
+- **Notion**: <https://www.notion.so/>  
+  Notion fue utilizado para la colaboración del equipo en el proyecto. Se crearon calendarios y listas con las fechas de las reuniones del equipo. Además, se usaron herramientas como comentarios y menciones para fomentar el trabajo y la colaboración en equipo.
+
+**Requirements Management**
+
+- **Trello**: <https://trello.com/>  
+  Trello se empleó para organizar los requisitos de la aplicación. En él se gestionó el product backlog, ordenado según la prioridad aplicando Fibonacci para enumerar las historias de usuario, y en otra sección organizándolas según las épicas.
+
+**Product UX/UI Design**
+
+- **Figma**: <https://www.figma.com/>  
+  Figma nos ayudó a desarrollar los wireframes, mockups y prototipos de la aplicación móvil.
+
+
+- **Miro**: <https://miro.com/es/>  
+  Miro fue de utilidad para realizar los As-Is Scenario Mapping y To-Be Scenario Mapping para cada uno de los segmentos objetivos.
+
+
+- **LucidChart**: <https://www.lucidchart.com/>
+
+  LucidChart se utilizó para la creación de los diagramas de flujo y los diagramas de arquitectura de software.
+
+
+- **UXPressia**: <https://uxpressia.com/>  
+  UXPressia se empleó para la creación de User Personas, Empathy Maps, Journey Maps e Impact Maps. Usamos plantillas de UXPressia para elaborar cada una de estas herramientas, permitiendo exportar el trabajo realizado para incluirlo en el proyecto.
+
+**Software Development**
+
+- **Landing Page**  
+  La landing page fue desarrollada utilizando **Angular** y **TypeScript (TS)**, lo que permitió un desarrollo más estructurado y escalable. Además, se utilizaron estilos personalizados con **CSS**. El diseño y desarrollo fueron optimizados para su despliegue en **Vercel**.
+
+
+- **Frontend Web Application**  
+  Para la aplicación web frontend, se utilizó **Angular** junto con **TypeScript (TS)**, empleando **Angular Material** para la creación de componentes UI consistentes y responsivos. En algunas partes del diseño también se integraron estilos de **Bootstrap** para complementar la interfaz. La arquitectura fue diseñada para ser modular, escalable y responsiva, optimizada para su despliegue en **Vercel**.
+
+
+- **Backend**  
+  El backend fue desarrollado utilizando **Java** con el framework **Spring Boot**, proporcionando APIs RESTful que interactúan con una base de datos **MySQL**. Este servicio fue desplegado en **Railway**, garantizando escalabilidad y un manejo eficiente de las integraciones con el frontend y la landing page.
+
+**Software Testing**
+
+Para las pruebas funcionales de la Landing Page y la aplicación web, se utilizaron herramientas de desarrollo de navegadores web como Google Chrome (<https://www.google.com/chrome/>), Microsoft Edge (<https://www.microsoft.com/en-us/edge>) y Mozilla Firefox (<https://www.mozilla.org/en-US/firefox/browsers/>).
+
+**Software Deployment**
+
+- **Vercel**: [https://vercel.com/](https://vercel.com/)  
+  Para el despliegue de la Landing Page y la Web Application, se conectó el repositorio de GitHub con Vercel. Esto permitió que Vercel gestionara automáticamente las implementaciones cada vez que se realizaron actualizaciones en el repositorio.  
+  Además, Vercel ofreció vistas previas de las ramas para facilitar la revisión de los cambios antes de publicarlos en producción.
+
+
+- **Railway**: [https://railway.app/](https://railway.app/)  
+  Para el despliegue del backend, se utilizó Railway, conectando el repositorio de GitHub al servicio. Esto permitió implementar automáticamente los cambios realizados en el código.  
+  Railway proporcionó un entorno escalable y simplificado para manejar las configuraciones del servidor y las bases de datos, facilitando el proceso de desarrollo y despliegue.
+
+**Software Documentation**
+
+
+- **Google Drive**: [https://www.google.com/intl/es-419_pe/drive/](https://www.google.com/intl/es-419_pe/drive/)  
+  Google Drive se utilizó para crear y gestionar documentos mediante **Google Docs**, permitiendo trabajar de manera colaborativa en los informes de las entregas. Además, se utilizó para almacenar archivos relevantes del proyecto y facilitar el acceso compartido.
+
+
+- **Structurizr**: [https://structurizr.com/](https://structurizr.com/)  
+  Se empleó **Structurizr** para la creación de diagramas C4, cubriendo los niveles de contexto, contenedor y componentes. Esta herramienta facilitó la visualización de la arquitectura del sistema utilizando una sintaxis basada en texto, ideal para mantener la documentación actualizada y consistente.
+
+
+- **GitHub**: [https://github.com/](https://github.com/)  
+  GitHub se utilizó tanto para la creación de la documentación como para el versionado y despliegue de la **Landing Page** y la **Web Application**. Su sistema de control de versiones y las herramientas para trabajo colaborativo permitieron gestionar cambios de manera eficiente.
+
+### 6.1.2 Source Code Management.
+### 6.1.3 Source Code Style Guide & Conventions
+
+- Utilizaremos el lenguaje de etiquetas **HTML** para el desarrollo principal de nuestra Landing Page.
+- Utilizaremos el lenguaje **CSS** para aplicar los estilos a la estructura de nuestra Landing Page.
+- Implementaremos el lenguaje **JavaScript** para añadir funcionalidades a nuestra Landing Page.
+- Utilizaremos el lenguaje **Gherkin** para diseñar pruebas de cada historia de usuario, siguiendo su estructura básica.
+
+---
+
+#### **Convenciones de Commits**
+
+Nuestro equipo sigue las **Conventional Commits** en su versión 1.0.0 (disponible en [conventionalcommits.org](https://www.conventionalcommits.org/en/v1.0.0/)) para garantizar claridad y coherencia en los registros. La estructura es la siguiente:
+
+**Formato:**  
+`<type>[scope opcional]: <description>`
+
+- **type:** Indica el tipo de modificación realizada, con opciones como `feat` (nueva funcionalidad), `fix` (corrección de errores), `docs` (documentación), etc.
+- **scope (opcional):** Define el alcance del cambio realizado en el código (e.g., un módulo o componente específico).
+- **description:** Ofrece un resumen conciso de los cambios implementados.
+
+---
+
+#### **Convenciones de Versionado de Lanzamientos**
+
+Seguimos el estándar **Semantic Versioning 2.0.0**, en el cual las versiones se presentan como `X.Y.Z`, con las siguientes interpretaciones:
+
+- **X (Major):**  
+  Incrementa con cambios incompatibles con versiones anteriores. Comienza en `0` durante el desarrollo inicial y pasa a `1` cuando el proyecto está listo para su lanzamiento público.  
+  _Nota:_ Al aumentar `X`, los valores de `Y` y `Z` se reinician a `0`.
+
+- **Y (Minor):**  
+  Incrementa con cambios compatibles que agregan nuevas funcionalidades, generalmente provenientes de ramas `release`.  
+  _Nota:_ Al aumentar `Y`, el valor de `Z` se reinicia a `0`.
+
+- **Z (Patch):**  
+  Incrementa con correcciones de errores menores, integrando commits realizados en ramas de corrección (`hotfix`) que se fusionan con la rama principal.
+
+Este enfoque asegura que las versiones del proyecto sean claras y fácilmente interpretables por todos los miembros del equipo y usuarios finales.
+
+### 6.1.4 Software Deployment Configuration.
+
+Para configurar el despliegue del proyecto, seguimos los pasos detallados a continuación utilizando **Vercel** como plataforma:
+
+1. **Entrar a Vercel y seleccionar la opción "Import an existing project"**  
+   ![importAnExistingProject.001.png](assets/cap-6/importAnExistingProject.png)
+
+
+2. **Seleccionar la opción "Deploy with GitHub"**  
+   ![deployGithub.002.png](assets/cap-6/deployGithub.002.png)
+
+
+3. **Seleccionar la organización y el repositorio del proyecto**  
+   Dentro de la organización, buscar y seleccionar el repositorio del proyecto que se desea desplegar en producción.
+
+
+4. **Agregar la información necesaria para el despliegue**  
+   Proporcionar los datos requeridos por la plataforma, como configuraciones específicas o variables de entorno si es necesario.
+
+
+5. **Presionar el botón de despliegue**  
+   Finalmente, hacer clic en el botón correspondiente al nombre del proyecto para iniciar el proceso de despliegue.
+
+---
+
+#### **Enlace de la Landing Page:**
+
+Este enlace redirige a la landing page desarrollada con **Angular** y desplegada en **Vercel**. La página ofrece una introducción al proyecto, destacando sus características principales y facilitando el acceso a la aplicación web. Está diseñada para ser completamente responsiva y optimizada para dispositivos móviles, tabletas y computadoras de escritorio.
+
+[**https://landing-page-with-angular-sigma.vercel.app/home**](https://landing-page-with-angular-sigma.vercel.app/home)
+
+---
+
+## 6.2 Landing Page, Services & Applications Implementation
+### 6.2.1 Sprint 1.
+#### 6.2.1.1 Sprint Planning 1.
+#### 6.2.1.2 Sprint Backlog 1.
+#### 6.2.1.3 Development Evidence for Sprint Review.
+#### 6.2.1.4 Testing Suite Evidence for Sprint Review.
+#### 6.2.1.5 Execution Evidence for Sprint Review.
+#### 6.2.1.6 Services Documentation Evidence for Sprint Review.
+#### 6.2.1.7 Software Deployment Evidence for Sprint Review.
+#### 6.2.1.8 Team Collaboration Insights during Sprint.
+
+
 ## Conclusiones
 - Este primer avance permitió definir claramente la problemática de movilidad estudiantil y establecer una propuesta de solución basada en el análisis del usuario, competencia y contexto. Se construyó una base sólida para el diseño centrado en el usuario y el desarrollo técnico del sistema.
 - A través de herramientas como Lean UX y Domain-Driven Design, se logró alinear la solución con las necesidades reales de los estudiantes. El trabajo realizado sienta las bases para una plataforma colaborativa, sostenible y técnicamente viable.
@@ -2712,8 +2888,8 @@ Navegación Secundaria: En secciones como el perfil, habrá opciones adicionales
 ## Anexos
 
 
-| Descripción                     | Link                                                               |
-|---------------------------------|--------------------------------------------------------------------|
-| Repositorio General de LinkU    | https://github.com/AppsMoviles-7128-Grupo                          |
-| Repositorio Reporte             | https://github.com/AppsMoviles-7128-Grupo/Report                   |
-| Link landing page               | https://landing-page-with-angular-sigma.vercel.app/home            |
+| Descripción                     | Link                                                       |
+|---------------------------------|------------------------------------------------------------|
+| Repositorio General de LinkU    | https://github.com/AppsMoviles-7128-Grupo-3                |
+| Repositorio Reporte             | https://github.com/AppsMoviles-7128-Grupo-3/Report-GoUni   |
+| Link landing page               | https://landing-page-with-angular-sigma.vercel.app/home    |

@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="939fc6bb-8e78-4362-a07a-bd82005da1a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/cap-1/collab-insight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-5/colors.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-5/guidelines.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-5/navigation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cap-5/search.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Report.md" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/cap-6/deployGithub.002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/cap-6/importAnExistingProject.001.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -30,8 +26,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/AppsMoviles-7128-Grupo/Report.git&quot;,
-    &quot;accountId&quot;: &quot;b7a4896a-4264-4d2a-8f93-c5084bcd17cc&quot;
+    &quot;url&quot;: &quot;https://github.com/AppsMoviles-7128-Grupo/Report-GoUni.git&quot;,
+    &quot;accountId&quot;: &quot;ac8ed738-b105-4de1-91f5-820b3da37696&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -42,20 +38,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/WebstormProjects/Project/assets/cap-5&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Alessandro/WebstormProjects/Report-GoUni/assets/cap-6",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\USER\WebstormProjects\Project\assets\cap-5" />
@@ -71,7 +67,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
       </set>
     </attachedChunks>
   </component>
@@ -91,6 +87,8 @@
       <workItem from="1745861860373" duration="605000" />
       <workItem from="1745897117530" duration="1610000" />
       <workItem from="1745899070528" duration="303000" />
+      <workItem from="1745944683746" duration="1275000" />
+      <workItem from="1745950982671" duration="1489000" />
     </task>
     <servers />
   </component>
