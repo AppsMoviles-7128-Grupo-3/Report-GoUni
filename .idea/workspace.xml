@@ -21,12 +21,12 @@
     &quot;assignee&quot;: &quot;Alesso2805&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/AppsMoviles-7128-Grupo/Report-GoUni.git&quot;,
-    &quot;accountId&quot;: &quot;ac8ed738-b105-4de1-91f5-820b3da37696&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AppsMoviles-7128-Grupo-3/Report-GoUni.git",
+    "accountId": "b7a4896a-4264-4d2a-8f93-c5084bcd17cc"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -40,7 +40,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Alessandro/WebstormProjects/Report-GoUni/assets/cap-6",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/USER/Documents/GitHub/new/Report-GoUni",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,7 +65,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
       </set>
     </attachedChunks>
   </component>
@@ -85,7 +86,12 @@
       <workItem from="1745897117530" duration="1610000" />
       <workItem from="1745899070528" duration="303000" />
       <workItem from="1745944683746" duration="1275000" />
+<<<<<<< HEAD
       <workItem from="1745950982671" duration="3919000" />
+=======
+      <workItem from="1745950982671" duration="2989000" />
+      <workItem from="1747107733652" duration="1681000" />
+>>>>>>> 4929d2abd707ff7b20cf2e9d22313af94b3b3f63
     </task>
     <servers />
   </component>
