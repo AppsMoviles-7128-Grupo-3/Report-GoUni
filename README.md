@@ -2814,7 +2814,7 @@ Este enfoque asegura que las versiones del proyecto sean claras y fácilmente in
 Para configurar el despliegue del proyecto, seguimos los pasos detallados a continuación utilizando **Vercel** como plataforma:
 
 1. **Entrar a Vercel y seleccionar la opción "Import an existing project"**  
-   ![importAnExistingProject.001.png](assets/cap-6/importAnExistingProject.png)
+   ![importAnExistingProject.001.png](assets/cap-6/import-image.png)
 
 
 2. **Seleccionar la opción "Deploy with GitHub"**  
@@ -2874,10 +2874,10 @@ En el **Sprint Planning 1**, se presenta evidencia de la planificación e implem
 En esta parte mostramos las tareas que se realizaron en este sprint.
 
 **Link del Trello:**  
-<https://trello.com/b/4BqoJyJj>
+<https://trello.com/b/46pAPLAt/linku-sprint-1>
 
 **Vista del Sprint Backlog en Trello:**  
-![trelloSprint1.png](assets/images/sprint1/trelloSprint1.png)
+![trelloSprint1.png](assets/cap-6/trello-sprint1.png)
 
 ---
 
@@ -2905,11 +2905,103 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 
 
 #### 6.2.1.3 Development Evidence for Sprint Review.
+
+En esta sección, se presentan los commits realizados en el repositorio de la landing page en GitHub. Estos commits reflejan el progreso y las mejoras implementadas durante el Sprint 1, proporcionando una visión detallada de las actividades de desarrollo y las contribuciones del equipo.
+
+**Repositorio de la Landing Page:**  
+[https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Landing-Page](https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Landing-Page)
+
+---
+
+| **Repository**                                                                 | **Branch** | **Commit Id**                              | **Commit Message**                                                                                                                                                                                                                                                                        | **Commit Message Body** | **Committed on (Date)** |
+|--------------------------------------------------------------------------------|------------|--------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|-------------------------|
+| [Landing Page](https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Landing-Page) | `main`     | `7a88b0b55f9bd3155b0e22080df5aac77c8b7755` | [feat: add feature for contact us](https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Landing-Page/commit/7a88b0b55f9bd3155b0e22080df5aac77c8b7755 "feat: add feature for contact us")                                                                                                     | -                       | 13 Mayo, 2025           |
+|                                                                                |            | `7e94335dce635a9c98f89f15e03a79830b55b4db` | [feat: Add section header and footer](https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Landing-Page/commit/7e94335dce635a9c98f89f15e03a79830b55b4db "feat: Add section header and footer")                                                                                               | -                       | 13 Mayo, 2025          |
+|                                                                                |            | `51b9b25bb58a16837e911c25c2a02ca84d9c2aff` | [Added Security & Plans sections](https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Landing-Page/commit/51b9b25bb58a16837e911c25c2a02ca84d9c2aff "Added Security & Plans sections")                                                                                                       | -                       | 13 Mayo, 2025           |
+|                                                                                |            | `dd203f623004f4fa2f43249ac7b4e8661c98f5c9` | [feat: add feature for Sponsors](https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Landing-Page/commit/dd203f623004f4fa2f43249ac7b4e8661c98f5c9 "feat: add feature for Sponsors")                                                                                                         | -                       | 13 Mayo, 2025           |
+|                                                                                |            | `bc7b0af06fcfe8467618e501d12d8bb3e32d89ff` | [added the GoUni benefits section from the landing page](https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Landing-Page/commit/bc7b0af06fcfe8467618e501d12d8bb3e32d89ff "added the GoUni benefits section from the landing page")                                                         | -                       | 13 Mayo, 2025           |
+|                                                                                |            | `d0b74c90e865527a4f0aa2891f706776ad46a669` | [feat: add feature for ourApp & Portals](https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Landing-Page/commit/d0b74c90e865527a4f0aa2891f706776ad46a669 "feat: add feature for ourApp & Portals")                                                                                         | -                       | 13 Mayo, 2025           |
+|                                                                                |            | `8c7655adfdf12f7cd62901e58a971ab1b3fea6a3` | [added ourTeam section](https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Landing-Page/commit/8c7655adfdf12f7cd62901e58a971ab1b3fea6a3 "added ourTeam section")                                                                                                                           | -                       | 13 Mayo, 2025           |
+|                                                                                |            | `cc4951ff0a373a041ff98ad8657649fea466399f` | [Add "Who We Are" and "Why GoUni?" sections with corresponding content and styles](https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Landing-Page/commit/cc4951ff0a373a041ff98ad8657649fea466399f "Add \"Who We Are\" and \"Why GoUni?\" sections with corresponding content and styles") | -                       | 13 Mayo, 2025           |
+
+---
+
 #### 6.2.1.4 Testing Suite Evidence for Sprint Review.
+
+En este sprint, se han incorporado pruebas de aceptación escritas en **Gherkin**, asegurando que los requisitos del usuario se validen de manera efectiva. A continuación, se proporciona el enlace al repositorio de las pruebas de aceptación, donde se encuentra una descripción detallada de los escenarios de prueba y su implementación:
+
+**Repositorio de pruebas de aceptación:**  
+[https://github.com/AppsMoviles-7128-Grupo-3/linku-acceptance-test](https://github.com/AppsMoviles-7128-Grupo-3/linku-acceptance-test)
+
+---
+
+| **Repository**                                                                             | **Branch** | **Commit Id**                          | **Commit Message**                                                                                                                                                         | **Commit Message Body** | **Committed on (Date)** |
+|--------------------------------------------------------------------------------------------|------------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|-------------------------|
+| [LinkU Acceptance Test](https://github.com/AppsMoviles-7128-Grupo-3/linku-acceptance-test) | `main`     | `491a119fae331fa5f96133e23a331898a2f8624c` | [feat: Add acceptance test](https://github.com/AppsMoviles-7128-Grupo-3/linku-acceptance-test/commit/491a119fae331fa5f96133e23a331898a2f8624c "feat: Add acceptance test") | -                       | 13 Mayo, 2025           |
+|                                                                                            |            | `51d4606a823313a47d14b04cd36c12b3dde0db63` | [chore: add AT02.feature file](https://github.com/AppsMoviles-7128-Grupo-3/linku-acceptance-test/commit/51d4606a823313a47d14b04cd36c12b3dde0db63)                          | -                       | 13 Mayo, 2025           |
+|                                                                                            |            | `744f6af82c0a2f70b912280d5d628fb800e01aed` | [chore: add AT03.feature file](https://github.com/AppsMoviles-7128-Grupo-3/linku-acceptance-test/commit/744f6af82c0a2f70b912280d5d628fb800e01aed)                          | -                       | 13 Mayo, 2025           |
+|                                                                                            |            | `96a6385da82f092f8896c9d232b781291f829788` | [chore: add AT04.feature file](https://github.com/AppsMoviles-7128-Grupo-3/linku-acceptance-test/commit/96a6385da82f092f8896c9d232b781291f829788)                          | -                       | 13 Mayo, 2025           |
+|                                                                                            |            | `1352e75921e965469d9662da5c9e8c2cfac9e0fc` | [chore: add AT05.feature file](https://github.com/AppsMoviles-7128-Grupo-3/linku-acceptance-test/commit/1352e75921e965469d9662da5c9e8c2cfac9e0fc)                          | -                       | 13 Mayo, 2025           |
+
+---
+
 #### 6.2.1.5 Execution Evidence for Sprint Review.
+
+En este sprint logramos, como primera fase de nuestro producto final, desarrollar nuestra landing page usando HTML y CSS. También se implementó un diseño responsive para dispositivos Android e iOS, y su respectivo despliegue se realizó en **Netlify**.
+
+![executionEvidence.png](assets/cap-6/gouni-main.png)
+
+---
+
 #### 6.2.1.6 Services Documentation Evidence for Sprint Review.
+
+En el alcance del Sprint 1 se logró desarrollar la landing page, por lo que no se evidencia el empleo de web services.
+
+---
+
 #### 6.2.1.7 Software Deployment Evidence for Sprint Review.
+
+Durante el primer sprint, desarrollamos y desplegamos la landing page del proyecto. El despliegue lo llevó a cabo uno de nuestros integrantes (Abraham), ya que el proceso no tomaba más de cinco minutos. Utilizamos **Netlify** como plataforma de despliegue, realizando varias pruebas en la rama "develop" antes de proceder con la rama "main".
+
+**Pasos para el despliegue:**
+
+1. Creación de cuenta en **Netlify**.
+2. Selección de la opción "Add new website" para elegir el proyecto a desplegar.
+
+   ![addNewWebsite.jpeg](assets/cap-6/vercel-deploying.png)
+
+3. Selección de la rama "main" y clic en el botón "Deploy".
+
+   ![deploy.jpeg](assets/cap-6/main-choosing.png)
+
+---
+
 #### 6.2.1.8 Team Collaboration Insights during Sprint.
+
+**Distribución de aportes en el informe:**  
+El desarrollo del informe se organizó dividiendo el repositorio por capítulos. Cada integrante realizó aportes específicos, distribuidos como se muestra en la siguiente tabla y las capturas incluidas.
+
+**URL del repositorio para el Project Report:**  
+<https://github.com/AppsMoviles-7128-Grupo-3/Report-GoUni>
+
+| **Integrante**          | **Aporte en el informe**                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Alessandro Zevallos** | Competidores, Análisis competitivo, Estrategias frente a competidores, Product backlog, Style guidelines, Web style guidelines, Information architecture, Landing page UI design, Landing page mockup, Web applications mockup, Software deployment configuration, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review. ![chapter2.png](assets/cap-6/cap-2.png) |
+| **Rodrigo Chirinos**    | User task matrix, User journey mapping, As-is scenario mapping, To-be scenario mapping, Wireflow diagrams, Diseño de entrevistas, Análisis de entrevistas, DDD architecture. ![userTaskMatrix.png](assets/cap-6/user-task-matrix.png)                                                                                                                                                                                                                                                       |
+| **Aaron Cruz**             | Registro de entrevistas, Análisis de entrevistas, Software deployment configuration, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review. ![ubiquitusLanguage.png](assets/cap-6/ubiq-language.png)                                                                                                                                                              |
+| **Alessandro David**    | Lean UX Hypothesis Statements, Lean UX Canvas, Diseño de entrevistas, User Personas, Empathy Mapping, Impact Mapping, Domain-Driven Software Architecture, Software Development Environment Configuration, Source Code Management, Source Code Style Guide & Conventions. ![hypothesisStatements.png](assets/cap-6/lean-ux.png)                                                                                                                                                             |
+
+**Evidencia de los commits:**
+
+![commitEvidence.png](assets/cap-6/commits.png)
+
+Durante este sprint, para proteger la rama "main", creamos una rama "develop". Cada integrante creó una sub-rama "feature" para subir un capítulo del informe siguiendo las convenciones establecidas (**Conventional Commits** y **GitFlow**).
+
+**GitHub Analytics del Sprint 1:**
+
+![githubAnalyticsSprint.png](assets/cap-6/analytics.png)
+
+---
 
 
 ## Conclusiones
@@ -2946,8 +3038,10 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 ## Anexos
 
 
-| Descripción                     | Link                                                       |
-|---------------------------------|------------------------------------------------------------|
-| Repositorio General de LinkU    | https://github.com/AppsMoviles-7128-Grupo-3                |
-| Repositorio Reporte             | https://github.com/AppsMoviles-7128-Grupo-3/Report-GoUni   |
-| Link landing page               | https://landing-page-with-angular-sigma.vercel.app/home    |
+| Descripción                  | Link                                                       |
+|------------------------------|------------------------------------------------------------|
+| Repositorio General de LinkU | https://github.com/AppsMoviles-7128-Grupo-3                |
+| Repositorio Reporte          | https://github.com/AppsMoviles-7128-Grupo-3/Report-GoUni   |
+| Repositorio Landing Page     | https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Landing-Page   |
+| Repositorio Acceptance Tests | https://github.com/AppsMoviles-7128-Grupo-3/linku-acceptance-test    |
+| Link landing page            | https://landing-page-with-angular-sigma.vercel.app/home    |
