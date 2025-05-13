@@ -50,16 +50,16 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
 
 ---
 
-### _TB2_
+### _TP_
 
-Para el desarrollo de la entrega **TB2**, se optó por dividir el trabajo de la siguiente forma:
+Para el desarrollo de la entrega **TP**, se optó por dividir el trabajo de la siguiente forma:
 
-| **Versión**   | **Fecha** | **Autor**                  | **Descripción**                              |
-|---------------|-----------|----------------------------|----------------------------------------------|
-| **#01 - TB1** | 4/05/25   | David Polanco, Alessandro  | Formateo del Capitulo 5                      |
-| **#01 - TB1** | 4/05/25   | Chirinos Zúñiga, Rodrigo   | Desarrollo de la seccion 4.2 del capitulo 4  |
-| **#01 - TB1** | 4/05/25   | Cruz Ticona, Aaron         | Desarrollo del Capitulo 4.2 Bounded Contexts |
-| **#01 - TB1** | 4/05/25   | Zevallos Linares, Alessandro   | Desarrollo de la seccion 4.2 del capitulo 4  |
+| **Versión**  | **Fecha** | **Autor**                  | **Descripción**                                                                                             |
+|--------------|-----------|----------------------------|-------------------------------------------------------------------------------------------------------------|
+| **#01 - TP** | 13/05/25  | David Polanco, Alessandro  | - Capítulo 6 <br>  - Despliegue Landing Page <br> - Corrección de observaciones del TB1 <br> - Conclusiones |
+| **#01 - TP** | 13/05/25  | Chirinos Zúñiga, Rodrigo   | -                                                                                                           |
+| **#01 - TP** | 13/05/25  | Cruz Ticona, Aaron         | -                                                                                                           |
+| **#01 - TP** | 13/05/25   | Zevallos Linares, Alessandro   | -                                                                                                           |
 
 ---
 
@@ -184,6 +184,8 @@ Para el desarrollo de la entrega **TB2**, se optó por dividir el trabajo de la 
 ---
 
 # [Student Outcome](#student-outcome)
+
+Cada participante del equipo debe colaborar a fin de que se redacte los sustentos y evidencias de las actividades realizadas en el trabajo final han ayudado a desarrollar las dimensiones del student outcome. Por ello en esta sección debe quedar descrito la relación entre el outcome, sus dimensiones y el trabajo que han realizado. Esto se complementa con lo expresado en los testimonios expuestos que forman parte del video About The Team
 
 | Criterio Específico                                                                                                                         | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Conclusiones                                                                                                                                                                                                                                                                                                                                               |
 |---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
