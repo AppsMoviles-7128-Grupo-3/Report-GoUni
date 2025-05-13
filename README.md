@@ -1100,7 +1100,7 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
         <td>Registro de usuario</td>
         <td>
             <p><strong>Como</strong> Usuario,</p>
-            <p><strong>Quiero</strong> poder crear mi usuario</p>
+            <p><strong>Quiero</strong> poder registrar mi cuenta</p>
             <p><strong>Para</strong> acceder al servicio de carpooling</p>
         </td>
         <td>
@@ -2973,7 +2973,12 @@ El desarrollo del informe se organizó dividiendo el repositorio por capítulos.
 
 **Evidencia de los commits:**
 
-![commitEvidence.png](assets/cap-6/commits.png)
+![commitEvidence.png](assets/cap-6/commits1.png)
+
+![commitEvidence.png](assets/cap-6/commits2.png)
+
+![commitEvidence.png](assets/cap-6/commits3.png)
+
 
 Durante este sprint, para proteger la rama "main", creamos una rama "develop". Cada integrante creó una sub-rama "feature" para subir un capítulo del informe siguiendo las convenciones establecidas (**Conventional Commits** y **GitFlow**).
 
@@ -2987,6 +2992,11 @@ Durante este sprint, para proteger la rama "main", creamos una rama "develop". C
 ## Conclusiones
 - Este primer avance permitió definir claramente la problemática de movilidad estudiantil y establecer una propuesta de solución basada en el análisis del usuario, competencia y contexto. Se construyó una base sólida para el diseño centrado en el usuario y el desarrollo técnico del sistema.
 - A través de herramientas como Lean UX y Domain-Driven Design, se logró alinear la solución con las necesidades reales de los estudiantes. El trabajo realizado sienta las bases para una plataforma colaborativa, sostenible y técnicamente viable.
+- El desarrollo realizado hasta este punto ha permitido materializar los conceptos y requerimientos definidos en las etapas previas, logrando avances significativos en la implementación de las principales funcionalidades del proyecto.
+- Se han validado los primeros prototipos y módulos, lo que ha permitido identificar oportunidades de mejora y ajustar el enfoque técnico y funcional de la solución.
+- La evaluación de los avances, a través de pruebas de usuario y retroalimentación de los stakeholders, ha sido fundamental para validar la pertinencia y usabilidad de la solución propuesta.
+- Se identificaron aspectos clave a mejorar, especialmente en lo relacionado con la experiencia del usuario y la integración de funcionalidades adicionales sugeridas por los usuarios. 
+- La retroalimentación recibida ha permitido priorizar nuevas tareas y ajustar el roadmap del proyecto, asegurando que el desarrollo continúe alineado con las necesidades reales del público objetivo.
 
 
 ## Bibliografia
