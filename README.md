@@ -3037,3 +3037,4 @@ Durante este sprint, para proteger la rama "main", creamos una rama "develop". C
 | Repositorio Landing Page     | https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Landing-Page   |
 | Repositorio Acceptance Tests | https://github.com/AppsMoviles-7128-Grupo-3/linku-acceptance-test    |
 | Link landing page            | https://landing-page-with-angular-sigma.vercel.app/home    |
+| Link mobile application  | https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Mobile-Application/ |
