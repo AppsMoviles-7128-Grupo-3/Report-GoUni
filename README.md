@@ -2666,6 +2666,54 @@ Navegación Secundaria: En secciones como el perfil, habrá opciones adicionales
 
 ![Navigation.png](assets/cap-5/navigation.png)
 
+### 5.1.3 Landing Page UI Design
+#### 5.1.3.1. Landing Page Wireframe
+#### 5.1.3.2. Landing Page Mock-up
+### 5.1.4. Mobile Applications UX/UI Design
+
+Esta sección incluye secciones internas donde se presenta y explica la propuesta visual
+y de interacción nuestra aplicación movil GoUni que constituyen la experiencia de usuario con
+los productos digitales.
+
+#### 5.1.4.1. Mobile Applications Wireframes
+
+Wireframe de la vista de inicio de sesión
+![](assets/cap-5/MobileWireframes/Inicio-de-Sesión.png)
+
+Wireframe de la vista de creación de cuenta
+![](assets/cap-5/MobileWireframes/Creación-de-Cuenta.png)
+
+Wireframe de la vista de eleccion de tipo de usuario
+![](assets/cap-5/MobileWireframes/Elegir-tipo-de-usuario.png)
+
+Wireframe de la vista de inicio 
+![](assets/cap-5/MobileWireframes/Inicio.png)
+
+Wireframe de la vista de servicios
+![](assets/cap-5/MobileWireframes/Servicio.png)
+
+Wireframe de la vista de planes de subcripción
+![](assets/cap-5/MobileWireframes/Planes.png)
+
+Wireframe de la vista de maps
+![](assets/cap-5/MobileWireframes/Mapa.png)
+
+Wireframe de la vista de reservar
+![](assets/cap-5/MobileWireframes/Reserva1.png)
+
+Wireframe de la vista de descripcion de reserva
+![](assets/cap-5/MobileWireframes/Reserva2.png)
+
+Wireframe de la vista de confirmacion de reserva
+![](assets/cap-5/MobileWireframes/Confirmación.png)
+
+Wireframe de la vista de tus reservas
+![](assets/cap-5/MobileWireframes/Tus-reservas.png)
+
+#### 5.1.4.2. Mobile Applications Wireflow Diagrams
+#### 5.1.4.3. Mobile Applications Mock-ups
+#### 5.1.4.4. Mobile Applications User Flow Diagrams
+
 # Capítulo VI: Product Implementation, Validation & Deployment
 ## 6.1 Software Configuration Management
 
