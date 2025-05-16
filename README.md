@@ -2667,8 +2667,81 @@ Navegación Secundaria: En secciones como el perfil, habrá opciones adicionales
 ![Navigation.png](assets/cap-5/navigation.png)
 
 ### 5.1.3 Landing Page UI Design
+En esta sección, presentamos el diseño de la interfaz de usuario de la landing page para GoUni. El diseño se ha desarrollado teniendo en cuenta la experiencia del usuario y la accesibilidad tanto en versiones de escritorio como móviles. El objetivo principal es proporcionar una navegación clara y atractiva.
+
 #### 5.1.3.1. Landing Page Wireframe
+A continuación, mostramos los wireframes de la landing page, los cuales representan la estructura básica y el layout sin elementos gráficos detallados. Estos sirven como una guía inicial para el diseño visual, asegurando que todos los elementos necesarios estén presentes y correctamente organizados.
+
+Versión Desktop:
+
+![](assets/cap-5/LandingPage/Wireframes/Desktop/headerAboutUs_Wireframes_Desktop.png)
+
+![](assets/cap-5/LandingPage/Wireframes/Desktop/HeroSection_Wireframes_Desktop.png)
+
+![](assets/cap-5/LandingPage/Wireframes/Desktop/HowItWorks_Wireframes_Desktop.png)
+
+![](assets/cap-5/LandingPage/Wireframes/Desktop/BenefitsofGoUni_Wireframes_Desktop.png)
+
+![](assets/cap-5/LandingPage/Wireframes/Desktop/Security_Wireframes_Desktop.png)
+
+![](assets/cap-5/LandingPage/Wireframes/Desktop/Plans_Wireframes_Desktop.png)
+
+![](assets/cap-5/LandingPage/Wireframes/Desktop/ContactUs_Wireframes_Desktop.png)
+
+![](assets/cap-5/LandingPage/Wireframes/Desktop/footerAboutUs_Wireframes_Desktop.png)
+
+Versión Mobile:
+
+![](assets/cap-5/LandingPage/Wireframes/Mobiles/homeHome_Wireframe_Mobiles.png)
+
+![](assets/cap-5/LandingPage/Wireframes/Mobiles/howItWorks_Wireframe_Mobiles.png)
+
+![](assets/cap-5/LandingPage/Wireframes/Mobiles/benefitsOfGoUni_Wireframe_Mobiles.png)
+
+![](assets/cap-5/LandingPage/Wireframes/Mobiles/security_Wireframe_Mobiles.png)
+
+![](assets/cap-5/LandingPage/Wireframes/Mobiles/plans_Wireframe_Mobiles.png)
+
+![](assets/cap-5/LandingPage/Wireframes/Mobiles/contactUs_Wireframes_Mobiles.png)
+
+![](assets/cap-5/LandingPage/Wireframes/Mobiles/footerHome_Wireframe_Mobiles.png)
+
 #### 5.1.3.2. Landing Page Mock-up
+Esta sección presenta los mockups de la landing page, que ilustran el diseño final con detalles gráficos, tipografía, y color. Los mockups son fundamentales para visualizar cómo se verá la página final y para realizar ajustes antes del desarrollo.
+
+Versión Desktop:
+
+![](assets/cap-5/LandingPage/MockUps/Desktop/homeHome_Mockup_Desktop.png)
+
+![](assets/cap-5/LandingPage/MockUps/Desktop/heroHowItWorks_Mockup_Desktop.png)
+
+![](assets/cap-5/LandingPage/MockUps/Desktop/howItWorks_Mockup_Desktop.png)
+
+![](assets/cap-5/LandingPage/MockUps/Desktop/benefitsOfGoUni_Mockup_Desktop.png)
+
+![](assets/cap-5/LandingPage/Wireframes/Desktop/Security_Wireframes_Desktop.png)
+
+![](assets/cap-5/LandingPage/MockUps/Desktop/plans_Mockup_Desktop.png)
+
+![](assets/cap-5/LandingPage/MockUps/Desktop/contactUs_Mockup_Desktop.png)
+
+![](assets/cap-5/LandingPage/MockUps/Desktop/footerHome_Mockup_Desktop.png)
+
+Versión Mobile:
+
+![](assets/cap-5/LandingPage/MockUps/Mobiles/homeHome_Mockup_Mobile.png)
+
+![](assets/cap-5/LandingPage/MockUps/Mobiles/howItWorks_Mockup_Mobile.png)
+
+![](assets/cap-5/LandingPage/MockUps/Mobiles/benefitsOfGoUni_Mockup_Mobile.png)
+
+![](assets/cap-5/LandingPage/MockUps/Mobiles/security_Mockup_Mobile.png)
+
+![](assets/cap-5/LandingPage/MockUps/Mobiles/plans_Mockup_Mobile.png)
+
+![](assets/cap-5/LandingPage/MockUps/Mobiles/contactUs_Mockup_Mobile.png)
+
+![](assets/cap-5/LandingPage/MockUps/Mobiles/footerHome_Mockup_Mobile.png)
 ### 5.1.4. Mobile Applications UX/UI Design
 
 Esta sección incluye secciones internas donde se presenta y explica la propuesta visual
