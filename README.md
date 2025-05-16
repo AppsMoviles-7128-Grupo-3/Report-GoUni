@@ -2676,6 +2676,8 @@ y de interacción nuestra aplicación movil GoUni que constituyen la experiencia
 los productos digitales.
 
 #### 5.1.4.1. Mobile Applications Wireframes
+Esta sección incluye una sección interna donde se presenta y explica los Wireframes
+de las aplicaciones móviles
 
 Wireframe de la vista de inicio de sesión
 ![](assets/cap-5/MobileWireframes/Inicio-de-Sesión.png)
@@ -2711,6 +2713,17 @@ Wireframe de la vista de tus reservas
 ![](assets/cap-5/MobileWireframes/Tus-reservas.png)
 
 #### 5.1.4.2. Mobile Applications Wireflow Diagrams
+Los Wireflow Diagrams son diagramas que representan la secuencia de pasos que un usuario sigue al interactuar con la aplicación web. Estos diagramas muestran cómo los usuarios navegan por la plataforma, desde el inicio de sesión hasta la reserva de un viaje.
+
+Wireflow de iniciar sesión
+![](assets/cap-5/MobileWireflow/WF1.PNG)
+
+Wireflow de planes
+![](assets/cap-5/MobileWireflow/WF2.PNG)
+
+Wireflow de reservar un viaje
+![](assets/cap-5/MobileWireflow/WF3.PNG)
+
 #### 5.1.4.3. Mobile Applications Mock-ups
 #### 5.1.4.4. Mobile Applications User Flow Diagrams
 
