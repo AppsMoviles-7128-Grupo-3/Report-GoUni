@@ -59,7 +59,7 @@ Para el desarrollo de la entrega **TP**, se optó por dividir el trabajo de la s
 | **#01 - TP** | 13/05/25  | David Polanco, Alessandro  | - Capítulo 6 <br>  - Despliegue Landing Page <br> - Corrección de observaciones del TB1 <br> - Conclusiones |
 | **#01 - TP** | 13/05/25  | Chirinos Zúñiga, Rodrigo   | Implementación de las vistas de SignIn y SignUp.         |
 | **#01 - TP** | 13/05/25  | Cruz Ticona, Aaron         | -                                                                                                           |
-| **#01 - TP** | 13/05/25   | Zevallos Linares, Alessandro   | -                                                                                                           |
+| **#01 - TP** | 13/05/25   | Zevallos Linares, Alessandro   |  -Landing Page UI Desing <br>-Mobile Applications UX/UI Desing                                                                                                           |
 
 ---
 
