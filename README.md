@@ -2713,7 +2713,7 @@ Wireframe de la vista de tus reservas
 ![](assets/cap-5/MobileWireframes/Tus-reservas.png)
 
 #### 5.1.4.2. Mobile Applications Wireflow Diagrams
-Los Wireflow Diagrams son diagramas que representan la secuencia de pasos que un usuario sigue al interactuar con la aplicación web. Estos diagramas muestran cómo los usuarios navegan por la plataforma, desde el inicio de sesión hasta la reserva de un viaje.
+Los Wireflow Diagrams son diagramas que representan la secuencia de pasos que un usuario sigue al interactuar con la aplicación movil. Estos diagramas muestran cómo los usuarios navegan por la plataforma, desde el inicio de sesión hasta la reserva de un viaje.
 
 Wireflow de iniciar sesión
 ![](assets/cap-5/MobileWireflow/WF1.PNG)
@@ -2725,7 +2725,52 @@ Wireflow de reservar un viaje
 ![](assets/cap-5/MobileWireflow/WF3.PNG)
 
 #### 5.1.4.3. Mobile Applications Mock-ups
+En esta sección, presentamos los mockups de la aplicación movil de GoUni, que ilustran el diseño final con detalles gráficos, tipografía y color. Los mockups son fundamentales para visualizar cómo se verá la aplicación final y para realizar ajustes antes del desarrollo.
+
+Wireframe de la vista de inicio de sesión
+![](assets/cap-5/MobileMockUps/Inicio-de-Sesion.png)
+
+Wireframe de la vista de creación de cuenta
+![](assets/cap-5/MobileMockUps/Creacion-de-Cuenta.png)
+
+Wireframe de la vista de eleccion de tipo de usuario
+![](assets/cap-5/MobileMockUps/Elegir-tipo-de-usuario.png)
+
+Wireframe de la vista de inicio 
+![](assets/cap-5/MobileMockUps/Inicio.png)
+
+Wireframe de la vista de servicios
+![](assets/cap-5/MobileMockUps/Servicio.png)
+
+Wireframe de la vista de planes de subcripción
+![](assets/cap-5/MobileMockUps/Planes.png)
+
+Wireframe de la vista de maps
+![](assets/cap-5/MobileMockUps/Mapa.png)
+
+Wireframe de la vista de reservar
+![](assets/cap-5/MobileMockUps/Reserva1.png)
+
+Wireframe de la vista de descripcion de reserva
+![](assets/cap-5/MobileMockUps/Reserva2.png)
+
+Wireframe de la vista de confirmacion de reserva
+![](assets/cap-5/MobileMockUps/Confirmación.png)
+
+Wireframe de la vista de tus reservas
+![](assets/cap-5/MobileMockUps/Tus-reservas.png)
+
 #### 5.1.4.4. Mobile Applications User Flow Diagrams
+Los User Flow Diagrams son diagramas que representan la secuencia de pasos que un usuario sigue al interactuar con la aplicación movil. Estos diagramas muestran cómo los usuarios navegan por la plataforma, desde el inicio de sesión hasta la reserva de un viaje.
+
+Userflow de iniciar sesión
+![](assets/cap-5/MobileUserFlow/UF1.PNG)
+
+User flow de planes
+![](assets/cap-5/MobileUserFlow/UF2.PNG)
+
+User flow de reservar un viaje
+![](assets/cap-5/MobileUserFlow/UF3.PNG)
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 ## 6.1 Software Configuration Management
