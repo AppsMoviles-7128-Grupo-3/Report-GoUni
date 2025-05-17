@@ -1904,7 +1904,25 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <br>  - Notificaciones y Alertas
 <br>    Gestiona el envío de notificaciones en tiempo real para cambios de ruta, estado de reserva, etc.
 
+
+| Bounded Context                  | Domain Events                                                                 |
+|----------------------------------|-------------------------------------------------------------------------------|
+| Gestión de Viajes Compartidos   | ViajeCreado, ViajePublicado, ViajeReservado, AsientosCompletados             |
+| Verificación de Usuarios        | UsuarioVerificado, VerificaciónFallida                                       |
+| Sistema de Pagos                | PagoIniciado, PagoRealizado, PagoFallido                                     |
+| Calificaciones y Feedback       | ConductorCalificado, PasajeroCalificado, FeedbackRegistrado                  |
+| Notificaciones y Alertas        | NotificaciónEnviada, AlertaDeRuta, AlertaDeReserva, ViajeConfirmadoNotificado|
+
+
 #### 4.1.1.2 Domain Message Flows Modeling
+
+El modelado del flujo de mensajes se centró en los comandos que inician las interacciones del sistema desde la interfaz de usuario, tales como crearViaje() y reservarViaje(), los cuales generan eventos de dominio como ViajePublicado y ReservaConfirmada. 
+
+Estos eventos son publicados por el contexto de Gestión de Viajes Compartidos y luego consumidos por contextos colaboradores como el Sistema de Pagos y Notificaciones. 
+
+Por ejemplo, una vez que los asientos han sido completados (AsientosCompletados), se activa el flujo de pagos (PagoIniciado) y se notifica al pasajero mediante NotificaciónEnviada. Este modelado asegura que la lógica de negocio principal permanezca encapsulada dentro del core domain, mientras que los servicios periféricos reaccionan a eventos publicados de manera asincrónica.
+
+
 <img src="assets/cap-4/domain-message-flow-modeling.png" alt="domain-events" width="600px">
 
 #### 4.1.1.3 Bounded Context Canvases
