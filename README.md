@@ -1596,7 +1596,7 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <p><strong>quiero</strong> compartir viajes con compañeros que se dirijan a la universidad</p>
 <p><strong>para</strong> reducir costos y llegar de manera más eficiente</p></td>
 <td>Alta</td>
-<td>8</td>
+<td>4</td>
 </tr>
 <tr class="even">
 <td>2</td>
@@ -1606,7 +1606,7 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <p><strong>quiero</strong> ofrecer lugares en mi auto a otros estudiantes que van hacia la universidad</p>
 <p><strong>para</strong> reducir mis gastos de transporte y generar ingresos adicionales</p></td>
 <td>Alta</td>
-<td>8</td>
+<td>4</td>
 </tr>
 <tr class="odd">
 <td>3</td>
@@ -1616,7 +1616,7 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <p><strong>quiero</strong> evaluar a los conductores y recibir calificaciones de otros usuarios</p>
 <p><strong>para</strong> asegurarme de que el viaje sea seguro y confiable</p></td>
 <td>Alta</td>
-<td>5</td>
+<td>4</td>
 </tr>
 <tr class="even">
 <td>4</td>
@@ -1626,7 +1626,7 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <p><strong>quiero</strong> recibir notificaciones en tiempo real sobre mi viaje</p>
 <p><strong>para</strong> estar al tanto de cualquier cambio en la ruta o el horario</p></td>
 <td>Media</td>
-<td>5</td>
+<td>3</td>
 </tr>
 <tr class="odd">
 <td>5</td>
@@ -1636,7 +1636,7 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <p><strong>quiero</strong> que tanto los conductores como los pasajeros verifiquen sus identidades</p>
 <p><strong>para</strong> asegurarme de que mi viaje será con personas confiables</p></td>
 <td>Alta</td>
-<td>8</td>
+<td>4</td>
 </tr>
 <tr class="even">
 <td>6</td>
@@ -1646,7 +1646,7 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <p><strong>quiero</strong> realizar el pago del viaje a través de la plataforma de forma segura</p>
 <p><strong>para</strong> no tener que manejar efectivo durante el trayecto</p></td>
 <td>Alta</td>
-<td>8</td>
+<td>4</td>
 </tr>
 <tr class="odd">
 <td>7</td>
@@ -1656,7 +1656,7 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <p><strong>quiero</strong> poder crear mi usuario</p>
 <p><strong>para</strong> acceder al servicio de carpooling</p></td>
 <td>Alta</td>
-<td>3</td>
+<td>4</td>
 </tr>
 <tr class="even">
 <td>8</td>
@@ -1665,8 +1665,8 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <td><p><strong>Como</strong> Usuario,</p>
 <p><strong>quiero</strong> buscar viajes disponibles</p>
 <p><strong>para</strong> poder planificar mis desplazamientos</p></td>
-<td>Alta</td>
-<td>5</td>
+<td>Media</td>
+<td>3</td>
 </tr>
 <tr class="odd">
 <td>9</td>
@@ -1676,7 +1676,7 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <p><strong>quiero</strong> poder reservar un asiento en el viaje disponible</p>
 <p><strong>para</strong> garantizar mi lugar</p></td>
 <td>Alta</td>
-<td>5</td>
+<td>4</td>
 </tr>
 <tr class="even">
 <td>10</td>
@@ -1705,7 +1705,7 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <td><p><strong>Como</strong> Usuario,</p>
 <p><strong>quiero</strong> poder calificar y dejar comentarios sobre la experiencia de viaje con el conductor</p>
 <p><strong>para</strong> ayudar a otros usuarios en su elección</p></td>
-<td>Alta</td>
+<td>Media</td>
 <td>3</td>
 </tr>
 <tr class="odd">
@@ -1715,8 +1715,8 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <td><p><strong>Como</strong> Usuario con vehículo,</p>
 <p><strong>quiero</strong> publicar la disponibilidad de asientos</p>
 <p><strong>para</strong> que otros estudiantes puedan reservar</p></td>
-<td>Alta</td>
-<td>5</td>
+<td>Baja</td>
+<td>2</td>
 </tr>
 <tr class="even">
 <td>14</td>
@@ -1726,7 +1726,7 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <p><strong>quiero</strong> gestionar las reservas de los pasajeros</p>
 <p><strong>para</strong> confirmar los pasajeros y horarios</p></td>
 <td>Alta</td>
-<td>5</td>
+<td>4</td>
 </tr>
 <tr class="odd">
 <td>15</td>
@@ -1735,8 +1735,8 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <td><p><strong>Como</strong> usuario que visita la plataforma del restaurante,</p>
 <p><strong>quiero</strong> visualizar los planes de servicio disponibles</p>
 <p><strong>para</strong> evaluar las opciones y elegir el que mejor se adapte a mis necesidades</p></td>
-<td>Media</td>
-<td>5</td>
+<td>Baja</td>
+<td>2</td>
 </tr>
 <tr class="even">
 <td>16</td>
@@ -1746,7 +1746,7 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <p><strong>quiero</strong> seleccionar un plan de servicio</p>
 <p><strong>para</strong> adquirir los beneficios específicos que ofrece el plan</p></td>
 <td>Media</td>
-<td>5</td>
+<td>3</td>
 </tr>
 <tr class="odd">
 <td>17</td>
@@ -1756,7 +1756,7 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <p><strong>quiero</strong> realizar el pago del plan seleccionado</p>
 <p><strong>para</strong> activar los beneficios del plan y comenzar a utilizarlos</p></td>
 <td>Alta</td>
-<td>8</td>
+<td>4</td>
 </tr>
 <tr class="even">
 <td>18</td>
@@ -1775,8 +1775,8 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <td><p><strong>Como</strong> cliente o conductor,</p>
 <p><strong>quiero</strong> una barra de navegación en la landing page,</p>
 <p><strong>para</strong> tener acceso directo a la aplicación</p></td>
-<td>Media</td>
-<td>3</td>
+<td>Baja</td>
+<td>2</td>
 </tr>
 <tr class="even">
 <td>20</td>
@@ -1785,8 +1785,8 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <td><p><strong>Como</strong> cliente o conductor,</p>
 <p><strong>quiero</strong> dirigirme a la aplicación mediante el botón “Open App”,</p>
 <p><strong>para</strong> poder usarla</p></td>
-<td>Media</td>
-<td>3</td>
+<td>Baja</td>
+<td>1</td>
 </tr>
 <tr class="odd">
 <td>21</td>
@@ -1795,8 +1795,8 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <td><p><strong>Como</strong> cliente o conductor,</p>
 <p><strong>quiero</strong> observar la sección hero de la landing,</p>
 <p><strong>para</strong> poder tener información de lo que es y ofrece la aplicación</p></td>
-<td>Media</td>
-<td>5</td>
+<td>Baja</td>
+<td>2</td>
 </tr>
 <tr class="even">
 <td>22</td>
@@ -1806,7 +1806,7 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <p><strong>quiero</strong> tener al alcance una versión en español del landing page,</p>
 <p><strong>para</strong> tener accesibilidad en cuanto a opciones de idioma</p></td>
 <td>Media</td>
-<td>5</td>
+<td>3</td>
 </tr>
 <tr class="odd">
 <td>23</td>
@@ -1815,8 +1815,8 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <td><p><strong>Como</strong> cliente o staff,</p>
 <p><strong>quiero</strong> ver la sección del about the product y about the team,</p>
 <p><strong>para</strong> conocer las características de la aplicación y del grupo de desarrolladores</p></td>
-<td>Media</td>
-<td>5</td>
+<td>Baja</td>
+<td>2</td>
 </tr>
 <tr class="even">
 <td>24</td>
@@ -1826,7 +1826,7 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <p><strong>quiero</strong> recibir notificaciones de recordatorio antes del inicio de mi viaje,</p>
 <p><strong>para</strong> asegurarme de estar listo a tiempo</p></td>
 <td>Alta</td>
-<td>5</td>
+<td>4</td>
 </tr>
 <tr class="odd">
 <td>25</td>
@@ -1836,7 +1836,7 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <p><strong>quiero</strong> poder filtrar los viajes según el tipo de vehículo,</p>
 <p><strong>para</strong> seleccionar el que más se ajuste a mis necesidades</p></td>
 <td>Alta</td>
-<td>5</td>
+<td>4</td>
 </tr>
 <tr class="even">
 <td>26</td>
@@ -1845,8 +1845,8 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <td><p><strong>Como</strong> conductor,</p>
 <p><strong>quiero</strong> poder establecer destinos secundarios durante mi ruta,</p>
 <p><strong>para</strong> recoger a más estudiantes en puntos intermedios</p></td>
-<td>Alta</td>
-<td>5</td>
+<td>Media</td>
+<td>3</td>
 </tr>
 <tr class="odd">
 <td>27</td>
@@ -1856,7 +1856,7 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <p><strong>quiero</strong> poder acceder a opciones adicionales de seguridad, como compartir mi ubicación en tiempo real,</p>
 <p><strong>para</strong> garantizar un viaje seguro</p></td>
 <td>Alta</td>
-<td>5</td>
+<td>4</td>
 </tr>
 <tr class="even">
 <td>28</td>
@@ -1876,7 +1876,7 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <p><strong>quiero</strong> poder programar viajes recurrentes,</p>
 <p><strong>para</strong> no tener que hacer reservas diarias cada vez que necesite transporte</p></td>
 <td>Alta</td>
-<td>8</td>
+<td>4</td>
 </tr>
 </tbody>
 </table>
