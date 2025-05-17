@@ -150,6 +150,15 @@ Para el desarrollo de la entrega **TP**, se optó por dividir el trabajo de la s
             - [**5.1.2.3 SEO Tags and Meta Tags.**](#5123-seo-tags-and-meta-tags)
             - [**5.1.2.4 Searching Systems.**](#5124-searching-systems)
             - [**5.1.2.5 Navigation Systems.**](#5125-navigation-systems)
+        - [**5.1.3 Landing Page UI Design.**](#513-landing-page-ui-design)
+            - [**5.1.3.1 Landing Page Wireframe.**](#5131-landing-page-wireframe)
+            - [**5.1.3.2 Landing Page Mock-up.**](#5132-landing-page-mock-up)
+        - [**5.1.4 Mobile Applications UX/UI Design.**](#514-mobile-applications-uxui-design)
+            - [**5.1.4.1 Mobile Applications Wireframes.**](#5141-mobile-applications-wireframes)
+            - [**5.1.4.2 Mobile Applications Wireflow Diagrams.**](#5142-mobile-applications-wireflow-diagrams)
+            - [**5.1.4.3 Mobile Applications Mock-ups.**](#5143-mobile-applications-mock-ups)
+            - [**5.1.4.4 Mobile Applications User Flow Diagrams.**](#5144-mobile-applications-user-flow-diagrams)
+         	
 
 - [**Capítulo VI: Product Implementation, Validation & Deployment.**](#capítulo-vi-product-implementation-validation--deployment)
     - [**6.1 Software Configuration Management**](#61-software-configuration-management)
