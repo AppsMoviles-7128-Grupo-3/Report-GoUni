@@ -176,11 +176,22 @@ Para el desarrollo de la entrega **TP**, se optó por dividir el trabajo de la s
         - [**6.2.1.6 Services Documentation Evidence for Sprint Review.**](#6216-services-documentation-evidence-for-sprint-review)
         - [**6.2.1.7 Software Deployment Evidence for Sprint Review.**](#6217-software-deployment-evidence-for-sprint-review)
         - [**6.2.1.8 Team Collaboration Insights during Sprint.**](#6218-team-collaboration-insights-during-sprint)
-        - [**6.3 Validation Interviews.**](63-validation-interviews)
-          - [**6.3.1 Diseño de Entrevistas.**](#631-diseño-de-entrevistas)
-          - [**6.3.2 Registro de Entrevistas.**](#632-registro-de-entrevistas)
-          - [**6.3.3 Evaluaciones según heurísticas.**](#633-evaluaciones-según-heurísticas)
-        - [**6.4 Video About-The-Product.**](#64-video-about-the-product)
+        - [**6.2.1.8 Team Collaboration Insights during Sprint.**](#6218-team-collaboration-insights-during-sprint)
+      - [**6.2.2 Sprint 2.**](#622-sprint-2)
+        - [**6.2.2.1 Sprint Planning 1.**](#6221-sprint-planning-2)
+        - [**6.2.2.2 Sprint Backlog 1.**](#6222-sprint-backlog-2)
+        - [**6.2.2.3 Development Evidence for Sprint Review.**](#6223-development-evidence-for-sprint-review)
+        - [**6.2.2.4 Testing Suite Evidence for Sprint Review.**](#6224-testing-suite-evidence-for-sprint-review)
+        - [**6.2.2.5 Execution Evidence for Sprint Review.**](#6225-execution-evidence-for-sprint-review)
+        - [**6.2.2.6 Services Documentation Evidence for Sprint Review.**](#6226-services-documentation-evidence-for-sprint-review)
+        - [**6.2.2.7 Software Deployment Evidence for Sprint Review.**](#6227-software-deployment-evidence-for-sprint-review)
+        - [**6.2.2.8 Team Collaboration Insights during Sprint.**](#6228-team-collaboration-insights-during-sprint)
+        - [**6.2.2.8 Team Collaboration Insights during Sprint.**](#6228-team-collaboration-insights-during-sprint)
+   - [**6.3 Validation Interviews.**](63-validation-interviews)
+      - [**6.3.1 Diseño de Entrevistas.**](#631-diseño-de-entrevistas)
+      - [**6.3.2 Registro de Entrevistas.**](#632-registro-de-entrevistas)
+      - [**6.3.3 Evaluaciones según heurísticas.**](#633-evaluaciones-según-heurísticas)
+   - [**6.4 Video About-The-Product.**](#64-video-about-the-product)
 
 - [**Conclusiones.**](#conclusiones)
     - [**Conclusiones y Recomendaciones.**](#conclusiones-y-recomendaciones)
@@ -3195,7 +3206,21 @@ Durante este sprint, para proteger la rama "main", creamos una rama "develop". C
 ![githubAnalyticsSprint.png](assets/cap-6/analytics.png)
 
 ---
+### 6.2.2 Sprint 2.
+#### 6.2.2.1 Sprint Planning 2.
+#### 6.2.2.2 Sprint Backlog 2.
+#### 6.2.2.3 Development Evidence for Sprint Review.
+#### 6.2.2.4 Testing Suite Evidence for Sprint Review.
+#### 6.2.2.5 Execution Evidence for Sprint Review.
+#### 6.2.2.6 Services Documentation Evidence for Sprint Review.
+#### 6.2.2.7 Software Deployment Evidence for Sprint Review.
+#### 6.2.2.8 Team Collaboration Insights during Sprint.
 
+## 6.3 Validation Interviews.
+### 6.3.1. Diseño de Entrevistas.
+### 6.3.2. Registro de Entrevistas.
+### 6.3.3. Evaluaciones según heurísticas.
+## 6.4. Video About-the-Product
 
 ## Conclusiones
 - Este primer avance permitió definir claramente la problemática de movilidad estudiantil y establecer una propuesta de solución basada en el análisis del usuario, competencia y contexto. Se construyó una base sólida para el diseño centrado en el usuario y el desarrollo técnico del sistema.
