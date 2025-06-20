@@ -3218,6 +3218,63 @@ Durante este sprint, para proteger la rama "main", creamos una rama "develop". C
 
 ## 6.3 Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
+Para realizar los componentes, elaboramos las preguntas para obtener información de nuestros segmentos objetivos mediante las entrevistas.
+
+### Preguntas principales:
+
+- ¿Cómo te llamas?  
+- ¿Qué edad tienes?  
+- ¿Dónde vives?  
+
+---
+
+## Segmento objetivo: Estudiantes universitarios
+
+### Preguntas sobre preferencias y personalidad  
+*(En caso de ser un nuevo entrevistado que no participó en la anterior entrevista)*
+
+- ¿Con qué frecuencia utilizas transporte para llegar a la universidad?  
+- ¿Cuáles son las mayores dificultades que enfrentas al desplazarte a la universidad?  
+- ¿Cuánto tiempo sueles tardar en llegar a la universidad desde tu casa?  
+- ¿Estarías dispuesto a compartir tu trayecto con otros estudiantes? ¿Por qué?  
+- ¿Qué factores te harían sentir más cómodo/a utilizando un servicio de ride-sharing para estudiantes?  
+- ¿Cómo crees que un servicio de transporte compartido podría mejorar tu experiencia diaria?  
+
+### Preguntas principales
+
+- ¿Qué te parece el diseño de la landing page? ¿Te motiva a ingresar a la aplicación y registrarte?  
+- ¿Consideras que la aplicación dispone de una interfaz fácil e intuitiva de utilizar?  
+  - Si la respuesta es **SÍ**, ¿Por qué lo considera así?  
+  - Si la respuesta es **NO**, ¿Qué funcionalidad crees que falta o sobra en la aplicación para que tengas más interés en usarla?  
+- ¿Consideras que los planes de pago son de tu agrado? ¿O crees que debemos ajustar el precio?  
+- ¿Consideras útil que la aplicación muestre tu dirección en GPS en tiempo real? ¿De qué manera esto podría mejorar tu experiencia?
+
+---
+
+## Segmento objetivo: Estudiantes universitarios propietarios de vehículos privados
+
+### Preguntas sobre preferencias y personalidad  
+*(En caso de ser un nuevo entrevistado que no participó en la anterior entrevista)*
+
+- ¿Con qué frecuencia conduces hacia tu universidad o trabajo?  
+- ¿Te gustaría compartir tu vehículo con otros estudiantes en tus trayectos?  
+- ¿Cuáles son tus mayores preocupaciones al compartir tu vehículo con otras personas?  
+- ¿Qué aspectos te motivarían a ofrecer tu vehículo en un servicio de ride-sharing?  
+- ¿Qué tipo de incentivos te harían más propenso a unirte a una plataforma de ride-sharing para estudiantes?  
+- ¿Cómo manejas los costos de mantenimiento y gasolina? ¿Crees que compartir tu vehículo podría ayudar a reducir esos costos?  
+- ¿Cuáles son tus expectativas en cuanto a seguridad y comodidad al ofrecer tu vehículo para transportar a otros?  
+
+### Preguntas principales
+
+- ¿Qué te parece el diseño de la landing page? ¿Te motiva a ingresar a la aplicación y registrarte?  
+- ¿Consideras que la aplicación dispone de una interfaz fácil e intuitiva de utilizar?  
+  - Si la respuesta es **SÍ**, ¿Por qué lo considera así?  
+  - Si la respuesta es **NO**, ¿Qué funcionalidad crees que falta en la aplicación para que tengas más interés en usarla?  
+- ¿Consideras útil que la funcionalidad de reseñas al conductor en la aplicación te ayude en la forma de transporte? ¿Te resultan incómodas este tipo de reseñas?  
+- ¿Consideras útil la dirección GPS en tiempo real para realizar el servicio de transporte? ¿Cómo crees que esta función podría mejorar el proceso?  
+
+---
+
 ### 6.3.2. Registro de Entrevistas.
 ### 6.3.3. Evaluaciones según heurísticas.
 ## 6.4. Video About-the-Product
