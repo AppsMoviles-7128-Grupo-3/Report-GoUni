@@ -3207,7 +3207,30 @@ Durante este sprint, para proteger la rama "main", creamos una rama "develop". C
 
 ---
 ### 6.2.2 Sprint 2.
+En esta sección se documenta el avance correspondiente al **Sprint 2**, centrado en el desarrollo funcional de dos aplicaciones móviles: una en **Flutter** dirigida a estudiantes pasajeros y otra en **Kotlin** destinada a los conductores. El equipo avanzó en la implementación de funcionalidades clave como la navegación entre pantallas, registro e inicio de sesión. Se mantuvo una colaboración activa entre los miembros del equipo, utilizando herramientas como GitHub y reuniones virtuales para sincronizar avances y resolver obstáculos técnicos. También se recopila evidencia del progreso, reflexiones sobre el trabajo colaborativo y ajustes realizados durante el sprint.
+
+---
+
 #### 6.2.2.1 Sprint Planning 2.
+En el **Sprint Planning 2**, se registró la planificación y asignación de tareas orientadas al desarrollo móvil. El equipo definió los componentes iniciales para ambas aplicaciones y se enfocó en integrar las funcionalidades más importantes que permitieran a los usuarios tener una experiencia fluida y segura.
+
+| **Sprint #**                     | Sprint 2 |
+|----------------------------------|----------|
+| **Sprint Planning Background**   | Desarrollo e implementación de funcionalidades básicas para las apps móviles de pasajeros y conductores. |
+| **Date**                         | 6 de Junio de 2025 |
+| **Time**                         | 21:00 horas (GMT-5) |
+| **Location**                     | Modalidad remota |
+| **Prepared By**                  | LinkU |
+| **Attendees (to planning meeting)** | Todos los miembros de LinkU |
+| **Sprint 1 Review Summary**      | Se logró desplegar correctamente el landing page en Netlify y se obtuvo retroalimentación positiva sobre su diseño e impacto. Se definió el siguiente paso como el desarrollo de las aplicaciones móviles para usuarios finales. |
+| **Sprint 2 Retrospective Summary** | En este Sprint se desarrollaron los primeros prototipos funcionales de las aplicaciones móviles. La app en Flutter para estudiantes implementó navegación entre vistas, login y visualización de rutas. La app en Kotlin para conductores integró gestión de solicitudes de viaje. Se fortaleció la coordinación entre áreas frontend y backend. |
+| **Sprint Goal & User Stories**   | — |
+| **Sprint Goal 2**                | Desarrollar las funcionalidades principales de las aplicaciones móviles para pasajeros y conductores. |
+| **Sprint Velocity 2**            | 9 |
+| **Sum of Story Points**          | 40 |
+
+---
+
 #### 6.2.2.2 Sprint Backlog 2.
 #### 6.2.2.3 Development Evidence for Sprint Review.
 #### 6.2.2.4 Testing Suite Evidence for Sprint Review.
