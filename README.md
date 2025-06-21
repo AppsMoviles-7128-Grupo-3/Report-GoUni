@@ -3328,25 +3328,33 @@ En este sprint, se han incorporado pruebas de aceptación escritas en **Gherkin*
 **VISTAS DE LA APP EN KOTLIN: VERSIÓN PARA EL CONDUCTOR**
 
 Vista del registro del usuario:
+
 ![SignUpView.jpg](assets/cap-6/SignUpView.jpg)
 
 Vista de inico de sesión del usuario:
+
 ![SignInView.jpg](assets/cap-6/SignInView.jpg)
 
 Vista para el registro del vehículo:
+
 ![RegisterVehicleView.jpg](assets/cap-6/RegisterVehicleView.jpg)
 
 Vista para la creación de una ruta:
+
 ![CreateRouteView1.jpg](assets/cap-6/CreateRouteView1.jpg)
+
 ![CreateRouteView2.jpg](assets/cap-6/CreateRouteView2.jpg)
 
 Vista de las rutas creadas:
+
 ![MyRoutesView.jpg](assets/cap-6/MyRoutesView.jpg)
 
 Vista de las reservaciones que haya de los usuarios:
+
 ![ReservationsView.jpg](assets/cap-6/ReservationsView.jpg)
 
 Vista del perfil del usuario:
+
 ![MyProfileView.jpg](assets/cap-6/MyProfileView.jpg)
 
 
