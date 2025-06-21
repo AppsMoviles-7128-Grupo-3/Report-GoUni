@@ -3264,8 +3264,99 @@ A continuación, se presenta el backlog correspondiente al Sprint 2, enfocado en
 #### 6.2.2.4 Testing Suite Evidence for Sprint Review.
 #### 6.2.2.5 Execution Evidence for Sprint Review.
 #### 6.2.2.6 Services Documentation Evidence for Sprint Review.
+
+Para este sprint, utilizamos los servicios de la API que nosotros mismos hicimos con Java en Spring Boot. A continuación, mostramos todos los endpoints realizados por nuestro equipo por cada Bounded Context correctamente documentados en Swagger.
+
+Repositorio del backend en GitHub: https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Mobile-Backend
+
+**Bounded Context: Reviews**
+
+| **Entity** | **Endpoint URL** | **Swagger**                                                   |
+|------------|-------------------|---------------------------------------------------------------|
+| Reviews    | api/v1/reviews    | ![SwaggerReviews.png](assets/cap-6/SwaggerReviews.png) |
+
+---
+
+**Bounded Context: Profiles**
+
+| **Entity** | **Endpoint URL** | **Swagger**                                             |
+|------------|-------------------|---------------------------------------------------------|
+| Profiles   | api/v1/profiles   | ![SwaggerProfile.png](assets/cap-6/SwaggerProfiles.png) |
+
+---
+
+**Bounded Context: Drivers**
+
+| **Entity** | **Endpoint URL** | **Swagger** |
+|------------|-------------------|-------------|
+| Drivers    | api/v1/drivers    | ![SwaggerDrivers.png](assets/cap-6/SwaggerDrivers.png) |
+
+---
+
+**Bounded Context: Roles**
+
+| **Entity** | **Endpoint URL** | **Swagger** |
+|------------|-------------------|-------------|
+| Roles      | api/v1/roles      | ![SwaggerRoles.png](assets/cap-6/SwaggerRoles.png) |
+
+---
+
+**Bounded Context: Students**
+
+| **Entity** | **Endpoint URL** | **Swagger**                                             |
+|------------|-------------------|---------------------------------------------------------|
+| Students   | api/v1/students   | ![SwaggerStudent.png](assets/cap-6/SwaggerStudents.png) |
+
+---
+
+**Bounded Context: Chats**
+
+| **Entity** | **Endpoint URL** | **Swagger** |
+|------------|-------------------|-------------|
+| Chats      | api/v1/chats      | ![SwaggerChatController.png](assets/cap-6/SwaggerChat.png) |
+
+---
+
+**Bounded Context: Users**
+
+| **Entity** | **Endpoint URL** | **Swagger**                                        |
+|------------|-------------------|----------------------------------------------------|
+| Users      | api/v1/users      | ![SwaggerUsers.png](assets/cap-6/SwaggerUsers.png) |
+
 #### 6.2.2.7 Software Deployment Evidence for Sprint Review.
 #### 6.2.2.8 Team Collaboration Insights during Sprint.
+
+**Distribución de aportes en el informe:**
+
+**URL del repositorio para el Project Report en la organización de GitHub del equipo:** [https://github.com/AppsMoviles-7128-Grupo-3/Report-GoUni](https://github.com/AppsMoviles-7128-Grupo-3/Report-GoUni)
+
+**¿Cómo se han desarrollado las actividades de elaboración del informe?**
+
+Para el desarrollo del informe en este sprint, optamos por dividirnos el capítulo de la siguiente manera:
+
+| Integrante          | Aporte en el informe                                                                                                                                                                                  |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Rodrigo Chirinos           | Sprint 2, Development Evidence for Sprint Review, Validation Interviews. ![SwaggerStudent.png](assets/cap-6/SwaggerStudents.png)                                                                                                                     |
+| Aaron Cruz          | Sprint planning 2, Deployment Evidence for Sprint Review, Testing Suite Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Team Collaboration Insights during Sprint ![SwaggerReviews.png](assets/cap-6/SwaggerReviews.png) |
+| Alessandro David    | Sprint 2, Development Evidence for Sprint Review, Validation Interviews, Mejora continua en Domain Driven Design Architecture, Heuristics evaluation ![SwaggerProfile.png](assets/cap-6/SwaggerProfiles.png)                                         |
+| Alessandro David    | Validation Interviews, Development Evidence for Sprint Review ![SwaggerChatController.png](assets/cap-6/SwaggerChat.png)                                                                                                                        |
+| Alessandro Zevallos | Sprint 2, Validation Interviews, Video About-the-product ![SwaggerDrivers.png](assets/cap-6/SwaggerDrivers.png)                                                                                                                                |
+
+**Evidencia del commit:**
+
+![](assets/cap-6/commit-evidence-sprint-2.png)
+
+Durante este sprint, al igual que para el desarrollo de la landing page, para proteger la rama “main” creamos una rama “develop” de la que cada integrante de nuestro grupo creó su propia sub-rama “feature” para subir un capítulo del reporte siguiendo las convenciones antes señaladas(conventional commit y git flow).
+
+**Distribución de aportes en nuestra aplicación:**
+
+**Github analytics de nuestro tercer sprint - frontend:**
+
+![](assets/cap-6/commits-evidence-frontend.png)
+
+**Github analytics de nuestro tercer sprint - backend: 
+
+![](assets/cap-6/commits-evidence-backend.png)
 
 ## 6.3 Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
