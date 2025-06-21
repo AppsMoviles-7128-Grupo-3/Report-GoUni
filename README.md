@@ -3474,6 +3474,120 @@ También valoró como muy útil la funcionalidad de reseñas a conductores, ya q
 Finalmente, destacó la importancia del uso de GPS en tiempo real como una herramienta clave para mejorar la coordinación entre conductores y pasajeros, facilitar los encuentros y brindar mayor seguridad durante el trayecto.
 
 ### 6.3.3. Evaluaciones según heurísticas.
+
+### UX Heuristics & Principles Evaluation  
+**Usability - Inclusive Design - Information Architecture**
+
+**CARRERA**: Ingeniería de Software  
+**CURSO**: CC238  
+**SECCIÓN**: 7128  
+**PROFESORES**: Jorge Luis Mayta Guillermo  
+**AUDITOR**: Grupo LinkU  
+**CLIENTES**: María Gracia y Andre Zagaceta  
+
+---
+
+### SITE o APP A EVALUAR:  
+**Tu Chamba Más Cercana**
+
+---
+
+### TAREAS A EVALUAR:
+1. Registro de un usuario nuevo  
+2. Reserva de un viaje  
+3. Visualización de reseñas de conductores  
+4. Navegación en la landing page  
+5. Uso del GPS en tiempo real
+
+---
+
+### ESCALA DE SEVERIDAD:
+
+| Nivel | Descripción                                                                                      |
+|-------|--------------------------------------------------------------------------------------------------|
+| 1     | Problema superficial: fácil de superar, poco frecuente.                                          |
+| 2     | Problema menor: ocurre algo más seguido o es más molesto, prioridad baja.                        |
+| 3     | Problema mayor: frecuente o difícil de resolver, debe corregirse.                                |
+| 4     | Problema muy grave: impide continuar usando la herramienta. Debe corregirse antes del despliegue.|
+
+---
+
+### TABLA RESUMEN:
+
+| #  | Problema                                                                                  | Severidad | Heurística/Principio violado                                |
+|----|-------------------------------------------------------------------------------------------|-----------|--------------------------------------------------------------|
+| 1  | Algunos elementos de la landing page se ven superpuestos en ciertos dispositivos          | 2         | Usability: Consistencia y diseño responsivo                 |
+| 2  | No hay forma clara de saber si una reseña ha sido verificada o moderada                   | 2         | Inclusive Design: Proporcionar confianza en la información   |
+| 3  | La navegación por la landing es visualmente atractiva, pero falta un botón de volver arriba | 1       | Usability: Libertad y control del usuario                   |
+| 4  | No se indica si el GPS está activo desde el inicio del viaje                              | 3         | Information Architecture: Claridad de estado del sistema     |
+| 5  | Las reseñas no cuentan con un filtro por tipo de experiencia (positiva/negativa)          | 2         | Usability: Flexibilidad y eficiencia del uso                 |
+
+---
+
+### DESCRIPCIÓN DE PROBLEMAS:
+
+---
+
+**PROBLEMA #1:**  
+**Severidad**: 2  
+**Heurística violada**: Usabilidad – Consistencia y diseño responsivo  
+
+**Problema:**  
+En la computadora de una usuaria, varios elementos de la landing page aparecen superpuestos, dificultando la lectura y la interacción. Esto genera confusión, especialmente en secciones como el hero y los llamados a la acción.
+
+**Recomendación:**  
+Aplicar pruebas de diseño responsivo en distintos tamaños de pantalla y ajustar mediante media queries las secciones que colapsan en vista desktop.
+
+---
+
+**PROBLEMA #2:**  
+**Severidad**: 2  
+**Heurística violada**: Inclusive Design – Proporcionar confianza en la información  
+
+**Problema:**  
+Los usuarios no pueden saber si las reseñas que están leyendo han sido verificadas o si han pasado por moderación, lo que puede disminuir la confianza en su autenticidad.
+
+**Recomendación:**  
+Añadir un indicador visual de “reseña verificada” y establecer criterios claros de moderación.
+
+---
+
+**PROBLEMA #3:**  
+**Severidad**: 1  
+**Heurística violada**: Usabilidad – Libertad y control del usuario  
+
+**Problema:**  
+No se incluye un botón visible para volver al inicio de la landing page una vez se navega a secciones más profundas.
+
+**Recomendación:**  
+Incluir un botón flotante “Volver arriba” o “Back to top” en la esquina inferior derecha en vista móvil y desktop.
+
+---
+
+**PROBLEMA #4:**  
+**Severidad**: 3  
+**Heurística violada**: Information Architecture – Claridad de estado del sistema  
+
+**Problema:**  
+Durante el uso de la funcionalidad GPS, no se muestra claramente si está activo o desde qué momento. Esto genera incertidumbre en los usuarios respecto a su ubicación o al seguimiento del conductor.
+
+**Recomendación:**  
+Añadir un mensaje o ícono persistente indicando “GPS activo” o “Ubicación compartida” al iniciar el trayecto.
+
+---
+
+**PROBLEMA #5:**  
+**Severidad**: 2  
+**Heurística violada**: Usabilidad – Flexibilidad y eficiencia del uso  
+
+**Problema:**  
+Las reseñas de conductores se presentan sin opción de filtrado, lo que dificulta revisar solo comentarios positivos o negativos, especialmente en casos donde hay muchas entradas.
+
+**Recomendación:**  
+Agregar filtros por tipo de experiencia (positiva, neutra, negativa) y por fecha.
+
+
+
 ## 6.4. Video About-the-Product
 
 ## Conclusiones
