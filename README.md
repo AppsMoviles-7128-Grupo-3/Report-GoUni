@@ -3274,10 +3274,84 @@ A continuación, se presenta el backlog correspondiente al Sprint 2, enfocado en
 ---
 
 #### 6.2.2.3 Development Evidence for Sprint Review.
-#### 6.2.2.4 Testing Suite Evidence for Sprint Review.
-#### 6.2.2.5 Execution Evidence for Sprint Review.
-#### 6.2.2.6 Services Documentation Evidence for Sprint Review.
+En esta sección, se presentan los commits realizados en el repositorio de ambas aplicaciones. Estos commits reflejan el progreso y las mejoras implementadas durante el Sprint 2, proporcionando una visión detallada de las actividades de desarrollo y las contribuciones del equipo.
 
+**Repositorio de la app en Kotlin:**  
+[https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Mobile-Application](https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Mobile-Application)
+
+---
+
+| **Repository**                                                                 | **Branch** | **Commit Id**                              | **Commit Message**                                                                                                                                                                                                                                                                        | **Commit Message Body** | **Committed on (Date)** |
+|--------------------------------------------------------------------------------|------------|--------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|-------------------------|
+| [App Kotlin](https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Mobile-Application) | `Reservation`     | `0183989daeaf55cc6fb7d388d5f86ccc0d726a58` | [feat: fix architecture](https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Mobile-Application/commit/0183989daeaf55cc6fb7d388d5f86ccc0d726a58 "feat: fix architecture")                                                                                                     | -                       | 16 Junio, 2025           |
+|                                                                                |            | `501abad79a0cdc1698a5ce6069773fbaadd017ec` | [feat: add complete features](https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Mobile-Application/commit/501abad79a0cdc1698a5ce6069773fbaadd017ec "feat: add complete features")                                                                                                     | -                       | 16 Junio, 2025           |
+|                                                                                |            | `b17055842cc2f1ae1ab0ed90af5f9868556d1f59` | [feat: update views](https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Mobile-Application/commit/b17055842cc2f1ae1ab0ed90af5f9868556d1f59 "feat: update views")                                                                                                     | -                       | 19 Junio, 2025           |
+|                                                                                |            | `19c6c7169cf91ffae218cda6123f943410989d31` | [feat: update views](https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Mobile-Application/commit/19c6c7169cf91ffae218cda6123f943410989d31 "feat: update views")                                                                                                     | -                       | 19 Junio, 2025           |
+|                                                                                |            | `83eb429700022f1ed4df9d485668e64de15b7000` | [feat: update name app](https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Mobile-Application/commit/83eb429700022f1ed4df9d485668e64de15b7000 "feat: update name app")                                                                                                     | -                       | 19 Junio, 2025           |
+|                                                                                |            | `60809a3d86dff23cacbf5572cbc38e4b6a1fbc4f` | [feat: update name app](https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Mobile-Application/commit/60809a3d86dff23cacbf5572cbc38e4b6a1fbc4f "feat: update name app")                                                                                                     | -                       | 19 Junio, 2025           |
+
+
+
+
+
+**Repositorio de la app en Flutter:**  
+[https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Mobile-Application-Flutter](https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Mobile-Application-Flutter)
+
+---
+
+| **Repository**                                                                 | **Branch** | **Commit Id**                              | **Commit Message**                                                                                                                                                                                                                                                                        | **Commit Message Body** | **Committed on (Date)** |
+|--------------------------------------------------------------------------------|------------|--------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|-------------------------|
+| [App Flutter](https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Mobile-Application-Flutter) | `main`     | `c2e8446fb5f47592cff2589539ec28c3e8804932` | [first commit](https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Mobile-Application-Flutter/commit/c2e8446fb5f47592cff2589539ec28c3e8804932 "first commit")                                                                                                     | -                       | 16 Junio, 2025           |
+
+---
+
+
+#### 6.2.2.4 Testing Suite Evidence for Sprint Review.
+En este sprint, se han incorporado pruebas de aceptación escritas en **Gherkin**, asegurando que los requisitos del usuario se validen de manera efectiva. A continuación, se proporciona el enlace al repositorio de las pruebas de aceptación, donde se encuentra una descripción detallada de los escenarios de prueba y su implementación:
+
+**Repositorio de pruebas de aceptación:**  
+[https://github.com/AppsMoviles-7128-Grupo-3/linku-acceptance-test](https://github.com/AppsMoviles-7128-Grupo-3/linku-acceptance-test)
+
+---
+
+| **Repository**                                                                             | **Branch** | **Commit Id**                          | **Commit Message**                                                                                                                                                         | **Commit Message Body** | **Committed on (Date)** |
+|--------------------------------------------------------------------------------------------|------------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|-------------------------|
+| [LinkU Acceptance Test](https://github.com/AppsMoviles-7128-Grupo-3/linku-acceptance-test) | `main`     | `491a119fae331fa5f96133e23a331898a2f8624c` | [feat: Add acceptance test](https://github.com/AppsMoviles-7128-Grupo-3/linku-acceptance-test/commit/491a119fae331fa5f96133e23a331898a2f8624c "feat: Add acceptance test") | -                       | 20 Junio, 2025           |
+|                                                                                            |            | `51d4606a823313a47d14b04cd36c12b3dde0db63` | [chore: add AT02.feature file](https://github.com/AppsMoviles-7128-Grupo-3/linku-acceptance-test/commit/51d4606a823313a47d14b04cd36c12b3dde0db63)                          | -                       | 20 Junio, 2025           |
+|                                                                                            |            | `744f6af82c0a2f70b912280d5d628fb800e01aed` | [chore: add AT03.feature file](https://github.com/AppsMoviles-7128-Grupo-3/linku-acceptance-test/commit/744f6af82c0a2f70b912280d5d628fb800e01aed)                          | -                       | 20 Junio, 2025           |
+|                                                                                            |            | `96a6385da82f092f8896c9d232b781291f829788` | [chore: add AT04.feature file](https://github.com/AppsMoviles-7128-Grupo-3/linku-acceptance-test/commit/96a6385da82f092f8896c9d232b781291f829788)                          | -                       | 20 Junio, 2025           |
+|                                                                                            |            | `1352e75921e965469d9662da5c9e8c2cfac9e0fc` | [chore: add AT05.feature file](https://github.com/AppsMoviles-7128-Grupo-3/linku-acceptance-test/commit/1352e75921e965469d9662da5c9e8c2cfac9e0fc)                          | -                       | 20 Junio, 2025           |
+
+---
+#### 6.2.2.5 Execution Evidence for Sprint Review.
+
+**VISTAS DE LA APP EN KOTLIN: VERSIÓN PARA EL CONDUCTOR**
+
+Vista del registro del usuario:
+![SignUpView.jpg](assets/cap-6/SignUpView.jpg)
+
+Vista de inico de sesión del usuario:
+![SignInView.jpg](assets/cap-6/SignInView.jpg)
+
+Vista para el registro del vehículo:
+![RegisterVehicleView.jpg](assets/cap-6/RegisterVehicleView.jpg)
+
+Vista para la creación de una ruta:
+![CreateRouteView1.jpg](assets/cap-6/CreateRouteView1.jpg)
+![CreateRouteView2.jpg](assets/cap-6/CreateRouteView2.jpg)
+
+Vista de las rutas creadas:
+![MyRoutesView.jpg](assets/cap-6/MyRoutesView.jpg)
+
+Vista de las reservaciones que haya de los usuarios:
+![ReservationsView.jpg](assets/cap-6/ReservationsView.jpg)
+
+Vista del perfil del usuario:
+![MyProfileView.jpg](assets/cap-6/MyProfileView.jpg)
+
+
+
+#### 6.2.2.6 Services Documentation Evidence for Sprint Review.
 Para este sprint, utilizamos los servicios de la API que nosotros mismos hicimos con Java en Spring Boot. A continuación, mostramos todos los endpoints realizados por nuestro equipo por cada Bounded Context correctamente documentados en Swagger.
 
 Repositorio del backend en GitHub: https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Mobile-Backend
@@ -3337,6 +3411,7 @@ Repositorio del backend en GitHub: https://github.com/AppsMoviles-7128-Grupo-3/G
 | Users      | api/v1/users      | ![SwaggerUsers.png](assets/cap-6/SwaggerUsers.png) |
 
 #### 6.2.2.7 Software Deployment Evidence for Sprint Review.
+
 #### 6.2.2.8 Team Collaboration Insights during Sprint.
 
 **Distribución de aportes en el informe:**
