@@ -1889,6 +1889,16 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <td>Alta</td>
 <td>4</td>
 </tr>
+<tr class="even">
+<td>30</td>
+<td>US30</td>
+<td>Visualización de solicitudes activas para conductores</td>
+<td><p><strong>Como</strong> conductor frecuente,</p>
+<p><strong>quiero</strong> quiero visualizar en tiempo real las solicitudes de viaje disponibles o pendientes,</p>
+<p><strong>para</strong> aceptar o rechazar solicitudes rápidamente y organizar mis rutas de manera eficiente.</p></td>
+<td>Alta</td>
+<td>5</td>
+</tr>
 </tbody>
 </table>
 
@@ -3232,6 +3242,24 @@ En el **Sprint Planning 2**, se registró la planificación y asignación de tar
 ---
 
 #### 6.2.2.2 Sprint Backlog 2.
+
+A continuación, se presenta el backlog correspondiente al Sprint 2, enfocado en la implementación inicial de funcionalidades en las aplicaciones móviles para pasajeros (Flutter) y conductores (Kotlin). Las historias seleccionadas priorizan el registro de usuarios, publicación y búsqueda de viajes, así como la gestión de reservas y la interacción entre conductor y pasajero. Se incluye también una nueva historia de usuario específica para la app de conductores.
+
+| **Sprint #**     | **Sprint 2**                                                                                                                                                                                                                 |     |     |                                                                                                      |           |                    |     |
+|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|-----|------------------------------------------------------------------------------------------------------|-----------|--------------------|-----|
+| **User Story**   | **Work-item / Task**                                                                                                                                                                                                          |     |     |                                                                                                      | **Estimation (hours)** | **Assigned To**      | **Status (To-do / In-Process / To-Review / Done)** |
+| **E5-US07**       | Registro de usuario                                                                                         | **T18** | Crear formulario de registro de pasajero (Flutter)                                                   | Diseñar y desarrollar el formulario de registro para estudiantes pasajeros                           | 2h        | Alessandro David     | Done    |
+| **E5-US07**       | Registro de usuario                                                                                         | **T19** | Crear formulario de registro de conductor (Kotlin)                                                   | Diseñar y desarrollar el formulario de registro para conductores                                       | 2h        | Alessandro Zevallos  | Done    |
+| **E5-US01**       | Compartir viajes con compañeros de universidad                                                              | **T20** | Crear interfaz de oferta de viaje en Flutter                                                          | Permitir que el estudiante cree una solicitud de viaje                                                 | 2h        | Alessandro David     | Done    |
+| **E5-US08**       | Búsqueda de viajes disponibles                                                                              | **T21** | Implementar buscador de viajes (Flutter)                                                              | Permitir filtrar y mostrar viajes disponibles en una lista                                             | 2h        | Alessandro David     | Done    |
+| **E5-US09**       | Reserva de viaje                                                                                            | **T22** | Implementar botón y lógica de reserva                                                                 | Permitir reservar un viaje desde la app Flutter                                                        | 2h        | Rodrigo Chirinos     | Done    |
+| **E5-US13**       | Publicación de disponibilidad de asientos                                                                   | **T23** | Crear interfaz para conductores (Kotlin) para publicar asientos disponibles                           | Formulario para ingresar número de asientos, horarios y ruta                                          | 2h        | Alessandro Zevallos  | In-Process |
+| **E5-US14**       | Gestión de reservas                                                                                         | **T24** | Crear panel de reservas para conductor (Kotlin)                                                       | Listar reservas pendientes y aceptarlas o rechazarlas                                                  | 2h        | Alessandro Zevallos  | To-Do   |
+| **E5-US10**       | Comunicación con el conductor                                                                               | **T25** | Crear módulo de chat básico (Flutter y Kotlin)                                                        | Interfaz de mensajería entre pasajero y conductor                                                      | 2.5h      | Rodrigo Chirinos     | To-Do   |
+| **E5-US30**       | Visualización de solicitudes activas para conductores                                                      | **T26** | Mostrar lista de solicitudes activas en app del conductor (Kotlin)                                    | Visualizar viajes solicitados en tiempo real                                                           | 2h        | Aaron Cruz           | To-Do   |
+
+---
+
 #### 6.2.2.3 Development Evidence for Sprint Review.
 #### 6.2.2.4 Testing Suite Evidence for Sprint Review.
 #### 6.2.2.5 Execution Evidence for Sprint Review.
