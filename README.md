@@ -3359,6 +3359,28 @@ Vista del perfil del usuario:
 
 
 
+**VISTAS DE LA APP EN FLUTTER: VERSIÓN PARA EL PASAJERO**
+
+Vista del registro del usuario:
+
+![SignUpViewFlutter.jpg](assets/cap-6/SignUpViewFlutter.jpg)
+
+Vista de inico de sesión del usuario:
+
+![SignInViewFlutter.jpg](assets/cap-6/SignInViewFlutter.jpg)
+
+Vista del home de la app:
+
+![HomeViewFlutter.jpg](assets/cap-6/HomeViewFlutter.jpg)
+
+Vista para buscar una ruta o viaje:
+
+![SearchTravelViewFlutter.jpg](assets/cap-6/SearchTravelViewFlutter.jpg)
+
+Vista con los detalles de una ruta o viaje:
+
+![TravelDetailsViewFlutter.jpg](assets/cap-6/TravelDetailsViewFlutter.jpg)
+
 #### 6.2.2.6 Services Documentation Evidence for Sprint Review.
 Para este sprint, utilizamos los servicios de la API que nosotros mismos hicimos con Java en Spring Boot. A continuación, mostramos todos los endpoints realizados por nuestro equipo por cada Bounded Context correctamente documentados en Swagger.
 
