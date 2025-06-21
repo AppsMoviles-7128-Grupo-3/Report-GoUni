@@ -3328,6 +3328,24 @@ Para realizar los componentes, elaboramos las preguntas para obtener informació
 
 ### 6.3.2. Registro de Entrevistas.
 
+**Segmento 1: Estudiantes**
+
+**Entrevista 1:**
+
+- **Nombre Completo:** Maria Gracia Rojas Montenegro
+- **Edad:** 19
+- **Lugar de residencia:** Surco
+
+
+**Evidencia de la entrevista:**
+<img src="assets/cap-1/maria-gracia-entrevista.png">
+
+**Enlace de la entrevista:**<a href="https://drive.google.com/file/d/1RuNu_YXVe9Em6N0M0qD3Ig4pXtz6qRz8/view?usp=sharing"> Clic aquí </a>
+
+Maria Gracia dio opiniones positivas sobre la landing page y la aplicación web, resaltando 
+la funcionalidad del GPS en términos de seguridad. Mencionó que en su computadora algunos 
+elementos de la landing page se veían superpuestos.
+
 **Segmento 2: Estudiantes universitarios propietarios de vehículos privados**
 
 **Entrevista 1:**
