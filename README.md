@@ -3276,6 +3276,30 @@ Para realizar los componentes, elaboramos las preguntas para obtener informació
 ---
 
 ### 6.3.2. Registro de Entrevistas.
+
+**Segmento 2: Estudiantes universitarios propietarios de vehículos privados**
+
+**Entrevista 1:**
+
+- **Nombres:** Andre
+- **Apellidos:** Zagaceta
+- **Edad:** 21
+- **Lugar de residencia:** San Miguel
+
+
+**Evidencia de la entrevista:**
+<img src="assets/cap-1/entrevista_alessandro.PNG">
+
+**Enlace de la entrevista:**<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216035_upc_edu_pe/EdfiwjYU3QFFmRcUrCJFokwBM6yArd2ZRUGJ4zIy2UWsRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=nDLBcU"> Clic aquí </a>
+
+El entrevistado evaluó positivamente el diseño de la landing page de la aplicación, destacando que es visualmente atractivo y comunica de forma clara el propósito y los beneficios del servicio, lo que genera motivación para registrarse.
+
+Respecto a la interfaz de la aplicación, consideró que es fácil e intuitiva de usar. Resaltó que la estructura está bien organizada, con íconos claros, textos breves y llamados a la acción definidos, lo que facilita la navegación sin generar confusión.
+
+También valoró como muy útil la funcionalidad de reseñas a conductores, ya que ayudan a generar confianza al momento de compartir un viaje. Comentó que no le resultan incómodas siempre que se respeten la privacidad y el trato adecuado entre usuarios.
+
+Finalmente, destacó la importancia del uso de GPS en tiempo real como una herramienta clave para mejorar la coordinación entre conductores y pasajeros, facilitar los encuentros y brindar mayor seguridad durante el trayecto.
+
 ### 6.3.3. Evaluaciones según heurísticas.
 ## 6.4. Video About-the-Product
 
