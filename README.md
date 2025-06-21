@@ -63,6 +63,19 @@ Para el desarrollo de la entrega **TP**, se optó por dividir el trabajo de la s
 
 ---
 
+### _TB2_
+
+Para el desarrollo de la entrega **TB2**, se optó por dividir el trabajo de la siguiente forma:
+
+| **Versión**  | **Fecha** | **Autor**                         | **Descripción**                                                                                                                   |
+|--------------|-----------|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **#01 - TB2** | 21/06/25  | David Polanco, Alessandro David   | - Desarrollo de interfaces en Flutter <br> - Funcionalidades de registro, búsqueda y reserva de viajes (pasajeros)               |
+| **#01 - TB2** | 21/06/25  | Chirinos Zúñiga, Rodrigo          | - Implementación de módulo de reserva <br> - Redacción del Sprint 2 y entrevistas de validación     |
+| **#01 - TB2** | 21/06/25  | Cruz Ticona, Aaron                | - Desarrollo de funcionalidades para conductores <br> - Gestión de solicitudes activas y publicación de asientos                 |
+| **#01 - TB2** | 21/06/25  | Zevallos Linares, Alessandro      | - Desarrollo en Kotlin para app de conductores <br> - Registro de conductor y lógica de backend móvil inicial <br> - Redacción del Sprint 2 y entrevistas de validación |
+
+---
+
 # Project Report Collaboration Insights
 
 **URL del repositorio de GitHub de la organización:** [https://github.com/orgs/AppsMoviles-7128-Grupo-3/repositories](https://github.com/orgs/AppsMoviles-7128-Grupo-3/repositories)
