@@ -3712,11 +3712,12 @@ Agregar filtros por tipo de experiencia (positiva, neutra, negativa) y por fecha
 ## Anexos
 
 
-| Descripción                  | Link                                                       |
-|------------------------------|------------------------------------------------------------|
-| Repositorio General de LinkU | https://github.com/AppsMoviles-7128-Grupo-3                |
-| Repositorio Reporte          | https://github.com/AppsMoviles-7128-Grupo-3/Report-GoUni   |
-| Repositorio Landing Page     | https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Landing-Page   |
-| Repositorio Acceptance Tests | https://github.com/AppsMoviles-7128-Grupo-3/linku-acceptance-test    |
-| Link landing page            | https://landing-page-with-angular-sigma.vercel.app/home    |
-| Link mobile application  | https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Mobile-Application/ |
+| Descripción                  | Link                                                                  |
+|------------------------------|-----------------------------------------------------------------------|
+| Repositorio General de LinkU | https://github.com/AppsMoviles-7128-Grupo-3                           |
+| Repositorio Reporte          | https://github.com/AppsMoviles-7128-Grupo-3/Report-GoUni              |
+| Repositorio Landing Page     | https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Landing-Page        |
+| Repositorio Acceptance Tests | https://github.com/AppsMoviles-7128-Grupo-3/linku-acceptance-test     |
+| Link landing page            | https://landing-page-with-angular-sigma.vercel.app/home               |
+| Link mobile application      | https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Mobile-Application/ |
+| Link mobile Backend                | https://github.com/AppsMoviles-7128-Grupo-3/GoUni-Mobile-Backend      |
