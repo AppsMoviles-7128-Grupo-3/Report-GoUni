@@ -3476,6 +3476,45 @@ Durante este sprint, al igual que para el desarrollo de la landing page, para pr
 
 ![](assets/cap-6/commits-evidence-backend.png)
 
+### 6.2.2 Sprint 2.
+
+En este Sprint se consolidó el desarrollo realizado en sprints anteriores, enfocándose en la integración total entre ambas aplicaciones móviles (Flutter para estudiantes y Kotlin para conductores) con un backend unificado. Se implementó exitosamente la funcionalidad de mapas en ambas apps, lo cual permite a usuarios y conductores visualizar las rutas y ubicaciones de forma precisa. Asimismo, se completaron los procesos de despliegue de ambas aplicaciones y del backend, habilitando una experiencia de usuario más completa y estable. Finalmente, se realizaron mejoras generales en la interfaz y validaciones funcionales para garantizar una experiencia fluida.
+
+---
+
+#### 6.2.3.1 Sprint Planning 3
+
+| Elemento | Detalle |
+|---------|---------|
+| **Sprint #** | Sprint 3 |
+| **Sprint Planning Background** | Unificación del backend, incorporación del sistema de mapas y despliegue final de ambas aplicaciones móviles. |
+| **Date** | 5 de Julio de 2025 |
+| **Time** | 21:00 horas |
+| **Location** | Modalidad remota |
+| **Prepared By** | LinkU |
+| **Attendees (to planning meeting)** | Todos los miembros de LinkU |
+| **Sprint 2 Review Summary** | Se desarrollaron prototipos funcionales de ambas apps, incluyendo login, búsqueda de viajes, reserva y publicación de asientos. |
+| **Sprint 3 Retrospective Summary** | En este Sprint se unificaron ambas apps al backend principal, se integró la funcionalidad de mapa, y se completaron los despliegues. Se mejoró la calidad visual y funcional de la aplicación, gracias a una buena coordinación técnica del equipo. |
+| **Sprint Goal 3** | Pulir la aplicación, implementar el mapa en ambas apps, unificar el backend y completar el despliegue final. |
+| **Sprint Velocity 3** | 8 |
+| **Sum of Story Points** | 32 |
+
+---
+
+#### 6.2.3.2 Sprint Backlog 3
+
+| Sprint # | User Story ID | Work-item / Task | Descripción | Estimation (hours) | Assigned To | Status |
+|----------|----------------|------------------|-------------|---------------------|-------------|--------|
+| Sprint 3 | US01 | T35 | Integración de solicitudes compartidas con mapa (Flutter) | Mostrar viajes compartidos con ruta visual | 3h | Alessandro Zevallos | Done |
+| Sprint 3 | US02 | T36 | Publicación de asientos con visualización de ruta (Kotlin) | Permitir al conductor mostrar origen y destino en mapa | 3h | Aaron Cruz | Done |
+| Sprint 3 | US04 | T37 | Notificación visual de cambios de ubicación en tiempo real | Usar mapas en ambas apps para actualizar ruta | 2.5h | Rodrigo Chirinos | Done |
+| Sprint 3 | US14 | T38 | Mostrar reservas activas con localización (Kotlin) | Agregar coordenadas y vista en mapa a las reservas | 3h | Rodrigo Chirinos | Done |
+| Sprint 3 | US07 | T39 | Validación y prueba final del flujo de registro con backend único | Unificar endpoints de registro para Flutter y Kotlin | 2h | Alessandro David | Done |
+| Sprint 3 | US08 | T40 | Conectar la búsqueda de viajes con localización (Flutter) | Filtrar viajes y mostrar en mapa | 2.5h | Alessandro David | Done |
+| Sprint 3 | US09 | T41 | Despliegue final de app Flutter | Subida, testing y validación con backend | 2h | Alessandro Zevallos | Done |
+| Sprint 3 | US13 | T42 | Despliegue final de app Kotlin | Subida del APK, conexión a backend y prueba | 2h | Aaron Cruz | Done |
+| Sprint 3 | US30 | T43 | Visualización de solicitudes activas en mapa | Mostrar solicitudes en tiempo real geolocalizadas (Kotlin) | 2.5h | Aaron Cruz | Done |
+
 ## 6.3 Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
 Para realizar los componentes, elaboramos las preguntas para obtener información de nuestros segmentos objetivos mediante las entrevistas.
