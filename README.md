@@ -3496,7 +3496,7 @@ Durante este sprint, al igual que para el desarrollo de la landing page, para pr
 
 ![](assets/cap-6/commits-evidence-backend.png)
 
-### 6.2.3 Sprint 2.
+### 6.2.3 Sprint 3.
 
 En este Sprint se consolidó el desarrollo realizado en sprints anteriores, enfocándose en la integración total entre ambas aplicaciones móviles (Flutter para estudiantes y Kotlin para conductores) con un backend unificado. Se implementó exitosamente la funcionalidad de mapas en ambas apps, lo cual permite a usuarios y conductores visualizar las rutas y ubicaciones de forma precisa. Asimismo, se completaron los procesos de despliegue de ambas aplicaciones y del backend, habilitando una experiencia de usuario más completa y estable. Finalmente, se realizaron mejoras generales en la interfaz y validaciones funcionales para garantizar una experiencia fluida.
 
@@ -3539,7 +3539,27 @@ En este Sprint se consolidó el desarrollo realizado en sprints anteriores, enfo
 #### 6.2.3.4 Testing Suite Evidence for Sprint Review.
 #### 6.2.3.5 Execution Evidence for Sprint Review.
 #### 6.2.3.6 Services Documentation Evidence for Sprint Review.
+
+Para este sprint, nuestro Back-End mejorado fue desplegado. A continuacion se evidencian la documentacion
+swagger ya desplegada.
+
+Link Swagger: https://adaptable-clarity-production.up.railway.app/api/swagger-ui/index.html#/
+
+<img src="assets/images/despliegue/swagger-1.png">
+<br>
+<img src="assets/images/despliegue/swagger-2.png">
+<br>
+<img src="assets/images/despliegue/swagger-3.png">
+
 #### 6.2.3.7 Software Deployment Evidence for Sprint Review.
+
+A continuacion las capturas del despliegue realizado en Railway (Back y Front) y tambien la evidencia del
+uso de 4 APIs de Google para alinear a las funcionalidad principales.
+
+<img src="assets/images/despliegue/swagger-1.png">
+<br>
+<img src="assets/images/despliegue/swagger-2.png">
+
 #### 6.2.3.8 Team Collaboration Insights during Sprint.
 
 ## 6.3 Validation Interviews.
