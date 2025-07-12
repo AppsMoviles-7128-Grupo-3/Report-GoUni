@@ -3545,6 +3545,7 @@ swagger ya desplegada.
 
 Link Swagger: https://adaptable-clarity-production.up.railway.app/api/swagger-ui/index.html#/
 
+<br>
 <img src="assets/images/despliegue/swagger-1.png">
 <br>
 <img src="assets/images/despliegue/swagger-2.png">
@@ -3556,9 +3557,17 @@ Link Swagger: https://adaptable-clarity-production.up.railway.app/api/swagger-ui
 A continuacion las capturas del despliegue realizado en Railway (Back y Front) y tambien la evidencia del
 uso de 4 APIs de Google para alinear a las funcionalidad principales.
 
-<img src="assets/images/despliegue/swagger-1.png">
+<h2>Despliegue Railway</h2>
+<img src="assets/images/despliegue/railway-1.png">
 <br>
-<img src="assets/images/despliegue/swagger-2.png">
+
+<h2>Google Maps APIs</h2>
+<img src="assets/images/despliegue/gcp-1.png">
+<br>
+
+<h2>Despliegue Firebase</h2>
+<img src="assets/images/despliegue/firebase-1.png">
+<br>
 
 #### 6.2.3.8 Team Collaboration Insights during Sprint.
 
