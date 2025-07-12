@@ -3542,6 +3542,11 @@ En este Sprint se consolidó el desarrollo realizado en sprints anteriores, enfo
 #### 6.2.3.7 Software Deployment Evidence for Sprint Review.
 #### 6.2.3.8 Team Collaboration Insights during Sprint.
 
+Evidencia de los commits:
+![](/assets/cap-6/commits_1.PNG)
+![](/assets/cap-6/commits_2.PNG)
+
+
 ## 6.3 Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
 Para realizar los componentes, elaboramos las preguntas para obtener información de nuestros segmentos objetivos mediante las entrevistas.
