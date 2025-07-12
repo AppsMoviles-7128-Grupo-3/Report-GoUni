@@ -3795,7 +3795,7 @@ Agregar filtros por tipo de experiencia (positiva, neutra, negativa) y por fecha
 
 ## 6.4. Video About-the-Product
 
-LINK DEL VIDEO ABOUT THE PRODUCT: https://drive.google.com/file/d/1YDaGErl3umYbhOqDVg5C6XyjHa1A6bZ6/view?usp=sharing
+LINK DEL VIDEO ABOUT THE PRODUCT: https://drive.google.com/file/d/104ohTZ_x9iDjy8bwSkOgoocWZv_ynrjw/view?usp=sharing
 
 ## Conclusiones
 - Este primer avance permitió definir claramente la problemática de movilidad estudiantil y establecer una propuesta de solución basada en el análisis del usuario, competencia y contexto. Se construyó una base sólida para el diseño centrado en el usuario y el desarrollo técnico del sistema.
